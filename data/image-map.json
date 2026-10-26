@@ -1,0 +1,3878 @@
+{
+  "_about": "Links images to text items. One image can illustrate several items (textIds may contain word, phrase or example ids). 'placeholder' is an emoji shown until the image file exists. Paths are relative to basePath.",
+  "basePath": "assets/images/",
+  "entries": [
+    {
+      "id": "img_dog",
+      "file": "words/dog.webp",
+      "textIds": [
+        "w_dog"
+      ],
+      "placeholder": "🐕"
+    },
+    {
+      "id": "img_cat",
+      "file": "words/cat.webp",
+      "textIds": [
+        "w_cat"
+      ],
+      "placeholder": "🐈"
+    },
+    {
+      "id": "img_goat",
+      "file": "words/goat.webp",
+      "textIds": [
+        "w_goat"
+      ],
+      "placeholder": "🐐"
+    },
+    {
+      "id": "img_chicken",
+      "file": "words/chicken.webp",
+      "textIds": [
+        "w_chicken"
+      ],
+      "placeholder": "🐔"
+    },
+    {
+      "id": "img_fish",
+      "file": "words/fish.webp",
+      "textIds": [
+        "w_fish"
+      ],
+      "placeholder": "🐟"
+    },
+    {
+      "id": "img_cow",
+      "file": "words/cow.webp",
+      "textIds": [
+        "w_cow"
+      ],
+      "placeholder": "🐄"
+    },
+    {
+      "id": "img_bird",
+      "file": "words/bird.webp",
+      "textIds": [
+        "w_bird"
+      ],
+      "placeholder": "🐦"
+    },
+    {
+      "id": "img_water",
+      "file": "words/water.webp",
+      "textIds": [
+        "w_water"
+      ],
+      "placeholder": "💧"
+    },
+    {
+      "id": "img_tree",
+      "file": "words/tree.webp",
+      "textIds": [
+        "w_tree"
+      ],
+      "placeholder": "🌳"
+    },
+    {
+      "id": "img_sun",
+      "file": "words/sun.webp",
+      "textIds": [
+        "w_sun"
+      ],
+      "placeholder": "☀️"
+    },
+    {
+      "id": "img_moon",
+      "file": "words/moon.webp",
+      "textIds": [
+        "w_moon"
+      ],
+      "placeholder": "🌙"
+    },
+    {
+      "id": "img_rain",
+      "file": "words/rain.webp",
+      "textIds": [
+        "w_rain"
+      ],
+      "placeholder": "🌧️"
+    },
+    {
+      "id": "img_fire",
+      "file": "words/fire.webp",
+      "textIds": [
+        "w_fire"
+      ],
+      "placeholder": "🔥"
+    },
+    {
+      "id": "img_food",
+      "file": "words/food.webp",
+      "textIds": [
+        "w_food"
+      ],
+      "placeholder": "🍲"
+    },
+    {
+      "id": "img_yam",
+      "file": "words/yam.webp",
+      "textIds": [
+        "w_yam"
+      ],
+      "placeholder": "🍠"
+    },
+    {
+      "id": "img_rice",
+      "file": "words/rice.webp",
+      "textIds": [
+        "w_rice"
+      ],
+      "placeholder": "🍚"
+    },
+    {
+      "id": "img_banana",
+      "file": "words/banana.webp",
+      "textIds": [
+        "w_banana"
+      ],
+      "placeholder": "🍌"
+    },
+    {
+      "id": "img_egg",
+      "file": "words/egg.webp",
+      "textIds": [
+        "w_egg"
+      ],
+      "placeholder": "🥚"
+    },
+    {
+      "id": "img_salt",
+      "file": "words/salt.webp",
+      "textIds": [
+        "w_salt"
+      ],
+      "placeholder": "🧂"
+    },
+    {
+      "id": "img_mother",
+      "file": "words/mother.webp",
+      "textIds": [
+        "w_mother"
+      ],
+      "placeholder": "👩‍👧"
+    },
+    {
+      "id": "img_father",
+      "file": "words/father.webp",
+      "textIds": [
+        "w_father"
+      ],
+      "placeholder": "👨‍👦"
+    },
+    {
+      "id": "img_child",
+      "file": "words/child.webp",
+      "textIds": [
+        "w_child"
+      ],
+      "placeholder": "🧒"
+    },
+    {
+      "id": "img_man",
+      "file": "words/man.webp",
+      "textIds": [
+        "w_man"
+      ],
+      "placeholder": "👨"
+    },
+    {
+      "id": "img_woman",
+      "file": "words/woman.webp",
+      "textIds": [
+        "w_woman"
+      ],
+      "placeholder": "👩"
+    },
+    {
+      "id": "img_friend",
+      "file": "words/friend.webp",
+      "textIds": [
+        "w_friend"
+      ],
+      "placeholder": "🤝"
+    },
+    {
+      "id": "img_head",
+      "file": "words/head.webp",
+      "textIds": [
+        "w_head"
+      ],
+      "placeholder": "🙂"
+    },
+    {
+      "id": "img_eye",
+      "file": "words/eye.webp",
+      "textIds": [
+        "w_eye"
+      ],
+      "placeholder": "👁️"
+    },
+    {
+      "id": "img_hand",
+      "file": "words/hand.webp",
+      "textIds": [
+        "w_hand"
+      ],
+      "placeholder": "✋"
+    },
+    {
+      "id": "img_leg",
+      "file": "words/leg.webp",
+      "textIds": [
+        "w_leg"
+      ],
+      "placeholder": "🦵"
+    },
+    {
+      "id": "img_mouth",
+      "file": "words/mouth.webp",
+      "textIds": [
+        "w_mouth"
+      ],
+      "placeholder": "👄"
+    },
+    {
+      "id": "img_ear",
+      "file": "words/ear.webp",
+      "textIds": [
+        "w_ear"
+      ],
+      "placeholder": "👂"
+    },
+    {
+      "id": "img_nose",
+      "file": "words/nose.webp",
+      "textIds": [
+        "w_nose"
+      ],
+      "placeholder": "👃"
+    },
+    {
+      "id": "img_house",
+      "file": "words/house.webp",
+      "textIds": [
+        "w_house"
+      ],
+      "placeholder": "🏠"
+    },
+    {
+      "id": "img_market",
+      "file": "words/market.webp",
+      "textIds": [
+        "w_market"
+      ],
+      "placeholder": "🛒"
+    },
+    {
+      "id": "img_school",
+      "file": "words/school.webp",
+      "textIds": [
+        "w_school"
+      ],
+      "placeholder": "🏫"
+    },
+    {
+      "id": "img_book",
+      "file": "words/book.webp",
+      "textIds": [
+        "w_book"
+      ],
+      "placeholder": "📖"
+    },
+    {
+      "id": "img_car",
+      "file": "words/car.webp",
+      "textIds": [
+        "w_car"
+      ],
+      "placeholder": "🚗"
+    },
+    {
+      "id": "img_money",
+      "file": "words/money.webp",
+      "textIds": [
+        "w_money"
+      ],
+      "placeholder": "💰"
+    },
+    {
+      "id": "img_red",
+      "file": "words/red.webp",
+      "textIds": [
+        "w_red"
+      ],
+      "placeholder": "🟥"
+    },
+    {
+      "id": "img_white",
+      "file": "words/white.webp",
+      "textIds": [
+        "w_white"
+      ],
+      "placeholder": "⬜"
+    },
+    {
+      "id": "img_black",
+      "file": "words/black.webp",
+      "textIds": [
+        "w_black"
+      ],
+      "placeholder": "⬛"
+    },
+    {
+      "id": "img_eat",
+      "file": "words/eat.webp",
+      "textIds": [
+        "w_eat"
+      ],
+      "placeholder": "🍽️"
+    },
+    {
+      "id": "img_drink",
+      "file": "words/drink.webp",
+      "textIds": [
+        "w_drink"
+      ],
+      "placeholder": "🥤"
+    },
+    {
+      "id": "img_go",
+      "file": "words/go.webp",
+      "textIds": [
+        "w_go"
+      ],
+      "placeholder": "🚶"
+    },
+    {
+      "id": "img_come",
+      "file": "words/come.webp",
+      "textIds": [
+        "w_come"
+      ],
+      "placeholder": "🫴"
+    },
+    {
+      "id": "img_sleep",
+      "file": "words/sleep.webp",
+      "textIds": [
+        "w_sleep"
+      ],
+      "placeholder": "😴"
+    },
+    {
+      "id": "img_read",
+      "file": "words/read.webp",
+      "textIds": [
+        "w_read"
+      ],
+      "placeholder": "📚"
+    },
+    {
+      "id": "img_big",
+      "file": "words/big.webp",
+      "textIds": [
+        "w_big"
+      ],
+      "placeholder": "🐘"
+    },
+    {
+      "id": "img_small",
+      "file": "words/small.webp",
+      "textIds": [
+        "w_small"
+      ],
+      "placeholder": "🐜"
+    },
+    {
+      "id": "img_good_morning_phrase",
+      "file": "phrases/good_morning.webp",
+      "textIds": [
+        "p_good_morning"
+      ],
+      "placeholder": "🌅"
+    },
+    {
+      "id": "img_good_night_phrase",
+      "file": "phrases/good_night.webp",
+      "textIds": [
+        "p_good_night"
+      ],
+      "placeholder": "🌙"
+    },
+    {
+      "id": "img_welcome_phrase",
+      "file": "phrases/welcome.webp",
+      "textIds": [
+        "p_welcome"
+      ],
+      "placeholder": "🙌"
+    },
+    {
+      "id": "img_how_are_you_phrase",
+      "file": "phrases/how_are_you.webp",
+      "textIds": [
+        "p_how_are_you"
+      ],
+      "placeholder": "🙂"
+    },
+    {
+      "id": "img_i_am_fine_phrase",
+      "file": "phrases/i_am_fine.webp",
+      "textIds": [
+        "p_i_am_fine"
+      ],
+      "placeholder": "😊"
+    },
+    {
+      "id": "img_goodbye_phrase",
+      "file": "phrases/goodbye.webp",
+      "textIds": [
+        "p_goodbye"
+      ],
+      "placeholder": "👋"
+    },
+    {
+      "id": "img_thank_you_phrase",
+      "file": "phrases/thank_you.webp",
+      "textIds": [
+        "p_thank_you"
+      ],
+      "placeholder": "🙏"
+    },
+    {
+      "id": "img_please_phrase",
+      "file": "phrases/please.webp",
+      "textIds": [
+        "p_please"
+      ],
+      "placeholder": "🥺"
+    },
+    {
+      "id": "img_what_is_your_name_phrase",
+      "file": "phrases/what_is_your_name.webp",
+      "textIds": [
+        "p_what_is_your_name"
+      ],
+      "placeholder": "❓"
+    },
+    {
+      "id": "img_i_love_you_phrase",
+      "file": "phrases/i_love_you.webp",
+      "textIds": [
+        "p_i_love_you"
+      ],
+      "placeholder": "❤️"
+    },
+    {
+      "id": "img_i_want_water_phrase",
+      "file": "phrases/i_want_water.webp",
+      "textIds": [
+        "p_i_want_water"
+      ],
+      "placeholder": "💧"
+    },
+    {
+      "id": "img_i_am_hungry_phrase",
+      "file": "phrases/i_am_hungry.webp",
+      "textIds": [
+        "p_i_am_hungry"
+      ],
+      "placeholder": "😋"
+    },
+    {
+      "id": "img_where_is_the_market_phrase",
+      "file": "phrases/where_is_the_market.webp",
+      "textIds": [
+        "p_where_is_the_market"
+      ],
+      "placeholder": "🗺️"
+    },
+    {
+      "id": "img_dog_is_eating_phrase",
+      "file": "phrases/dog_is_eating.webp",
+      "textIds": [
+        "p_dog_is_eating"
+      ],
+      "placeholder": "🐕🍲"
+    },
+    {
+      "id": "img_child_is_drinking_water_phrase",
+      "file": "phrases/child_is_drinking_water.webp",
+      "textIds": [
+        "p_child_is_drinking_water"
+      ],
+      "placeholder": "🧒💧"
+    },
+    {
+      "id": "img_going_to_the_market_phrase",
+      "file": "phrases/going_to_the_market.webp",
+      "textIds": [
+        "p_going_to_the_market"
+      ],
+      "placeholder": "🚶🛒"
+    },
+    {
+      "id": "img_mother_is_cooking_phrase",
+      "file": "phrases/mother_is_cooking.webp",
+      "textIds": [
+        "p_mother_is_cooking"
+      ],
+      "placeholder": "👩‍🍳"
+    },
+    {
+      "id": "img_reading_a_book_phrase",
+      "file": "phrases/reading_a_book.webp",
+      "textIds": [
+        "p_reading_a_book"
+      ],
+      "placeholder": "📖"
+    },
+    {
+      "id": "img_the_house_is_big_phrase",
+      "file": "phrases/the_house_is_big.webp",
+      "textIds": [
+        "p_the_house_is_big"
+      ],
+      "placeholder": "🏠"
+    },
+    {
+      "id": "img_blue",
+      "file": "words/blue.webp",
+      "textIds": [
+        "w_blue"
+      ],
+      "placeholder": "🟦"
+    },
+    {
+      "id": "img_yellow",
+      "file": "words/yellow.webp",
+      "textIds": [
+        "w_yellow"
+      ],
+      "placeholder": "🟨"
+    },
+    {
+      "id": "img_green",
+      "file": "words/green.webp",
+      "textIds": [
+        "w_green"
+      ],
+      "placeholder": "🟩"
+    },
+    {
+      "id": "img_colour",
+      "file": "words/colour.webp",
+      "textIds": [
+        "w_colour"
+      ],
+      "placeholder": "🎨"
+    },
+    {
+      "id": "img_night",
+      "file": "words/night.webp",
+      "textIds": [
+        "w_night"
+      ],
+      "placeholder": "🌃🌙"
+    },
+    {
+      "id": "img_daytime",
+      "file": "words/daytime.webp",
+      "textIds": [
+        "w_daytime"
+      ],
+      "placeholder": "🏙️🌅☀️"
+    },
+    {
+      "id": "img_time",
+      "file": "words/time.webp",
+      "textIds": [
+        "w_time"
+      ],
+      "placeholder": "🕰️"
+    },
+    {
+      "id": "img_blood",
+      "file": "words/blood.webp",
+      "textIds": [
+        "w_blood"
+      ],
+      "placeholder": "🩸"
+    },
+    {
+      "id": "img_hair",
+      "file": "words/hair.webp",
+      "textIds": [
+        "w_hair"
+      ],
+      "placeholder": "💇"
+    },
+    {
+      "id": "img_grass",
+      "file": "words/grass.webp",
+      "textIds": [
+        "w_grass"
+      ],
+      "placeholder": "🌱"
+    },
+    {
+      "id": "img_cold",
+      "file": "words/cold.webp",
+      "textIds": [
+        "w_cold"
+      ],
+      "placeholder": "❄️"
+    },
+    {
+      "id": "img_coal",
+      "file": "words/coal.webp",
+      "textIds": [
+        "w_coal"
+      ],
+      "placeholder": "⚫"
+    },
+    {
+      "id": "img_thing",
+      "file": "words/thing.webp",
+      "textIds": [
+        "w_thing"
+      ],
+      "placeholder": "📦"
+    },
+    {
+      "id": "img_work",
+      "file": "words/work.webp",
+      "textIds": [
+        "w_work"
+      ],
+      "placeholder": "🛠️"
+    },
+    {
+      "id": "img_everyone",
+      "file": "words/everyone.webp",
+      "textIds": [
+        "w_everyone"
+      ],
+      "placeholder": "👥"
+    },
+    {
+      "id": "img_quickly",
+      "file": "words/quickly.webp",
+      "textIds": [
+        "w_quickly"
+      ],
+      "placeholder": "🐇"
+    },
+    {
+      "id": "img_slowly",
+      "file": "words/slowly.webp",
+      "textIds": [
+        "w_slowly"
+      ],
+      "placeholder": "🐌"
+    },
+    {
+      "id": "img_give_to_him_phrase",
+      "file": "phrases/give_to_him.webp",
+      "textIds": [
+        "p_give_to_him"
+      ],
+      "placeholder": "🎁"
+    },
+    {
+      "id": "img_it_is_done_phrase",
+      "file": "phrases/it_is_done.webp",
+      "textIds": [
+        "p_it_is_done"
+      ],
+      "placeholder": "✅"
+    },
+    {
+      "id": "img_it_is_not_done_phrase",
+      "file": "phrases/it_is_not_done.webp",
+      "textIds": [
+        "p_it_is_not_done"
+      ],
+      "placeholder": "⏳"
+    },
+    {
+      "id": "img_it_is_mild_not_hot_or_cold_phrase",
+      "file": "phrases/it_is_mild_not_hot_or_cold.webp",
+      "textIds": [
+        "p_it_is_mild_not_hot_or_cold"
+      ],
+      "placeholder": "🌤️"
+    },
+    {
+      "id": "img_it_is_hot_phrase",
+      "file": "phrases/it_is_hot.webp",
+      "textIds": [
+        "p_it_is_hot"
+      ],
+      "placeholder": "🥵"
+    },
+    {
+      "id": "img_it_is_cold_phrase",
+      "file": "phrases/it_is_cold.webp",
+      "textIds": [
+        "p_it_is_cold"
+      ],
+      "placeholder": "🥶"
+    },
+    {
+      "id": "img_red_blue_yellow_green_phrase",
+      "file": "phrases/red_blue_yellow_green.webp",
+      "textIds": [
+        "p_red_blue_yellow_green"
+      ],
+      "placeholder": "🟥🟦🟨🟩"
+    },
+    {
+      "id": "img_it_is_the_color_of_water_phrase",
+      "file": "phrases/it_is_the_color_of_water.webp",
+      "textIds": [
+        "p_it_is_the_color_of_water"
+      ],
+      "placeholder": "🟦💧"
+    },
+    {
+      "id": "img_it_is_the_color_of_blood_phrase",
+      "file": "phrases/it_is_the_color_of_blood.webp",
+      "textIds": [
+        "p_it_is_the_color_of_blood"
+      ],
+      "placeholder": "🟥🩸"
+    },
+    {
+      "id": "img_it_has_the_color_of_grass_phrase",
+      "file": "phrases/it_has_the_color_of_grass.webp",
+      "textIds": [
+        "p_it_has_the_color_of_grass"
+      ],
+      "placeholder": "🟩🌱"
+    },
+    {
+      "id": "img_it_has_the_color_of_coal_phrase",
+      "file": "phrases/it_has_the_color_of_coal.webp",
+      "textIds": [
+        "p_it_has_the_color_of_coal"
+      ],
+      "placeholder": "⬛🪨"
+    },
+    {
+      "id": "img_black_and_white_night_and_day_phrase",
+      "file": "phrases/black_and_white_night_and_day.webp",
+      "textIds": [
+        "p_black_and_white_night_and_day"
+      ],
+      "placeholder": "🌗"
+    },
+    {
+      "id": "img_it_is_time_to_go_home_phrase",
+      "file": "phrases/it_is_time_to_go_home.webp",
+      "textIds": [
+        "p_it_is_time_to_go_home"
+      ],
+      "placeholder": "⏰➡️🏠"
+    },
+    {
+      "id": "img_free_food_phrase",
+      "file": "phrases/free_food.webp",
+      "textIds": [
+        "p_free_food"
+      ],
+      "placeholder": "🍲🆓"
+    },
+    {
+      "id": "img_cut_hair_phrase",
+      "file": "phrases/cut_hair.webp",
+      "textIds": [
+        "p_cut_hair"
+      ],
+      "placeholder": "✂️💇"
+    },
+    {
+      "id": "img_cut_my_fathers_hair_phrase",
+      "file": "phrases/cut_my_fathers_hair.webp",
+      "textIds": [
+        "p_cut_my_fathers_hair"
+      ],
+      "placeholder": "✂️👨"
+    },
+    {
+      "id": "img_i_am_busy_phrase",
+      "file": "phrases/i_am_busy.webp",
+      "textIds": [
+        "p_i_am_busy"
+      ],
+      "placeholder": "🧑‍💻"
+    },
+    {
+      "id": "img_wake_up_phrase",
+      "file": "phrases/wake_up.webp",
+      "textIds": [
+        "p_wake_up"
+      ],
+      "placeholder": "🥱⏰"
+    },
+    {
+      "id": "img_go_to_sleep_phrase",
+      "file": "phrases/go_to_sleep.webp",
+      "textIds": [
+        "p_go_to_sleep"
+      ],
+      "placeholder": "😴 🛏️"
+    },
+    {
+      "id": "img_get_up_phrase",
+      "file": "phrases/get_up.webp",
+      "textIds": [
+        "p_get_up"
+      ],
+      "placeholder": "⬆️🧍"
+    },
+    {
+      "id": "img_sit_down_phrase",
+      "file": "phrases/sit_down.webp",
+      "textIds": [
+        "p_sit_down"
+      ],
+      "placeholder": "🪑"
+    },
+    {
+      "id": "img_lie_down_phrase",
+      "file": "phrases/lie_down.webp",
+      "textIds": [
+        "p_lie_down"
+      ],
+      "placeholder": "🛌"
+    },
+    {
+      "id": "img_walk_over_here_phrase",
+      "file": "phrases/walk_over_here.webp",
+      "textIds": [
+        "p_walk_over_here"
+      ],
+      "placeholder": "🚶"
+    },
+    {
+      "id": "img_run_over_here_phrase",
+      "file": "phrases/run_over_here.webp",
+      "textIds": [
+        "p_run_over_here"
+      ],
+      "placeholder": "🏃"
+    },
+    {
+      "id": "img_be_quick_phrase",
+      "file": "phrases/be_quick.webp",
+      "textIds": [
+        "p_be_quick"
+      ],
+      "placeholder": "⚡🐰"
+    },
+    {
+      "id": "img_be_slow_phrase",
+      "file": "phrases/be_slow.webp",
+      "textIds": [
+        "p_be_slow"
+      ],
+      "placeholder": "🐢"
+    },
+    {
+      "id": "img_hurry_up_there_is_not_much_time_phrase",
+      "file": "phrases/hurry_up_there_is_not_much_time.webp",
+      "textIds": [
+        "p_hurry_up_there_is_not_much_time"
+      ],
+      "placeholder": "🐰⏱️"
+    },
+    {
+      "id": "img_slow_down_phrase",
+      "file": "phrases/slow_down.webp",
+      "textIds": [
+        "p_slow_down"
+      ],
+      "placeholder": "🐢🛑"
+    },
+    {
+      "id": "img_be_careful_phrase",
+      "file": "phrases/be_careful.webp",
+      "textIds": [
+        "p_be_careful"
+      ],
+      "placeholder": "⚠️"
+    },
+    {
+      "id": "img_look_up_phrase",
+      "file": "phrases/look_up.webp",
+      "textIds": [
+        "p_look_up"
+      ],
+      "placeholder": "👁️👆"
+    },
+    {
+      "id": "img_look_down_phrase",
+      "file": "phrases/look_down.webp",
+      "textIds": [
+        "p_look_down"
+      ],
+      "placeholder": "👁️👇"
+    },
+    {
+      "id": "img_look_around_phrase",
+      "file": "phrases/look_around.webp",
+      "textIds": [
+        "p_look_around"
+      ],
+      "placeholder": "🔄"
+    },
+    {
+      "id": "img_look_behind_you_phrase",
+      "file": "phrases/look_behind_you.webp",
+      "textIds": [
+        "p_look_behind_you"
+      ],
+      "placeholder": "🔙"
+    },
+    {
+      "id": "img_watch_out_phrase",
+      "file": "phrases/watch_out.webp",
+      "textIds": [
+        "p_watch_out"
+      ],
+      "placeholder": "🚧"
+    },
+    {
+      "id": "img_look_for_it_phrase",
+      "file": "phrases/look_for_it.webp",
+      "textIds": [
+        "p_look_for_it"
+      ],
+      "placeholder": "🔍"
+    },
+    {
+      "id": "img_village",
+      "file": "words/village.webp",
+      "textIds": [
+        "w_village"
+      ],
+      "placeholder": "🏘️"
+    },
+    {
+      "id": "img_farm",
+      "file": "words/farm.webp",
+      "textIds": [
+        "w_farm"
+      ],
+      "placeholder": "🌾"
+    },
+    {
+      "id": "img_land",
+      "file": "words/land.webp",
+      "textIds": [
+        "w_land"
+      ],
+      "placeholder": "🗺️"
+    },
+    {
+      "id": "img_soil",
+      "file": "words/soil.webp",
+      "textIds": [
+        "w_soil"
+      ],
+      "placeholder": "🟫"
+    },
+    {
+      "id": "img_river",
+      "file": "words/river.webp",
+      "textIds": [
+        "w_river"
+      ],
+      "placeholder": "🏞️"
+    },
+    {
+      "id": "img_sea",
+      "file": "words/sea.webp",
+      "textIds": [
+        "w_sea"
+      ],
+      "placeholder": "🌊"
+    },
+    {
+      "id": "img_well",
+      "file": "words/well.webp",
+      "textIds": [
+        "w_well"
+      ],
+      "placeholder": "🪣"
+    },
+    {
+      "id": "img_road",
+      "file": "words/road.webp",
+      "textIds": [
+        "w_road"
+      ],
+      "placeholder": "🛣️"
+    },
+    {
+      "id": "img_forest",
+      "file": "words/forest.webp",
+      "textIds": [
+        "w_forest"
+      ],
+      "placeholder": "🌲"
+    },
+    {
+      "id": "img_hill",
+      "file": "words/hill.webp",
+      "textIds": [
+        "w_hill"
+      ],
+      "placeholder": "⛰️"
+    },
+    {
+      "id": "img_stone",
+      "file": "words/stone.webp",
+      "textIds": [
+        "w_stone"
+      ],
+      "placeholder": "🪨"
+    },
+    {
+      "id": "img_bridge",
+      "file": "words/bridge.webp",
+      "textIds": [
+        "w_bridge"
+      ],
+      "placeholder": "🌉"
+    },
+    {
+      "id": "img_hole",
+      "file": "words/hole.webp",
+      "textIds": [
+        "w_hole"
+      ],
+      "placeholder": "🕳️"
+    },
+    {
+      "id": "img_roof",
+      "file": "words/roof.webp",
+      "textIds": [
+        "w_roof"
+      ],
+      "placeholder": "🛖"
+    },
+    {
+      "id": "img_wall",
+      "file": "words/wall.webp",
+      "textIds": [
+        "w_wall"
+      ],
+      "placeholder": "🧱"
+    },
+    {
+      "id": "img_door",
+      "file": "words/door.webp",
+      "textIds": [
+        "w_door"
+      ],
+      "placeholder": "🚪"
+    },
+    {
+      "id": "img_window",
+      "file": "words/window.webp",
+      "textIds": [
+        "w_window"
+      ],
+      "placeholder": "🪟"
+    },
+    {
+      "id": "img_kitchen",
+      "file": "words/kitchen.webp",
+      "textIds": [
+        "w_kitchen"
+      ],
+      "placeholder": "🍳"
+    },
+    {
+      "id": "img_firewood",
+      "file": "words/firewood.webp",
+      "textIds": [
+        "w_firewood"
+      ],
+      "placeholder": "🪵"
+    },
+    {
+      "id": "img_smoke",
+      "file": "words/smoke.webp",
+      "textIds": [
+        "w_smoke"
+      ],
+      "placeholder": "💨"
+    },
+    {
+      "id": "img_bed",
+      "file": "words/bed.webp",
+      "textIds": [
+        "w_bed"
+      ],
+      "placeholder": "🛏️"
+    },
+    {
+      "id": "img_chair",
+      "file": "words/chair.webp",
+      "textIds": [
+        "w_chair"
+      ],
+      "placeholder": "🪑"
+    },
+    {
+      "id": "img_cup",
+      "file": "words/cup.webp",
+      "textIds": [
+        "w_cup"
+      ],
+      "placeholder": "☕"
+    },
+    {
+      "id": "img_pot",
+      "file": "words/pot.webp",
+      "textIds": [
+        "w_pot"
+      ],
+      "placeholder": "🫕"
+    },
+    {
+      "id": "img_basket",
+      "file": "words/basket.webp",
+      "textIds": [
+        "w_basket"
+      ],
+      "placeholder": "🧺"
+    },
+    {
+      "id": "img_broom",
+      "file": "words/broom.webp",
+      "textIds": [
+        "w_broom"
+      ],
+      "placeholder": "🧹"
+    },
+    {
+      "id": "img_mortar",
+      "file": "words/mortar.webp",
+      "textIds": [
+        "w_mortar"
+      ],
+      "placeholder": "🥣"
+    },
+    {
+      "id": "img_bag",
+      "file": "words/bag.webp",
+      "textIds": [
+        "w_bag"
+      ],
+      "placeholder": "👜"
+    },
+    {
+      "id": "img_box",
+      "file": "words/box.webp",
+      "textIds": [
+        "w_box"
+      ],
+      "placeholder": "🗃️"
+    },
+    {
+      "id": "img_cloth",
+      "file": "words/cloth.webp",
+      "textIds": [
+        "w_cloth"
+      ],
+      "placeholder": "👕"
+    },
+    {
+      "id": "img_hoe",
+      "file": "words/hoe.webp",
+      "textIds": [
+        "w_hoe"
+      ],
+      "placeholder": "⛏️"
+    },
+    {
+      "id": "img_machete",
+      "file": "words/machete.webp",
+      "textIds": [
+        "w_machete"
+      ],
+      "placeholder": "🔪"
+    },
+    {
+      "id": "img_gun",
+      "file": "words/gun.webp",
+      "textIds": [
+        "w_gun"
+      ],
+      "placeholder": "🔫"
+    },
+    {
+      "id": "img_gold",
+      "file": "words/gold.webp",
+      "textIds": [
+        "w_gold"
+      ],
+      "placeholder": "🥇"
+    },
+    {
+      "id": "img_iron",
+      "file": "words/iron.webp",
+      "textIds": [
+        "w_iron"
+      ],
+      "placeholder": "⛓️"
+    },
+    {
+      "id": "img_boat",
+      "file": "words/boat.webp",
+      "textIds": [
+        "w_boat"
+      ],
+      "placeholder": "⛵"
+    },
+    {
+      "id": "img_family",
+      "file": "words/family.webp",
+      "textIds": [
+        "w_family"
+      ],
+      "placeholder": "👪"
+    },
+    {
+      "id": "img_baby",
+      "file": "words/baby.webp",
+      "textIds": [
+        "w_baby"
+      ],
+      "placeholder": "👶"
+    },
+    {
+      "id": "img_boy",
+      "file": "words/boy.webp",
+      "textIds": [
+        "w_boy"
+      ],
+      "placeholder": "👦"
+    },
+    {
+      "id": "img_girl",
+      "file": "words/girl.webp",
+      "textIds": [
+        "w_girl"
+      ],
+      "placeholder": "👧"
+    },
+    {
+      "id": "img_brother",
+      "file": "words/brother.webp",
+      "textIds": [
+        "w_brother"
+      ],
+      "placeholder": "👬"
+    },
+    {
+      "id": "img_sister",
+      "file": "words/sister.webp",
+      "textIds": [
+        "w_sister"
+      ],
+      "placeholder": "👭"
+    },
+    {
+      "id": "img_husband",
+      "file": "words/husband.webp",
+      "textIds": [
+        "w_husband"
+      ],
+      "placeholder": "🤵"
+    },
+    {
+      "id": "img_wife",
+      "file": "words/wife.webp",
+      "textIds": [
+        "w_wife"
+      ],
+      "placeholder": "👰"
+    },
+    {
+      "id": "img_elder",
+      "file": "words/elder.webp",
+      "textIds": [
+        "w_elder"
+      ],
+      "placeholder": "🧓"
+    },
+    {
+      "id": "img_chief",
+      "file": "words/chief.webp",
+      "textIds": [
+        "w_chief"
+      ],
+      "placeholder": "👳"
+    },
+    {
+      "id": "img_king",
+      "file": "words/king.webp",
+      "textIds": [
+        "w_king"
+      ],
+      "placeholder": "🤴"
+    },
+    {
+      "id": "img_queen",
+      "file": "words/queen.webp",
+      "textIds": [
+        "w_queen"
+      ],
+      "placeholder": "👸"
+    },
+    {
+      "id": "img_farmer",
+      "file": "words/farmer.webp",
+      "textIds": [
+        "w_farmer"
+      ],
+      "placeholder": "🧑‍🌾"
+    },
+    {
+      "id": "img_hunter",
+      "file": "words/hunter.webp",
+      "textIds": [
+        "w_hunter"
+      ],
+      "placeholder": "🏹"
+    },
+    {
+      "id": "img_teacher",
+      "file": "words/teacher.webp",
+      "textIds": [
+        "w_teacher"
+      ],
+      "placeholder": "🧑‍🏫"
+    },
+    {
+      "id": "img_church",
+      "file": "words/church.webp",
+      "textIds": [
+        "w_church"
+      ],
+      "placeholder": "⛪"
+    },
+    {
+      "id": "img_song",
+      "file": "words/song.webp",
+      "textIds": [
+        "w_song"
+      ],
+      "placeholder": "🎶"
+    },
+    {
+      "id": "img_drum",
+      "file": "words/drum.webp",
+      "textIds": [
+        "w_drum"
+      ],
+      "placeholder": "🥁"
+    },
+    {
+      "id": "img_masquerade",
+      "file": "words/masquerade.webp",
+      "textIds": [
+        "w_masquerade"
+      ],
+      "placeholder": "🎭"
+    },
+    {
+      "id": "img_festival",
+      "file": "words/festival.webp",
+      "textIds": [
+        "w_festival"
+      ],
+      "placeholder": "🎉"
+    },
+    {
+      "id": "img_kola_nut",
+      "file": "words/kola_nut.webp",
+      "textIds": [
+        "w_kola_nut"
+      ],
+      "placeholder": "🌰"
+    },
+    {
+      "id": "img_peace",
+      "file": "words/peace.webp",
+      "textIds": [
+        "w_peace"
+      ],
+      "placeholder": "🕊️"
+    },
+    {
+      "id": "img_war",
+      "file": "words/war.webp",
+      "textIds": [
+        "w_war"
+      ],
+      "placeholder": "⚔️"
+    },
+    {
+      "id": "img_animal",
+      "file": "words/animal.webp",
+      "textIds": [
+        "w_animal"
+      ],
+      "placeholder": "🐾"
+    },
+    {
+      "id": "img_horse",
+      "file": "words/horse.webp",
+      "textIds": [
+        "w_horse"
+      ],
+      "placeholder": "🐎"
+    },
+    {
+      "id": "img_sheep",
+      "file": "words/sheep.webp",
+      "textIds": [
+        "w_sheep"
+      ],
+      "placeholder": "🐑"
+    },
+    {
+      "id": "img_pig",
+      "file": "words/pig.webp",
+      "textIds": [
+        "w_pig"
+      ],
+      "placeholder": "🐖"
+    },
+    {
+      "id": "img_snake",
+      "file": "words/snake.webp",
+      "textIds": [
+        "w_snake"
+      ],
+      "placeholder": "🐍"
+    },
+    {
+      "id": "img_rat",
+      "file": "words/rat.webp",
+      "textIds": [
+        "w_rat"
+      ],
+      "placeholder": "🐀"
+    },
+    {
+      "id": "img_meat",
+      "file": "words/meat.webp",
+      "textIds": [
+        "w_meat"
+      ],
+      "placeholder": "🍖"
+    },
+    {
+      "id": "img_milk",
+      "file": "words/milk.webp",
+      "textIds": [
+        "w_milk"
+      ],
+      "placeholder": "🥛"
+    },
+    {
+      "id": "img_palm_oil",
+      "file": "words/palm_oil.webp",
+      "textIds": [
+        "w_palm_oil"
+      ],
+      "placeholder": "🫗"
+    },
+    {
+      "id": "img_bread",
+      "file": "words/bread.webp",
+      "textIds": [
+        "w_bread"
+      ],
+      "placeholder": "🍞"
+    },
+    {
+      "id": "img_fruit",
+      "file": "words/fruit.webp",
+      "textIds": [
+        "w_fruit"
+      ],
+      "placeholder": "🍎"
+    },
+    {
+      "id": "img_cassava",
+      "file": "words/cassava.webp",
+      "textIds": [
+        "w_cassava"
+      ],
+      "placeholder": "🥔"
+    },
+    {
+      "id": "img_maize",
+      "file": "words/maize.webp",
+      "textIds": [
+        "w_maize"
+      ],
+      "placeholder": "🌽"
+    },
+    {
+      "id": "img_pepper",
+      "file": "words/pepper.webp",
+      "textIds": [
+        "w_pepper"
+      ],
+      "placeholder": "🌶️"
+    },
+    {
+      "id": "img_beans",
+      "file": "words/beans.webp",
+      "textIds": [
+        "w_beans"
+      ],
+      "placeholder": "🫘"
+    },
+    {
+      "id": "img_palm_wine",
+      "file": "words/palm_wine.webp",
+      "textIds": [
+        "w_palm_wine"
+      ],
+      "placeholder": "🍶"
+    },
+    {
+      "id": "img_palm_tree",
+      "file": "words/palm_tree.webp",
+      "textIds": [
+        "w_palm_tree"
+      ],
+      "placeholder": "🌴"
+    },
+    {
+      "id": "img_star",
+      "file": "words/star.webp",
+      "textIds": [
+        "w_star"
+      ],
+      "placeholder": "⭐"
+    },
+    {
+      "id": "img_sky",
+      "file": "words/sky.webp",
+      "textIds": [
+        "w_sky"
+      ],
+      "placeholder": "🌌"
+    },
+    {
+      "id": "img_wind",
+      "file": "words/wind.webp",
+      "textIds": [
+        "w_wind"
+      ],
+      "placeholder": "🌬️"
+    },
+    {
+      "id": "img_morning",
+      "file": "words/morning.webp",
+      "textIds": [
+        "w_morning"
+      ],
+      "placeholder": "🌄"
+    },
+    {
+      "id": "img_shout",
+      "file": "words/shout.webp",
+      "textIds": [
+        "w_shout"
+      ],
+      "placeholder": "📢"
+    },
+    {
+      "id": "img_whisper",
+      "file": "words/whisper.webp",
+      "textIds": [
+        "w_whisper"
+      ],
+      "placeholder": "🤫"
+    },
+    {
+      "id": "img_cry",
+      "file": "words/cry.webp",
+      "textIds": [
+        "w_cry"
+      ],
+      "placeholder": "😭"
+    },
+    {
+      "id": "img_laugh",
+      "file": "words/laugh.webp",
+      "textIds": [
+        "w_laugh"
+      ],
+      "placeholder": "😂"
+    },
+    {
+      "id": "img_smile",
+      "file": "words/smile.webp",
+      "textIds": [
+        "w_smile"
+      ],
+      "placeholder": "😁"
+    },
+    {
+      "id": "img_think",
+      "file": "words/think.webp",
+      "textIds": [
+        "w_think"
+      ],
+      "placeholder": "🤔"
+    },
+    {
+      "id": "img_write",
+      "file": "words/write.webp",
+      "textIds": [
+        "w_write"
+      ],
+      "placeholder": "✍️"
+    },
+    {
+      "id": "img_swim",
+      "file": "words/swim.webp",
+      "textIds": [
+        "w_swim"
+      ],
+      "placeholder": "🏊"
+    },
+    {
+      "id": "img_ride",
+      "file": "words/ride.webp",
+      "textIds": [
+        "w_ride"
+      ],
+      "placeholder": "🚴"
+    },
+    {
+      "id": "img_climb",
+      "file": "words/climb.webp",
+      "textIds": [
+        "w_climb"
+      ],
+      "placeholder": "🧗"
+    },
+    {
+      "id": "img_dance",
+      "file": "words/dance.webp",
+      "textIds": [
+        "w_dance"
+      ],
+      "placeholder": "💃"
+    },
+    {
+      "id": "img_sing",
+      "file": "words/sing.webp",
+      "textIds": [
+        "w_sing"
+      ],
+      "placeholder": "🎤"
+    },
+    {
+      "id": "img_wash",
+      "file": "words/wash.webp",
+      "textIds": [
+        "w_wash"
+      ],
+      "placeholder": "🧼"
+    },
+    {
+      "id": "img_cook",
+      "file": "words/cook.webp",
+      "textIds": [
+        "w_cook"
+      ],
+      "placeholder": "👨‍🍳"
+    },
+    {
+      "id": "img_buy",
+      "file": "words/buy.webp",
+      "textIds": [
+        "w_buy"
+      ],
+      "placeholder": "🛍️"
+    },
+    {
+      "id": "img_lock",
+      "file": "words/lock.webp",
+      "textIds": [
+        "w_lock"
+      ],
+      "placeholder": "🔒"
+    },
+    {
+      "id": "img_unlock",
+      "file": "words/unlock.webp",
+      "textIds": [
+        "w_unlock"
+      ],
+      "placeholder": "🔓"
+    },
+    {
+      "id": "img_sew",
+      "file": "words/sew.webp",
+      "textIds": [
+        "w_sew"
+      ],
+      "placeholder": "🪡"
+    },
+    {
+      "id": "img_paint",
+      "file": "words/paint.webp",
+      "textIds": [
+        "w_paint"
+      ],
+      "placeholder": "🖌️"
+    },
+    {
+      "id": "img_photograph",
+      "file": "words/photograph.webp",
+      "textIds": [
+        "w_photograph"
+      ],
+      "placeholder": "📸"
+    },
+    {
+      "id": "img_film",
+      "file": "words/film.webp",
+      "textIds": [
+        "w_film"
+      ],
+      "placeholder": "🎥"
+    },
+    {
+      "id": "img_here",
+      "file": "words/here.webp",
+      "textIds": [
+        "w_here"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_there",
+      "file": "words/there.webp",
+      "textIds": [
+        "w_there"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_where",
+      "file": "words/where.webp",
+      "textIds": [
+        "w_where"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_on_top",
+      "file": "words/on_top.webp",
+      "textIds": [
+        "w_on_top"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_below",
+      "file": "words/below.webp",
+      "textIds": [
+        "w_below"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_above",
+      "file": "words/above.webp",
+      "textIds": [
+        "w_above"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_behind",
+      "file": "words/behind.webp",
+      "textIds": [
+        "w_behind"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_in_front",
+      "file": "words/in_front.webp",
+      "textIds": [
+        "w_in_front"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_beside",
+      "file": "words/beside.webp",
+      "textIds": [
+        "w_beside"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_close_to",
+      "file": "words/close_to.webp",
+      "textIds": [
+        "w_close_to"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_away",
+      "file": "words/away.webp",
+      "textIds": [
+        "w_away"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_far",
+      "file": "words/far.webp",
+      "textIds": [
+        "w_far"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_near",
+      "file": "words/near.webp",
+      "textIds": [
+        "w_near"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_at_that_place_somewhere",
+      "file": "words/at_that_place_somewhere.webp",
+      "textIds": [
+        "w_at_that_place_somewhere"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_anywhere",
+      "file": "words/anywhere.webp",
+      "textIds": [
+        "w_anywhere"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_nowhere",
+      "file": "words/nowhere.webp",
+      "textIds": [
+        "w_nowhere"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_inside",
+      "file": "words/inside.webp",
+      "textIds": [
+        "w_inside"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_outside",
+      "file": "words/outside.webp",
+      "textIds": [
+        "w_outside"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_all_of_us",
+      "file": "words/all_of_us.webp",
+      "textIds": [
+        "w_all_of_us"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_all_of_you",
+      "file": "words/all_of_you.webp",
+      "textIds": [
+        "w_all_of_you"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_all_of_them",
+      "file": "words/all_of_them.webp",
+      "textIds": [
+        "w_all_of_them"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_i_subject",
+      "file": "words/i_subject.webp",
+      "textIds": [
+        "w_i_subject"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_you_subject",
+      "file": "words/you_subject.webp",
+      "textIds": [
+        "w_you_subject"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_he_she_it_subject",
+      "file": "words/he_she_it_subject.webp",
+      "textIds": [
+        "w_he_she_it_subject"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_i_me_my",
+      "file": "words/i_me_my.webp",
+      "textIds": [
+        "w_i_me_my"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_you_your",
+      "file": "words/you_your.webp",
+      "textIds": [
+        "w_you_your"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_him_her_it",
+      "file": "words/him_her_it.webp",
+      "textIds": [
+        "w_him_her_it"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_we",
+      "file": "words/we.webp",
+      "textIds": [
+        "w_we"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_you_plural",
+      "file": "words/you_plural.webp",
+      "textIds": [
+        "w_you_plural"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_they",
+      "file": "words/they.webp",
+      "textIds": [
+        "w_they"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_this",
+      "file": "words/this.webp",
+      "textIds": [
+        "w_this"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_these",
+      "file": "words/these.webp",
+      "textIds": [
+        "w_these"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_that",
+      "file": "words/that.webp",
+      "textIds": [
+        "w_that"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_those",
+      "file": "words/those.webp",
+      "textIds": [
+        "w_those"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_someone_else",
+      "file": "words/someone_else.webp",
+      "textIds": [
+        "w_someone_else"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_table",
+      "file": "words/table.webp",
+      "textIds": [
+        "w_table"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_plate",
+      "file": "words/plate.webp",
+      "textIds": [
+        "w_plate"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_mat",
+      "file": "words/mat.webp",
+      "textIds": [
+        "w_mat"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_god",
+      "file": "words/god.webp",
+      "textIds": [
+        "w_god"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_say",
+      "file": "words/say.webp",
+      "textIds": [
+        "w_say"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_tell",
+      "file": "words/tell.webp",
+      "textIds": [
+        "w_tell"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_ask",
+      "file": "words/ask.webp",
+      "textIds": [
+        "w_ask"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_speak",
+      "file": "words/speak.webp",
+      "textIds": [
+        "w_speak"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_talk",
+      "file": "words/talk.webp",
+      "textIds": [
+        "w_talk"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_know",
+      "file": "words/know.webp",
+      "textIds": [
+        "w_know"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_believe",
+      "file": "words/believe.webp",
+      "textIds": [
+        "w_believe"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_understand",
+      "file": "words/understand.webp",
+      "textIds": [
+        "w_understand"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_remember",
+      "file": "words/remember.webp",
+      "textIds": [
+        "w_remember"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_forget",
+      "file": "words/forget.webp",
+      "textIds": [
+        "w_forget"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_mean",
+      "file": "words/mean.webp",
+      "textIds": [
+        "w_mean"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_suppose",
+      "file": "words/suppose.webp",
+      "textIds": [
+        "w_suppose"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_guess",
+      "file": "words/guess.webp",
+      "textIds": [
+        "w_guess"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_wonder",
+      "file": "words/wonder.webp",
+      "textIds": [
+        "w_wonder"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_agree",
+      "file": "words/agree.webp",
+      "textIds": [
+        "w_agree"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_disagree",
+      "file": "words/disagree.webp",
+      "textIds": [
+        "w_disagree"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_promise",
+      "file": "words/promise.webp",
+      "textIds": [
+        "w_promise"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_admit",
+      "file": "words/admit.webp",
+      "textIds": [
+        "w_admit"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_deny",
+      "file": "words/deny.webp",
+      "textIds": [
+        "w_deny"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_refuse",
+      "file": "words/refuse.webp",
+      "textIds": [
+        "w_refuse"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_explain",
+      "file": "words/explain.webp",
+      "textIds": [
+        "w_explain"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_describe",
+      "file": "words/describe.webp",
+      "textIds": [
+        "w_describe"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_suggest",
+      "file": "words/suggest.webp",
+      "textIds": [
+        "w_suggest"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_warn",
+      "file": "words/warn.webp",
+      "textIds": [
+        "w_warn"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_spell",
+      "file": "words/spell.webp",
+      "textIds": [
+        "w_spell"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_translate",
+      "file": "words/translate.webp",
+      "textIds": [
+        "w_translate"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_print",
+      "file": "words/print.webp",
+      "textIds": [
+        "w_print"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_publish",
+      "file": "words/publish.webp",
+      "textIds": [
+        "w_publish"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_sign",
+      "file": "words/sign.webp",
+      "textIds": [
+        "w_sign"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_note",
+      "file": "words/note.webp",
+      "textIds": [
+        "w_note"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_discuss",
+      "file": "words/discuss.webp",
+      "textIds": [
+        "w_discuss"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_debate",
+      "file": "words/debate.webp",
+      "textIds": [
+        "w_debate"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_learn",
+      "file": "words/learn.webp",
+      "textIds": [
+        "w_learn"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_teach",
+      "file": "words/teach.webp",
+      "textIds": [
+        "w_teach"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_study",
+      "file": "words/study.webp",
+      "textIds": [
+        "w_study"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_examine",
+      "file": "words/examine.webp",
+      "textIds": [
+        "w_examine"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_test",
+      "file": "words/test.webp",
+      "textIds": [
+        "w_test"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_check",
+      "file": "words/check.webp",
+      "textIds": [
+        "w_check"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_verify",
+      "file": "words/verify.webp",
+      "textIds": [
+        "w_verify"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_prove",
+      "file": "words/prove.webp",
+      "textIds": [
+        "w_prove"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_disprove",
+      "file": "words/disprove.webp",
+      "textIds": [
+        "w_disprove"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_confirm",
+      "file": "words/confirm.webp",
+      "textIds": [
+        "w_confirm"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_run",
+      "file": "words/run.webp",
+      "textIds": [
+        "w_run"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_walk",
+      "file": "words/walk.webp",
+      "textIds": [
+        "w_walk"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_jump",
+      "file": "words/jump.webp",
+      "textIds": [
+        "w_jump"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_fly",
+      "file": "words/fly.webp",
+      "textIds": [
+        "w_fly"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_drive",
+      "file": "words/drive.webp",
+      "textIds": [
+        "w_drive"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_move",
+      "file": "words/move.webp",
+      "textIds": [
+        "w_move"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_turn",
+      "file": "words/turn.webp",
+      "textIds": [
+        "w_turn"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_return",
+      "file": "words/return.webp",
+      "textIds": [
+        "w_return"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_arrive",
+      "file": "words/arrive.webp",
+      "textIds": [
+        "w_arrive"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_leave",
+      "file": "words/leave.webp",
+      "textIds": [
+        "w_leave"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_stay",
+      "file": "words/stay.webp",
+      "textIds": [
+        "w_stay"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_wait",
+      "file": "words/wait.webp",
+      "textIds": [
+        "w_wait"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_follow",
+      "file": "words/follow.webp",
+      "textIds": [
+        "w_follow"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_lead",
+      "file": "words/lead.webp",
+      "textIds": [
+        "w_lead"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_chase",
+      "file": "words/chase.webp",
+      "textIds": [
+        "w_chase"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_fall",
+      "file": "words/fall.webp",
+      "textIds": [
+        "w_fall"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_rise",
+      "file": "words/rise.webp",
+      "textIds": [
+        "w_rise"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_shake",
+      "file": "words/shake.webp",
+      "textIds": [
+        "w_shake"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_roll",
+      "file": "words/roll.webp",
+      "textIds": [
+        "w_roll"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_slide",
+      "file": "words/slide.webp",
+      "textIds": [
+        "w_slide"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_bend",
+      "file": "words/bend.webp",
+      "textIds": [
+        "w_bend"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_stretch",
+      "file": "words/stretch.webp",
+      "textIds": [
+        "w_stretch"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_lift",
+      "file": "words/lift.webp",
+      "textIds": [
+        "w_lift"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_drop",
+      "file": "words/drop.webp",
+      "textIds": [
+        "w_drop"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_push",
+      "file": "words/push.webp",
+      "textIds": [
+        "w_push"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_pull",
+      "file": "words/pull.webp",
+      "textIds": [
+        "w_pull"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_throw",
+      "file": "words/throw.webp",
+      "textIds": [
+        "w_throw"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_catch",
+      "file": "words/catch.webp",
+      "textIds": [
+        "w_catch"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hit",
+      "file": "words/hit.webp",
+      "textIds": [
+        "w_hit"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_kick",
+      "file": "words/kick.webp",
+      "textIds": [
+        "w_kick"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_pass",
+      "file": "words/pass.webp",
+      "textIds": [
+        "w_pass"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_send",
+      "file": "words/send.webp",
+      "textIds": [
+        "w_send"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_bring",
+      "file": "words/bring.webp",
+      "textIds": [
+        "w_bring"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_take",
+      "file": "words/take.webp",
+      "textIds": [
+        "w_take"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hang",
+      "file": "words/hang.webp",
+      "textIds": [
+        "w_hang"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_sit",
+      "file": "words/sit.webp",
+      "textIds": [
+        "w_sit"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_stand",
+      "file": "words/stand.webp",
+      "textIds": [
+        "w_stand"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_lie",
+      "file": "words/lie.webp",
+      "textIds": [
+        "w_lie"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_lay",
+      "file": "words/lay.webp",
+      "textIds": [
+        "w_lay"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_kneel",
+      "file": "words/kneel.webp",
+      "textIds": [
+        "w_kneel"
+      ],
+      "placeholder": "🧎"
+    },
+    {
+      "id": "img_bow",
+      "file": "words/bow.webp",
+      "textIds": [
+        "w_bow"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_wear",
+      "file": "words/wear.webp",
+      "textIds": [
+        "w_wear"
+      ],
+      "placeholder": "👗"
+    },
+    {
+      "id": "img_do",
+      "file": "words/do.webp",
+      "textIds": [
+        "w_do"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_make",
+      "file": "words/make.webp",
+      "textIds": [
+        "w_make"
+      ],
+      "placeholder": "🛠️"
+    },
+    {
+      "id": "img_work_verb",
+      "file": "words/work_verb.webp",
+      "textIds": [
+        "w_work_verb"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_play",
+      "file": "words/play.webp",
+      "textIds": [
+        "w_play"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_live",
+      "file": "words/live.webp",
+      "textIds": [
+        "w_live"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_die",
+      "file": "words/die.webp",
+      "textIds": [
+        "w_die"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_born",
+      "file": "words/born.webp",
+      "textIds": [
+        "w_born"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_wake",
+      "file": "words/wake.webp",
+      "textIds": [
+        "w_wake"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_clean",
+      "file": "words/clean.webp",
+      "textIds": [
+        "w_clean"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_bake",
+      "file": "words/bake.webp",
+      "textIds": [
+        "w_bake"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_cut",
+      "file": "words/cut.webp",
+      "textIds": [
+        "w_cut"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_chop",
+      "file": "words/chop.webp",
+      "textIds": [
+        "w_chop"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_mix",
+      "file": "words/mix.webp",
+      "textIds": [
+        "w_mix"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_pour",
+      "file": "words/pour.webp",
+      "textIds": [
+        "w_pour"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_serve",
+      "file": "words/serve.webp",
+      "textIds": [
+        "w_serve"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_sell",
+      "file": "words/sell.webp",
+      "textIds": [
+        "w_sell"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_spend",
+      "file": "words/spend.webp",
+      "textIds": [
+        "w_spend"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_cost",
+      "file": "words/cost.webp",
+      "textIds": [
+        "w_cost"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_pay",
+      "file": "words/pay.webp",
+      "textIds": [
+        "w_pay"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_earn",
+      "file": "words/earn.webp",
+      "textIds": [
+        "w_earn"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_save",
+      "file": "words/save.webp",
+      "textIds": [
+        "w_save"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_borrow",
+      "file": "words/borrow.webp",
+      "textIds": [
+        "w_borrow"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_lend",
+      "file": "words/lend.webp",
+      "textIds": [
+        "w_lend"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_charge",
+      "file": "words/charge.webp",
+      "textIds": [
+        "w_charge"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_open",
+      "file": "words/open.webp",
+      "textIds": [
+        "w_open"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_close",
+      "file": "words/close.webp",
+      "textIds": [
+        "w_close"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_shut",
+      "file": "words/shut.webp",
+      "textIds": [
+        "w_shut"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_start",
+      "file": "words/start.webp",
+      "textIds": [
+        "w_start"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_stop",
+      "file": "words/stop.webp",
+      "textIds": [
+        "w_stop"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_begin",
+      "file": "words/begin.webp",
+      "textIds": [
+        "w_begin"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_end",
+      "file": "words/end.webp",
+      "textIds": [
+        "w_end"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_finish",
+      "file": "words/finish.webp",
+      "textIds": [
+        "w_finish"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_dress",
+      "file": "words/dress.webp",
+      "textIds": [
+        "w_dress"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_tear",
+      "file": "words/tear.webp",
+      "textIds": [
+        "w_tear"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_break",
+      "file": "words/break.webp",
+      "textIds": [
+        "w_break"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_fix",
+      "file": "words/fix.webp",
+      "textIds": [
+        "w_fix"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_repair",
+      "file": "words/repair.webp",
+      "textIds": [
+        "w_repair"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_mend",
+      "file": "words/mend.webp",
+      "textIds": [
+        "w_mend"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_knit",
+      "file": "words/knit.webp",
+      "textIds": [
+        "w_knit"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_fold",
+      "file": "words/fold.webp",
+      "textIds": [
+        "w_fold"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_draw",
+      "file": "words/draw.webp",
+      "textIds": [
+        "w_draw"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_be",
+      "file": "words/be.webp",
+      "textIds": [
+        "w_be"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_have",
+      "file": "words/have.webp",
+      "textIds": [
+        "w_have"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_own",
+      "file": "words/own.webp",
+      "textIds": [
+        "w_own"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_possess",
+      "file": "words/possess.webp",
+      "textIds": [
+        "w_possess"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_belong",
+      "file": "words/belong.webp",
+      "textIds": [
+        "w_belong"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_keep",
+      "file": "words/keep.webp",
+      "textIds": [
+        "w_keep"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hold",
+      "file": "words/hold.webp",
+      "textIds": [
+        "w_hold"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_contain",
+      "file": "words/contain.webp",
+      "textIds": [
+        "w_contain"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_include",
+      "file": "words/include.webp",
+      "textIds": [
+        "w_include"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_exclude",
+      "file": "words/exclude.webp",
+      "textIds": [
+        "w_exclude"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_create",
+      "file": "words/create.webp",
+      "textIds": [
+        "w_create"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_build",
+      "file": "words/build.webp",
+      "textIds": [
+        "w_build"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_design",
+      "file": "words/design.webp",
+      "textIds": [
+        "w_design"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_invent",
+      "file": "words/invent.webp",
+      "textIds": [
+        "w_invent"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_develop",
+      "file": "words/develop.webp",
+      "textIds": [
+        "w_develop"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_grow",
+      "file": "words/grow.webp",
+      "textIds": [
+        "w_grow"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_change",
+      "file": "words/change.webp",
+      "textIds": [
+        "w_change"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_become",
+      "file": "words/become.webp",
+      "textIds": [
+        "w_become"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_seem",
+      "file": "words/seem.webp",
+      "textIds": [
+        "w_seem"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_appear",
+      "file": "words/appear.webp",
+      "textIds": [
+        "w_appear"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_exist",
+      "file": "words/exist.webp",
+      "textIds": [
+        "w_exist"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_happen",
+      "file": "words/happen.webp",
+      "textIds": [
+        "w_happen"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_occur",
+      "file": "words/occur.webp",
+      "textIds": [
+        "w_occur"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_cause",
+      "file": "words/cause.webp",
+      "textIds": [
+        "w_cause"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_effect",
+      "file": "words/effect.webp",
+      "textIds": [
+        "w_effect"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_allow",
+      "file": "words/allow.webp",
+      "textIds": [
+        "w_allow"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_permit",
+      "file": "words/permit.webp",
+      "textIds": [
+        "w_permit"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_let",
+      "file": "words/let.webp",
+      "textIds": [
+        "w_let"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_prevent",
+      "file": "words/prevent.webp",
+      "textIds": [
+        "w_prevent"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_forbid",
+      "file": "words/forbid.webp",
+      "textIds": [
+        "w_forbid"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_find",
+      "file": "words/find.webp",
+      "textIds": [
+        "w_find"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_lose",
+      "file": "words/lose.webp",
+      "textIds": [
+        "w_lose"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_seek",
+      "file": "words/seek.webp",
+      "textIds": [
+        "w_seek"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_search",
+      "file": "words/search.webp",
+      "textIds": [
+        "w_search"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hide",
+      "file": "words/hide.webp",
+      "textIds": [
+        "w_hide"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_show",
+      "file": "words/show.webp",
+      "textIds": [
+        "w_show"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_cover",
+      "file": "words/cover.webp",
+      "textIds": [
+        "w_cover"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_discover",
+      "file": "words/discover.webp",
+      "textIds": [
+        "w_discover"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_reveal",
+      "file": "words/reveal.webp",
+      "textIds": [
+        "w_reveal"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_sketch",
+      "file": "words/sketch.webp",
+      "textIds": [
+        "w_sketch"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_record",
+      "file": "words/record.webp",
+      "textIds": [
+        "w_record"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_act",
+      "file": "words/act.webp",
+      "textIds": [
+        "w_act"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_perform",
+      "file": "words/perform.webp",
+      "textIds": [
+        "w_perform"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_direct",
+      "file": "words/direct.webp",
+      "textIds": [
+        "w_direct"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_produce",
+      "file": "words/produce.webp",
+      "textIds": [
+        "w_produce"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_count",
+      "file": "words/count.webp",
+      "textIds": [
+        "w_count"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_calculate",
+      "file": "words/calculate.webp",
+      "textIds": [
+        "w_calculate"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_measure",
+      "file": "words/measure.webp",
+      "textIds": [
+        "w_measure"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_weigh",
+      "file": "words/weigh.webp",
+      "textIds": [
+        "w_weigh"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_see",
+      "file": "words/see.webp",
+      "textIds": [
+        "w_see"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_look",
+      "file": "words/look.webp",
+      "textIds": [
+        "w_look"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_watch",
+      "file": "words/watch.webp",
+      "textIds": [
+        "w_watch"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hear",
+      "file": "words/hear.webp",
+      "textIds": [
+        "w_hear"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_listen",
+      "file": "words/listen.webp",
+      "textIds": [
+        "w_listen"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_feel",
+      "file": "words/feel.webp",
+      "textIds": [
+        "w_feel"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_touch",
+      "file": "words/touch.webp",
+      "textIds": [
+        "w_touch"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_taste",
+      "file": "words/taste.webp",
+      "textIds": [
+        "w_taste"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_smell",
+      "file": "words/smell.webp",
+      "textIds": [
+        "w_smell"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_notice",
+      "file": "words/notice.webp",
+      "textIds": [
+        "w_notice"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_meet",
+      "file": "words/meet.webp",
+      "textIds": [
+        "w_meet"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_greet",
+      "file": "words/greet.webp",
+      "textIds": [
+        "w_greet"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_visit",
+      "file": "words/visit.webp",
+      "textIds": [
+        "w_visit"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_invite",
+      "file": "words/invite.webp",
+      "textIds": [
+        "w_invite"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_join",
+      "file": "words/join.webp",
+      "textIds": [
+        "w_join"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_marry",
+      "file": "words/marry.webp",
+      "textIds": [
+        "w_marry"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_divorce",
+      "file": "words/divorce.webp",
+      "textIds": [
+        "w_divorce"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_help",
+      "file": "words/help.webp",
+      "textIds": [
+        "w_help"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_support",
+      "file": "words/support.webp",
+      "textIds": [
+        "w_support"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_protect",
+      "file": "words/protect.webp",
+      "textIds": [
+        "w_protect"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_love",
+      "file": "words/love.webp",
+      "textIds": [
+        "w_love"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_like",
+      "file": "words/like.webp",
+      "textIds": [
+        "w_like"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hate",
+      "file": "words/hate.webp",
+      "textIds": [
+        "w_hate"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_dislike",
+      "file": "words/dislike.webp",
+      "textIds": [
+        "w_dislike"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_prefer",
+      "file": "words/prefer.webp",
+      "textIds": [
+        "w_prefer"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_enjoy",
+      "file": "words/enjoy.webp",
+      "textIds": [
+        "w_enjoy"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_want",
+      "file": "words/want.webp",
+      "textIds": [
+        "w_want"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_need",
+      "file": "words/need.webp",
+      "textIds": [
+        "w_need"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_wish",
+      "file": "words/wish.webp",
+      "textIds": [
+        "w_wish"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_hope",
+      "file": "words/hope.webp",
+      "textIds": [
+        "w_hope"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_choose",
+      "file": "words/choose.webp",
+      "textIds": [
+        "w_choose"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_select",
+      "file": "words/select.webp",
+      "textIds": [
+        "w_select"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_pick",
+      "file": "words/pick.webp",
+      "textIds": [
+        "w_pick"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_decide",
+      "file": "words/decide.webp",
+      "textIds": [
+        "w_decide"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_plan",
+      "file": "words/plan.webp",
+      "textIds": [
+        "w_plan"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_prepare",
+      "file": "words/prepare.webp",
+      "textIds": [
+        "w_prepare"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_try",
+      "file": "words/try.webp",
+      "textIds": [
+        "w_try"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_attempt",
+      "file": "words/attempt.webp",
+      "textIds": [
+        "w_attempt"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_manage",
+      "file": "words/manage.webp",
+      "textIds": [
+        "w_manage"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_succeed",
+      "file": "words/succeed.webp",
+      "textIds": [
+        "w_succeed"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_fail",
+      "file": "words/fail.webp",
+      "textIds": [
+        "w_fail"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_win",
+      "file": "words/win.webp",
+      "textIds": [
+        "w_win"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_beat",
+      "file": "words/beat.webp",
+      "textIds": [
+        "w_beat"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_accept",
+      "file": "words/accept.webp",
+      "textIds": [
+        "w_accept"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_receive",
+      "file": "words/receive.webp",
+      "textIds": [
+        "w_receive"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_offer",
+      "file": "words/offer.webp",
+      "textIds": [
+        "w_offer"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_give",
+      "file": "words/give.webp",
+      "textIds": [
+        "w_give"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_share",
+      "file": "words/share.webp",
+      "textIds": [
+        "w_share"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_add",
+      "file": "words/add.webp",
+      "textIds": [
+        "w_add"
+      ],
+      "placeholder": "🖼️"
+    },
+    {
+      "id": "img_subtract",
+      "file": "words/subtract.webp",
+      "textIds": [
+        "w_subtract"
+      ],
+      "placeholder": "🖼️"
+    }
+  ]
+}

@@ -1,0 +1,4677 @@
+{
+  "_about": "Links text items (by id) to recorded audio per language. Paths are relative to basePath. Delete a path or leave it empty if a recording doesn't exist; the app falls back to device speech or text. 'sfx' are game sound effects; if a file is missing a built-in synthesized sound is used.",
+  "basePath": "assets/audio/",
+  "sfx": {
+    "correct": "sfx/correct.mp3",
+    "incorrect": "sfx/incorrect.mp3",
+    "complete": "sfx/complete.mp3",
+    "match": "sfx/match.mp3",
+    "flip": "sfx/flip.mp3",
+    "tap": "sfx/tap.mp3",
+    "skip": "sfx/skip.mp3"
+  },
+  "entries": [
+    {
+      "id": "w_dog",
+      "files": {
+        "ig": "ig/words/dog.mp3",
+        "yo": "yo/words/dog.mp3",
+        "en": "en/words/dog.mp3"
+      }
+    },
+    {
+      "id": "w_cat",
+      "files": {
+        "ig": "ig/words/cat.mp3",
+        "yo": "yo/words/cat.mp3",
+        "en": "en/words/cat.mp3"
+      }
+    },
+    {
+      "id": "w_goat",
+      "files": {
+        "ig": "ig/words/goat.mp3",
+        "yo": "yo/words/goat.mp3",
+        "en": "en/words/goat.mp3"
+      }
+    },
+    {
+      "id": "w_chicken",
+      "files": {
+        "ig": "ig/words/chicken.mp3",
+        "yo": "yo/words/chicken.mp3",
+        "en": "en/words/chicken.mp3"
+      }
+    },
+    {
+      "id": "w_fish",
+      "files": {
+        "ig": "ig/words/fish.mp3",
+        "yo": "yo/words/fish.mp3",
+        "en": "en/words/fish.mp3"
+      }
+    },
+    {
+      "id": "w_cow",
+      "files": {
+        "ig": "ig/words/cow.mp3",
+        "yo": "yo/words/cow.mp3",
+        "en": "en/words/cow.mp3"
+      }
+    },
+    {
+      "id": "w_bird",
+      "files": {
+        "ig": "ig/words/bird.mp3",
+        "yo": "yo/words/bird.mp3",
+        "en": "en/words/bird.mp3"
+      }
+    },
+    {
+      "id": "w_water",
+      "files": {
+        "ig": "ig/words/water.mp3",
+        "yo": "yo/words/water.mp3",
+        "en": "en/words/water.mp3"
+      }
+    },
+    {
+      "id": "w_tree",
+      "files": {
+        "ig": "ig/words/tree.mp3",
+        "yo": "yo/words/tree.mp3",
+        "en": "en/words/tree.mp3"
+      }
+    },
+    {
+      "id": "w_sun",
+      "files": {
+        "ig": "ig/words/sun.mp3",
+        "yo": "yo/words/sun.mp3",
+        "en": "en/words/sun.mp3"
+      }
+    },
+    {
+      "id": "w_moon",
+      "files": {
+        "ig": "ig/words/moon.mp3",
+        "yo": "yo/words/moon.mp3",
+        "en": "en/words/moon.mp3"
+      }
+    },
+    {
+      "id": "w_rain",
+      "files": {
+        "ig": "ig/words/rain.mp3",
+        "yo": "yo/words/rain.mp3",
+        "en": "en/words/rain.mp3"
+      }
+    },
+    {
+      "id": "w_fire",
+      "files": {
+        "ig": "ig/words/fire.mp3",
+        "yo": "yo/words/fire.mp3",
+        "en": "en/words/fire.mp3"
+      }
+    },
+    {
+      "id": "w_food",
+      "files": {
+        "ig": "ig/words/food.mp3",
+        "yo": "yo/words/food.mp3",
+        "en": "en/words/food.mp3"
+      }
+    },
+    {
+      "id": "w_yam",
+      "files": {
+        "ig": "ig/words/yam.mp3",
+        "yo": "yo/words/yam.mp3",
+        "en": "en/words/yam.mp3"
+      }
+    },
+    {
+      "id": "w_rice",
+      "files": {
+        "ig": "ig/words/rice.mp3",
+        "yo": "yo/words/rice.mp3",
+        "en": "en/words/rice.mp3"
+      }
+    },
+    {
+      "id": "w_banana",
+      "files": {
+        "ig": "ig/words/banana.mp3",
+        "yo": "yo/words/banana.mp3",
+        "en": "en/words/banana.mp3"
+      }
+    },
+    {
+      "id": "w_egg",
+      "files": {
+        "ig": "ig/words/egg.mp3",
+        "yo": "yo/words/egg.mp3",
+        "en": "en/words/egg.mp3"
+      }
+    },
+    {
+      "id": "w_salt",
+      "files": {
+        "ig": "ig/words/salt.mp3",
+        "yo": "yo/words/salt.mp3",
+        "en": "en/words/salt.mp3"
+      }
+    },
+    {
+      "id": "w_mother",
+      "files": {
+        "ig": "ig/words/mother.mp3",
+        "yo": "yo/words/mother.mp3",
+        "en": "en/words/mother.mp3"
+      }
+    },
+    {
+      "id": "w_father",
+      "files": {
+        "ig": "ig/words/father.mp3",
+        "yo": "yo/words/father.mp3",
+        "en": "en/words/father.mp3"
+      }
+    },
+    {
+      "id": "w_child",
+      "files": {
+        "ig": "ig/words/child.mp3",
+        "yo": "yo/words/child.mp3",
+        "en": "en/words/child.mp3"
+      }
+    },
+    {
+      "id": "w_man",
+      "files": {
+        "ig": "ig/words/man.mp3",
+        "yo": "yo/words/man.mp3",
+        "en": "en/words/man.mp3"
+      }
+    },
+    {
+      "id": "w_woman",
+      "files": {
+        "ig": "ig/words/woman.mp3",
+        "yo": "yo/words/woman.mp3",
+        "en": "en/words/woman.mp3"
+      }
+    },
+    {
+      "id": "w_friend",
+      "files": {
+        "ig": "ig/words/friend.mp3",
+        "yo": "yo/words/friend.mp3",
+        "en": "en/words/friend.mp3"
+      }
+    },
+    {
+      "id": "w_head",
+      "files": {
+        "ig": "ig/words/head.mp3",
+        "yo": "yo/words/head.mp3",
+        "en": "en/words/head.mp3"
+      }
+    },
+    {
+      "id": "w_eye",
+      "files": {
+        "ig": "ig/words/eye.mp3",
+        "yo": "yo/words/eye.mp3",
+        "en": "en/words/eye.mp3"
+      }
+    },
+    {
+      "id": "w_hand",
+      "files": {
+        "ig": "ig/words/hand.mp3",
+        "yo": "yo/words/hand.mp3",
+        "en": "en/words/hand.mp3"
+      }
+    },
+    {
+      "id": "w_leg",
+      "files": {
+        "ig": "ig/words/leg.mp3",
+        "yo": "yo/words/leg.mp3",
+        "en": "en/words/leg.mp3"
+      }
+    },
+    {
+      "id": "w_mouth",
+      "files": {
+        "ig": "ig/words/mouth.mp3",
+        "yo": "yo/words/mouth.mp3",
+        "en": "en/words/mouth.mp3"
+      }
+    },
+    {
+      "id": "w_ear",
+      "files": {
+        "ig": "ig/words/ear.mp3",
+        "yo": "yo/words/ear.mp3",
+        "en": "en/words/ear.mp3"
+      }
+    },
+    {
+      "id": "w_nose",
+      "files": {
+        "ig": "ig/words/nose.mp3",
+        "yo": "yo/words/nose.mp3",
+        "en": "en/words/nose.mp3"
+      }
+    },
+    {
+      "id": "w_house",
+      "files": {
+        "ig": "ig/words/house.mp3",
+        "yo": "yo/words/house.mp3",
+        "en": "en/words/house.mp3"
+      }
+    },
+    {
+      "id": "w_market",
+      "files": {
+        "ig": "ig/words/market.mp3",
+        "yo": "yo/words/market.mp3",
+        "en": "en/words/market.mp3"
+      }
+    },
+    {
+      "id": "w_school",
+      "files": {
+        "ig": "ig/words/school.mp3",
+        "yo": "yo/words/school.mp3",
+        "en": "en/words/school.mp3"
+      }
+    },
+    {
+      "id": "w_book",
+      "files": {
+        "ig": "ig/words/book.mp3",
+        "yo": "yo/words/book.mp3",
+        "en": "en/words/book.mp3"
+      }
+    },
+    {
+      "id": "w_car",
+      "files": {
+        "ig": "ig/words/car.mp3",
+        "yo": "yo/words/car.mp3",
+        "en": "en/words/car.mp3"
+      }
+    },
+    {
+      "id": "w_money",
+      "files": {
+        "ig": "ig/words/money.mp3",
+        "yo": "yo/words/money.mp3",
+        "en": "en/words/money.mp3"
+      }
+    },
+    {
+      "id": "w_red",
+      "files": {
+        "ig": "ig/words/red.mp3",
+        "yo": "yo/words/red.mp3",
+        "en": "en/words/red.mp3"
+      }
+    },
+    {
+      "id": "w_white",
+      "files": {
+        "ig": "ig/words/white.mp3",
+        "yo": "yo/words/white.mp3",
+        "en": "en/words/white.mp3"
+      }
+    },
+    {
+      "id": "w_black",
+      "files": {
+        "ig": "ig/words/black.mp3",
+        "yo": "yo/words/black.mp3",
+        "en": "en/words/black.mp3"
+      }
+    },
+    {
+      "id": "w_eat",
+      "files": {
+        "ig": "ig/words/eat.mp3",
+        "yo": "yo/words/eat.mp3",
+        "en": "en/words/eat.mp3"
+      }
+    },
+    {
+      "id": "w_drink",
+      "files": {
+        "ig": "ig/words/drink.mp3",
+        "yo": "yo/words/drink.mp3",
+        "en": "en/words/drink.mp3"
+      }
+    },
+    {
+      "id": "w_go",
+      "files": {
+        "ig": "ig/words/go.mp3",
+        "yo": "yo/words/go.mp3",
+        "en": "en/words/go.mp3"
+      }
+    },
+    {
+      "id": "w_come",
+      "files": {
+        "ig": "ig/words/come.mp3",
+        "yo": "yo/words/come.mp3",
+        "en": "en/words/come.mp3"
+      }
+    },
+    {
+      "id": "w_sleep",
+      "files": {
+        "ig": "ig/words/sleep.mp3",
+        "yo": "yo/words/sleep.mp3",
+        "en": "en/words/sleep.mp3"
+      }
+    },
+    {
+      "id": "w_read",
+      "files": {
+        "ig": "ig/words/read.mp3",
+        "yo": "yo/words/read.mp3",
+        "en": "en/words/read.mp3"
+      }
+    },
+    {
+      "id": "w_big",
+      "files": {
+        "ig": "ig/words/big.mp3",
+        "yo": "yo/words/big.mp3",
+        "en": "en/words/big.mp3"
+      }
+    },
+    {
+      "id": "w_small",
+      "files": {
+        "ig": "ig/words/small.mp3",
+        "yo": "yo/words/small.mp3",
+        "en": "en/words/small.mp3"
+      }
+    },
+    {
+      "id": "x_dog_1",
+      "files": {
+        "ig": "ig/examples/dog_1.mp3",
+        "yo": "yo/examples/dog_1.mp3",
+        "en": "en/examples/dog_1.mp3"
+      }
+    },
+    {
+      "id": "x_fish_1",
+      "files": {
+        "ig": "ig/examples/fish_1.mp3",
+        "yo": "yo/examples/fish_1.mp3",
+        "en": "en/examples/fish_1.mp3"
+      }
+    },
+    {
+      "id": "x_water_1",
+      "files": {
+        "ig": "ig/examples/water_1.mp3",
+        "yo": "yo/examples/water_1.mp3",
+        "en": "en/examples/water_1.mp3"
+      }
+    },
+    {
+      "id": "x_tree_1",
+      "files": {
+        "ig": "ig/examples/tree_1.mp3",
+        "yo": "yo/examples/tree_1.mp3",
+        "en": "en/examples/tree_1.mp3"
+      }
+    },
+    {
+      "id": "x_fire_1",
+      "files": {
+        "ig": "ig/examples/fire_1.mp3",
+        "yo": "yo/examples/fire_1.mp3",
+        "en": "en/examples/fire_1.mp3"
+      }
+    },
+    {
+      "id": "x_food_1",
+      "files": {
+        "ig": "ig/examples/food_1.mp3",
+        "yo": "yo/examples/food_1.mp3",
+        "en": "en/examples/food_1.mp3"
+      }
+    },
+    {
+      "id": "x_child_1",
+      "files": {
+        "ig": "ig/examples/child_1.mp3",
+        "yo": "yo/examples/child_1.mp3",
+        "en": "en/examples/child_1.mp3"
+      }
+    },
+    {
+      "id": "x_friend_1",
+      "files": {
+        "ig": "ig/examples/friend_1.mp3",
+        "yo": "yo/examples/friend_1.mp3",
+        "en": "en/examples/friend_1.mp3"
+      }
+    },
+    {
+      "id": "x_house_1",
+      "files": {
+        "ig": "ig/examples/house_1.mp3",
+        "yo": "yo/examples/house_1.mp3",
+        "en": "en/examples/house_1.mp3"
+      }
+    },
+    {
+      "id": "x_market_1",
+      "files": {
+        "ig": "ig/examples/market_1.mp3",
+        "yo": "yo/examples/market_1.mp3",
+        "en": "en/examples/market_1.mp3"
+      }
+    },
+    {
+      "id": "x_book_1",
+      "files": {
+        "ig": "ig/examples/book_1.mp3",
+        "yo": "yo/examples/book_1.mp3",
+        "en": "en/examples/book_1.mp3"
+      }
+    },
+    {
+      "id": "x_money_1",
+      "files": {
+        "ig": "ig/examples/money_1.mp3",
+        "yo": "yo/examples/money_1.mp3",
+        "en": "en/examples/money_1.mp3"
+      }
+    },
+    {
+      "id": "p_good_morning",
+      "files": {
+        "ig": "ig/phrases/good_morning.mp3",
+        "yo": "yo/phrases/good_morning.mp3",
+        "en": "en/phrases/good_morning.mp3"
+      }
+    },
+    {
+      "id": "p_good_night",
+      "files": {
+        "ig": "ig/phrases/good_night.mp3",
+        "yo": "yo/phrases/good_night.mp3",
+        "en": "en/phrases/good_night.mp3"
+      }
+    },
+    {
+      "id": "p_welcome",
+      "files": {
+        "ig": "ig/phrases/welcome.mp3",
+        "yo": "yo/phrases/welcome.mp3",
+        "en": "en/phrases/welcome.mp3"
+      }
+    },
+    {
+      "id": "p_how_are_you",
+      "files": {
+        "ig": "ig/phrases/how_are_you.mp3",
+        "yo": "yo/phrases/how_are_you.mp3",
+        "en": "en/phrases/how_are_you.mp3"
+      }
+    },
+    {
+      "id": "p_i_am_fine",
+      "files": {
+        "ig": "ig/phrases/i_am_fine.mp3",
+        "yo": "yo/phrases/i_am_fine.mp3",
+        "en": "en/phrases/i_am_fine.mp3"
+      }
+    },
+    {
+      "id": "p_goodbye",
+      "files": {
+        "ig": "ig/phrases/goodbye.mp3",
+        "yo": "yo/phrases/goodbye.mp3",
+        "en": "en/phrases/goodbye.mp3"
+      }
+    },
+    {
+      "id": "p_thank_you",
+      "files": {
+        "ig": "ig/phrases/thank_you.mp3",
+        "yo": "yo/phrases/thank_you.mp3",
+        "en": "en/phrases/thank_you.mp3"
+      }
+    },
+    {
+      "id": "p_please",
+      "files": {
+        "ig": "ig/phrases/please.mp3",
+        "yo": "yo/phrases/please.mp3",
+        "en": "en/phrases/please.mp3"
+      }
+    },
+    {
+      "id": "p_what_is_your_name",
+      "files": {
+        "ig": "ig/phrases/what_is_your_name.mp3",
+        "yo": "yo/phrases/what_is_your_name.mp3",
+        "en": "en/phrases/what_is_your_name.mp3"
+      }
+    },
+    {
+      "id": "p_i_love_you",
+      "files": {
+        "ig": "ig/phrases/i_love_you.mp3",
+        "yo": "yo/phrases/i_love_you.mp3",
+        "en": "en/phrases/i_love_you.mp3"
+      }
+    },
+    {
+      "id": "p_i_want_water",
+      "files": {
+        "ig": "ig/phrases/i_want_water.mp3",
+        "yo": "yo/phrases/i_want_water.mp3",
+        "en": "en/phrases/i_want_water.mp3"
+      }
+    },
+    {
+      "id": "p_i_am_hungry",
+      "files": {
+        "ig": "ig/phrases/i_am_hungry.mp3",
+        "yo": "yo/phrases/i_am_hungry.mp3",
+        "en": "en/phrases/i_am_hungry.mp3"
+      }
+    },
+    {
+      "id": "p_where_is_the_market",
+      "files": {
+        "ig": "ig/phrases/where_is_the_market.mp3",
+        "yo": "yo/phrases/where_is_the_market.mp3",
+        "en": "en/phrases/where_is_the_market.mp3"
+      }
+    },
+    {
+      "id": "p_dog_is_eating",
+      "files": {
+        "ig": "ig/phrases/dog_is_eating.mp3",
+        "yo": "yo/phrases/dog_is_eating.mp3",
+        "en": "en/phrases/dog_is_eating.mp3"
+      }
+    },
+    {
+      "id": "p_child_is_drinking_water",
+      "files": {
+        "ig": "ig/phrases/child_is_drinking_water.mp3",
+        "yo": "yo/phrases/child_is_drinking_water.mp3",
+        "en": "en/phrases/child_is_drinking_water.mp3"
+      }
+    },
+    {
+      "id": "p_going_to_the_market",
+      "files": {
+        "ig": "ig/phrases/going_to_the_market.mp3",
+        "yo": "yo/phrases/going_to_the_market.mp3",
+        "en": "en/phrases/going_to_the_market.mp3"
+      }
+    },
+    {
+      "id": "p_mother_is_cooking",
+      "files": {
+        "ig": "ig/phrases/mother_is_cooking.mp3",
+        "yo": "yo/phrases/mother_is_cooking.mp3",
+        "en": "en/phrases/mother_is_cooking.mp3"
+      }
+    },
+    {
+      "id": "p_reading_a_book",
+      "files": {
+        "ig": "ig/phrases/reading_a_book.mp3",
+        "yo": "yo/phrases/reading_a_book.mp3",
+        "en": "en/phrases/reading_a_book.mp3"
+      }
+    },
+    {
+      "id": "p_the_house_is_big",
+      "files": {
+        "ig": "ig/phrases/the_house_is_big.mp3",
+        "yo": "yo/phrases/the_house_is_big.mp3",
+        "en": "en/phrases/the_house_is_big.mp3"
+      }
+    },
+    {
+      "id": "n_0",
+      "files": {
+        "ig": "ig/numbers/0.mp3",
+        "yo": "yo/numbers/0.mp3",
+        "en": "en/numbers/0.mp3"
+      }
+    },
+    {
+      "id": "n_1",
+      "files": {
+        "ig": "ig/numbers/1.mp3",
+        "yo": "yo/numbers/1.mp3",
+        "en": "en/numbers/1.mp3"
+      }
+    },
+    {
+      "id": "n_2",
+      "files": {
+        "ig": "ig/numbers/2.mp3",
+        "yo": "yo/numbers/2.mp3",
+        "en": "en/numbers/2.mp3"
+      }
+    },
+    {
+      "id": "n_3",
+      "files": {
+        "ig": "ig/numbers/3.mp3",
+        "yo": "yo/numbers/3.mp3",
+        "en": "en/numbers/3.mp3"
+      }
+    },
+    {
+      "id": "n_4",
+      "files": {
+        "ig": "ig/numbers/4.mp3",
+        "yo": "yo/numbers/4.mp3",
+        "en": "en/numbers/4.mp3"
+      }
+    },
+    {
+      "id": "n_5",
+      "files": {
+        "ig": "ig/numbers/5.mp3",
+        "yo": "yo/numbers/5.mp3",
+        "en": "en/numbers/5.mp3"
+      }
+    },
+    {
+      "id": "n_6",
+      "files": {
+        "ig": "ig/numbers/6.mp3",
+        "yo": "yo/numbers/6.mp3",
+        "en": "en/numbers/6.mp3"
+      }
+    },
+    {
+      "id": "n_7",
+      "files": {
+        "ig": "ig/numbers/7.mp3",
+        "yo": "yo/numbers/7.mp3",
+        "en": "en/numbers/7.mp3"
+      }
+    },
+    {
+      "id": "n_8",
+      "files": {
+        "ig": "ig/numbers/8.mp3",
+        "yo": "yo/numbers/8.mp3",
+        "en": "en/numbers/8.mp3"
+      }
+    },
+    {
+      "id": "n_9",
+      "files": {
+        "ig": "ig/numbers/9.mp3",
+        "yo": "yo/numbers/9.mp3",
+        "en": "en/numbers/9.mp3"
+      }
+    },
+    {
+      "id": "n_10",
+      "files": {
+        "ig": "ig/numbers/10.mp3",
+        "yo": "yo/numbers/10.mp3",
+        "en": "en/numbers/10.mp3"
+      }
+    },
+    {
+      "id": "n_11",
+      "files": {
+        "ig": "ig/numbers/11.mp3",
+        "yo": "yo/numbers/11.mp3",
+        "en": "en/numbers/11.mp3"
+      }
+    },
+    {
+      "id": "n_12",
+      "files": {
+        "ig": "ig/numbers/12.mp3",
+        "yo": "yo/numbers/12.mp3",
+        "en": "en/numbers/12.mp3"
+      }
+    },
+    {
+      "id": "n_13",
+      "files": {
+        "ig": "ig/numbers/13.mp3",
+        "yo": "yo/numbers/13.mp3",
+        "en": "en/numbers/13.mp3"
+      }
+    },
+    {
+      "id": "n_14",
+      "files": {
+        "ig": "ig/numbers/14.mp3",
+        "yo": "yo/numbers/14.mp3",
+        "en": "en/numbers/14.mp3"
+      }
+    },
+    {
+      "id": "n_15",
+      "files": {
+        "ig": "ig/numbers/15.mp3",
+        "yo": "yo/numbers/15.mp3",
+        "en": "en/numbers/15.mp3"
+      }
+    },
+    {
+      "id": "n_16",
+      "files": {
+        "ig": "ig/numbers/16.mp3",
+        "yo": "yo/numbers/16.mp3",
+        "en": "en/numbers/16.mp3"
+      }
+    },
+    {
+      "id": "n_17",
+      "files": {
+        "ig": "ig/numbers/17.mp3",
+        "yo": "yo/numbers/17.mp3",
+        "en": "en/numbers/17.mp3"
+      }
+    },
+    {
+      "id": "n_18",
+      "files": {
+        "ig": "ig/numbers/18.mp3",
+        "yo": "yo/numbers/18.mp3",
+        "en": "en/numbers/18.mp3"
+      }
+    },
+    {
+      "id": "n_19",
+      "files": {
+        "ig": "ig/numbers/19.mp3",
+        "yo": "yo/numbers/19.mp3",
+        "en": "en/numbers/19.mp3"
+      }
+    },
+    {
+      "id": "n_20",
+      "files": {
+        "ig": "ig/numbers/20.mp3",
+        "yo": "yo/numbers/20.mp3",
+        "en": "en/numbers/20.mp3"
+      }
+    },
+    {
+      "id": "n_30",
+      "files": {
+        "ig": "ig/numbers/30.mp3",
+        "yo": "yo/numbers/30.mp3",
+        "en": "en/numbers/30.mp3"
+      }
+    },
+    {
+      "id": "n_40",
+      "files": {
+        "ig": "ig/numbers/40.mp3",
+        "yo": "yo/numbers/40.mp3",
+        "en": "en/numbers/40.mp3"
+      }
+    },
+    {
+      "id": "n_50",
+      "files": {
+        "ig": "ig/numbers/50.mp3",
+        "yo": "yo/numbers/50.mp3",
+        "en": "en/numbers/50.mp3"
+      }
+    },
+    {
+      "id": "n_60",
+      "files": {
+        "ig": "ig/numbers/60.mp3",
+        "yo": "yo/numbers/60.mp3",
+        "en": "en/numbers/60.mp3"
+      }
+    },
+    {
+      "id": "n_70",
+      "files": {
+        "ig": "ig/numbers/70.mp3",
+        "yo": "yo/numbers/70.mp3",
+        "en": "en/numbers/70.mp3"
+      }
+    },
+    {
+      "id": "n_80",
+      "files": {
+        "ig": "ig/numbers/80.mp3",
+        "yo": "yo/numbers/80.mp3",
+        "en": "en/numbers/80.mp3"
+      }
+    },
+    {
+      "id": "n_90",
+      "files": {
+        "ig": "ig/numbers/90.mp3",
+        "yo": "yo/numbers/90.mp3",
+        "en": "en/numbers/90.mp3"
+      }
+    },
+    {
+      "id": "n_100",
+      "files": {
+        "ig": "ig/numbers/100.mp3",
+        "yo": "yo/numbers/100.mp3",
+        "en": "en/numbers/100.mp3"
+      }
+    },
+    {
+      "id": "w_here",
+      "files": {
+        "ig": "ig/words/here.mp3",
+        "yo": "yo/words/here.mp3",
+        "en": "en/words/here.mp3"
+      }
+    },
+    {
+      "id": "w_there",
+      "files": {
+        "ig": "ig/words/there.mp3",
+        "yo": "yo/words/there.mp3",
+        "en": "en/words/there.mp3"
+      }
+    },
+    {
+      "id": "w_where",
+      "files": {
+        "ig": "ig/words/where.mp3",
+        "yo": "yo/words/where.mp3",
+        "en": "en/words/where.mp3"
+      }
+    },
+    {
+      "id": "w_on_top",
+      "files": {
+        "ig": "ig/words/on_top.mp3",
+        "yo": "yo/words/on_top.mp3",
+        "en": "en/words/on_top.mp3"
+      }
+    },
+    {
+      "id": "w_below",
+      "files": {
+        "ig": "ig/words/below.mp3",
+        "yo": "yo/words/below.mp3",
+        "en": "en/words/below.mp3"
+      }
+    },
+    {
+      "id": "w_above",
+      "files": {
+        "ig": "ig/words/above.mp3",
+        "yo": "yo/words/above.mp3",
+        "en": "en/words/above.mp3"
+      }
+    },
+    {
+      "id": "w_behind",
+      "files": {
+        "ig": "ig/words/behind.mp3",
+        "yo": "yo/words/behind.mp3",
+        "en": "en/words/behind.mp3"
+      }
+    },
+    {
+      "id": "w_in_front",
+      "files": {
+        "ig": "ig/words/in_front.mp3",
+        "yo": "yo/words/in_front.mp3",
+        "en": "en/words/in_front.mp3"
+      }
+    },
+    {
+      "id": "w_beside",
+      "files": {
+        "ig": "ig/words/beside.mp3",
+        "yo": "yo/words/beside.mp3",
+        "en": "en/words/beside.mp3"
+      }
+    },
+    {
+      "id": "w_close_to",
+      "files": {
+        "ig": "ig/words/close_to.mp3",
+        "yo": "yo/words/close_to.mp3",
+        "en": "en/words/close_to.mp3"
+      }
+    },
+    {
+      "id": "w_away",
+      "files": {
+        "ig": "ig/words/away.mp3",
+        "yo": "yo/words/away.mp3",
+        "en": "en/words/away.mp3"
+      }
+    },
+    {
+      "id": "w_far",
+      "files": {
+        "ig": "ig/words/far.mp3",
+        "yo": "yo/words/far.mp3",
+        "en": "en/words/far.mp3"
+      }
+    },
+    {
+      "id": "w_near",
+      "files": {
+        "ig": "ig/words/near.mp3",
+        "yo": "yo/words/near.mp3",
+        "en": "en/words/near.mp3"
+      }
+    },
+    {
+      "id": "w_at_that_place_somewhere",
+      "files": {
+        "ig": "ig/words/at_that_place_somewhere.mp3",
+        "yo": "yo/words/at_that_place_somewhere.mp3",
+        "en": "en/words/at_that_place_somewhere.mp3"
+      }
+    },
+    {
+      "id": "w_anywhere",
+      "files": {
+        "ig": "ig/words/anywhere.mp3",
+        "yo": "yo/words/anywhere.mp3",
+        "en": "en/words/anywhere.mp3"
+      }
+    },
+    {
+      "id": "w_nowhere",
+      "files": {
+        "ig": "ig/words/nowhere.mp3",
+        "yo": "yo/words/nowhere.mp3",
+        "en": "en/words/nowhere.mp3"
+      }
+    },
+    {
+      "id": "w_inside",
+      "files": {
+        "ig": "ig/words/inside.mp3",
+        "yo": "yo/words/inside.mp3",
+        "en": "en/words/inside.mp3"
+      }
+    },
+    {
+      "id": "w_outside",
+      "files": {
+        "ig": "ig/words/outside.mp3",
+        "yo": "yo/words/outside.mp3",
+        "en": "en/words/outside.mp3"
+      }
+    },
+    {
+      "id": "w_all_of_us",
+      "files": {
+        "ig": "ig/words/all_of_us.mp3",
+        "en": "en/words/all_of_us.mp3"
+      }
+    },
+    {
+      "id": "w_all_of_you",
+      "files": {
+        "ig": "ig/words/all_of_you.mp3",
+        "en": "en/words/all_of_you.mp3"
+      }
+    },
+    {
+      "id": "w_all_of_them",
+      "files": {
+        "ig": "ig/words/all_of_them.mp3",
+        "en": "en/words/all_of_them.mp3"
+      }
+    },
+    {
+      "id": "w_i_subject",
+      "files": {
+        "ig": "ig/words/i_subject.mp3",
+        "en": "en/words/i_subject.mp3"
+      }
+    },
+    {
+      "id": "w_you_subject",
+      "files": {
+        "ig": "ig/words/you_subject.mp3",
+        "en": "en/words/you_subject.mp3"
+      }
+    },
+    {
+      "id": "w_he_she_it_subject",
+      "files": {
+        "ig": "ig/words/he_she_it_subject.mp3",
+        "en": "en/words/he_she_it_subject.mp3"
+      }
+    },
+    {
+      "id": "w_i_me_my",
+      "files": {
+        "ig": "ig/words/i_me_my.mp3",
+        "en": "en/words/i_me_my.mp3"
+      }
+    },
+    {
+      "id": "w_you_your",
+      "files": {
+        "ig": "ig/words/you_your.mp3",
+        "en": "en/words/you_your.mp3"
+      }
+    },
+    {
+      "id": "w_him_her_it",
+      "files": {
+        "ig": "ig/words/him_her_it.mp3",
+        "en": "en/words/him_her_it.mp3"
+      }
+    },
+    {
+      "id": "w_we",
+      "files": {
+        "ig": "ig/words/we.mp3",
+        "en": "en/words/we.mp3"
+      }
+    },
+    {
+      "id": "w_you_plural",
+      "files": {
+        "ig": "ig/words/you_plural.mp3",
+        "en": "en/words/you_plural.mp3"
+      }
+    },
+    {
+      "id": "w_they",
+      "files": {
+        "ig": "ig/words/they.mp3",
+        "en": "en/words/they.mp3"
+      }
+    },
+    {
+      "id": "w_this",
+      "files": {
+        "ig": "ig/words/this.mp3",
+        "en": "en/words/this.mp3"
+      }
+    },
+    {
+      "id": "w_these",
+      "files": {
+        "ig": "ig/words/these.mp3",
+        "en": "en/words/these.mp3"
+      }
+    },
+    {
+      "id": "w_that",
+      "files": {
+        "ig": "ig/words/that.mp3",
+        "en": "en/words/that.mp3"
+      }
+    },
+    {
+      "id": "w_those",
+      "files": {
+        "ig": "ig/words/those.mp3",
+        "en": "en/words/those.mp3"
+      }
+    },
+    {
+      "id": "w_blue",
+      "files": {
+        "ig": "ig/words/blue.mp3",
+        "yo": "yo/words/blue.mp3",
+        "en": "en/words/blue.mp3"
+      }
+    },
+    {
+      "id": "w_yellow",
+      "files": {
+        "ig": "ig/words/yellow.mp3",
+        "yo": "yo/words/yellow.mp3",
+        "en": "en/words/yellow.mp3"
+      }
+    },
+    {
+      "id": "w_green",
+      "files": {
+        "ig": "ig/words/green.mp3",
+        "yo": "yo/words/green.mp3",
+        "en": "en/words/green.mp3"
+      }
+    },
+    {
+      "id": "w_colour",
+      "files": {
+        "ig": "ig/words/colour.mp3",
+        "yo": "yo/words/colour.mp3",
+        "en": "en/words/colour.mp3"
+      }
+    },
+    {
+      "id": "w_night",
+      "files": {
+        "ig": "ig/words/night.mp3",
+        "yo": "yo/words/night.mp3",
+        "en": "en/words/night.mp3"
+      }
+    },
+    {
+      "id": "w_daytime",
+      "files": {
+        "ig": "ig/words/daytime.mp3",
+        "yo": "yo/words/daytime.mp3",
+        "en": "en/words/daytime.mp3"
+      }
+    },
+    {
+      "id": "w_time",
+      "files": {
+        "ig": "ig/words/time.mp3",
+        "yo": "yo/words/time.mp3",
+        "en": "en/words/time.mp3"
+      }
+    },
+    {
+      "id": "w_blood",
+      "files": {
+        "ig": "ig/words/blood.mp3",
+        "yo": "yo/words/blood.mp3",
+        "en": "en/words/blood.mp3"
+      }
+    },
+    {
+      "id": "w_hair",
+      "files": {
+        "ig": "ig/words/hair.mp3",
+        "yo": "yo/words/hair.mp3",
+        "en": "en/words/hair.mp3"
+      }
+    },
+    {
+      "id": "w_grass",
+      "files": {
+        "ig": "ig/words/grass.mp3",
+        "yo": "yo/words/grass.mp3",
+        "en": "en/words/grass.mp3"
+      }
+    },
+    {
+      "id": "w_cold",
+      "files": {
+        "ig": "ig/words/cold.mp3",
+        "yo": "yo/words/cold.mp3",
+        "en": "en/words/cold.mp3"
+      }
+    },
+    {
+      "id": "w_coal",
+      "files": {
+        "ig": "ig/words/coal.mp3",
+        "yo": "yo/words/coal.mp3",
+        "en": "en/words/coal.mp3"
+      }
+    },
+    {
+      "id": "w_thing",
+      "files": {
+        "ig": "ig/words/thing.mp3",
+        "yo": "yo/words/thing.mp3",
+        "en": "en/words/thing.mp3"
+      }
+    },
+    {
+      "id": "w_work",
+      "files": {
+        "ig": "ig/words/work.mp3",
+        "yo": "yo/words/work.mp3",
+        "en": "en/words/work.mp3"
+      }
+    },
+    {
+      "id": "w_everyone",
+      "files": {
+        "ig": "ig/words/everyone.mp3",
+        "yo": "yo/words/everyone.mp3",
+        "en": "en/words/everyone.mp3"
+      }
+    },
+    {
+      "id": "w_someone_else",
+      "files": {
+        "ig": "ig/words/someone_else.mp3",
+        "yo": "yo/words/someone_else.mp3",
+        "en": "en/words/someone_else.mp3"
+      }
+    },
+    {
+      "id": "w_quickly",
+      "files": {
+        "ig": "ig/words/quickly.mp3",
+        "yo": "yo/words/quickly.mp3",
+        "en": "en/words/quickly.mp3"
+      }
+    },
+    {
+      "id": "w_slowly",
+      "files": {
+        "ig": "ig/words/slowly.mp3",
+        "yo": "yo/words/slowly.mp3",
+        "en": "en/words/slowly.mp3"
+      }
+    },
+    {
+      "id": "p_give_to_him",
+      "files": {
+        "ig": "ig/phrases/give_to_him.mp3",
+        "yo": "yo/phrases/give_to_him.mp3",
+        "en": "en/phrases/give_to_him.mp3"
+      }
+    },
+    {
+      "id": "p_take_from_him",
+      "files": {
+        "ig": "ig/phrases/take_from_him.mp3",
+        "yo": "yo/phrases/take_from_him.mp3",
+        "en": "en/phrases/take_from_him.mp3"
+      }
+    },
+    {
+      "id": "p_keep_it_for_now",
+      "files": {
+        "ig": "ig/phrases/keep_it_for_now.mp3",
+        "yo": "yo/phrases/keep_it_for_now.mp3",
+        "en": "en/phrases/keep_it_for_now.mp3"
+      }
+    },
+    {
+      "id": "p_keep_it_away_from_him",
+      "files": {
+        "ig": "ig/phrases/keep_it_away_from_him.mp3",
+        "yo": "yo/phrases/keep_it_away_from_him.mp3",
+        "en": "en/phrases/keep_it_away_from_him.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_done",
+      "files": {
+        "ig": "ig/phrases/it_is_done.mp3",
+        "yo": "yo/phrases/it_is_done.mp3",
+        "en": "en/phrases/it_is_done.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_not_done",
+      "files": {
+        "ig": "ig/phrases/it_is_not_done.mp3",
+        "yo": "yo/phrases/it_is_not_done.mp3",
+        "en": "en/phrases/it_is_not_done.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_ready",
+      "files": {
+        "ig": "ig/phrases/it_is_ready.mp3",
+        "yo": "yo/phrases/it_is_ready.mp3",
+        "en": "en/phrases/it_is_ready.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_mild_not_hot_or_cold",
+      "files": {
+        "ig": "ig/phrases/it_is_mild_not_hot_or_cold.mp3",
+        "yo": "yo/phrases/it_is_mild_not_hot_or_cold.mp3",
+        "en": "en/phrases/it_is_mild_not_hot_or_cold.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_hot",
+      "files": {
+        "ig": "ig/phrases/it_is_hot.mp3",
+        "yo": "yo/phrases/it_is_hot.mp3",
+        "en": "en/phrases/it_is_hot.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_cold",
+      "files": {
+        "ig": "ig/phrases/it_is_cold.mp3",
+        "yo": "yo/phrases/it_is_cold.mp3",
+        "en": "en/phrases/it_is_cold.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_not_ready",
+      "files": {
+        "ig": "ig/phrases/it_is_not_ready.mp3",
+        "yo": "yo/phrases/it_is_not_ready.mp3",
+        "en": "en/phrases/it_is_not_ready.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_not_cold",
+      "files": {
+        "ig": "ig/phrases/it_is_not_cold.mp3",
+        "yo": "yo/phrases/it_is_not_cold.mp3",
+        "en": "en/phrases/it_is_not_cold.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_not_hot",
+      "files": {
+        "ig": "ig/phrases/it_is_not_hot.mp3",
+        "yo": "yo/phrases/it_is_not_hot.mp3",
+        "en": "en/phrases/it_is_not_hot.mp3"
+      }
+    },
+    {
+      "id": "p_red_blue_yellow_green",
+      "files": {
+        "ig": "ig/phrases/red_blue_yellow_green.mp3",
+        "yo": "yo/phrases/red_blue_yellow_green.mp3",
+        "en": "en/phrases/red_blue_yellow_green.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_the_color_of_water",
+      "files": {
+        "ig": "ig/phrases/it_is_the_color_of_water.mp3",
+        "yo": "yo/phrases/it_is_the_color_of_water.mp3",
+        "en": "en/phrases/it_is_the_color_of_water.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_the_color_of_blood",
+      "files": {
+        "ig": "ig/phrases/it_is_the_color_of_blood.mp3",
+        "yo": "yo/phrases/it_is_the_color_of_blood.mp3",
+        "en": "en/phrases/it_is_the_color_of_blood.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_not_the_color_of_blood",
+      "files": {
+        "ig": "ig/phrases/it_is_not_the_color_of_blood.mp3",
+        "yo": "yo/phrases/it_is_not_the_color_of_blood.mp3",
+        "en": "en/phrases/it_is_not_the_color_of_blood.mp3"
+      }
+    },
+    {
+      "id": "p_it_has_the_color_of_grass",
+      "files": {
+        "ig": "ig/phrases/it_has_the_color_of_grass.mp3",
+        "yo": "yo/phrases/it_has_the_color_of_grass.mp3",
+        "en": "en/phrases/it_has_the_color_of_grass.mp3"
+      }
+    },
+    {
+      "id": "p_it_has_the_color_of_coal",
+      "files": {
+        "ig": "ig/phrases/it_has_the_color_of_coal.mp3",
+        "yo": "yo/phrases/it_has_the_color_of_coal.mp3",
+        "en": "en/phrases/it_has_the_color_of_coal.mp3"
+      }
+    },
+    {
+      "id": "p_black_and_white_night_and_day",
+      "files": {
+        "ig": "ig/phrases/black_and_white_night_and_day.mp3",
+        "yo": "yo/phrases/black_and_white_night_and_day.mp3",
+        "en": "en/phrases/black_and_white_night_and_day.mp3"
+      }
+    },
+    {
+      "id": "p_it_is_time_to_go_home",
+      "files": {
+        "ig": "ig/phrases/it_is_time_to_go_home.mp3",
+        "yo": "yo/phrases/it_is_time_to_go_home.mp3",
+        "en": "en/phrases/it_is_time_to_go_home.mp3"
+      }
+    },
+    {
+      "id": "p_free_food",
+      "files": {
+        "ig": "ig/phrases/free_food.mp3",
+        "yo": "yo/phrases/free_food.mp3",
+        "en": "en/phrases/free_food.mp3"
+      }
+    },
+    {
+      "id": "p_cut_hair",
+      "files": {
+        "ig": "ig/phrases/cut_hair.mp3",
+        "yo": "yo/phrases/cut_hair.mp3",
+        "en": "en/phrases/cut_hair.mp3"
+      }
+    },
+    {
+      "id": "p_cut_my_fathers_hair",
+      "files": {
+        "ig": "ig/phrases/cut_my_fathers_hair.mp3",
+        "yo": "yo/phrases/cut_my_fathers_hair.mp3",
+        "en": "en/phrases/cut_my_fathers_hair.mp3"
+      }
+    },
+    {
+      "id": "p_i_have_some_thing",
+      "files": {
+        "ig": "ig/phrases/i_have_some_thing.mp3",
+        "yo": "yo/phrases/i_have_some_thing.mp3",
+        "en": "en/phrases/i_have_some_thing.mp3"
+      }
+    },
+    {
+      "id": "p_i_am_busy",
+      "files": {
+        "ig": "ig/phrases/i_am_busy.mp3",
+        "yo": "yo/phrases/i_am_busy.mp3",
+        "en": "en/phrases/i_am_busy.mp3"
+      }
+    },
+    {
+      "id": "p_wake_up",
+      "files": {
+        "ig": "ig/phrases/wake_up.mp3",
+        "yo": "yo/phrases/wake_up.mp3",
+        "en": "en/phrases/wake_up.mp3"
+      }
+    },
+    {
+      "id": "p_go_to_sleep",
+      "files": {
+        "ig": "ig/phrases/go_to_sleep.mp3",
+        "yo": "yo/phrases/go_to_sleep.mp3",
+        "en": "en/phrases/go_to_sleep.mp3"
+      }
+    },
+    {
+      "id": "p_get_up",
+      "files": {
+        "ig": "ig/phrases/get_up.mp3",
+        "yo": "yo/phrases/get_up.mp3",
+        "en": "en/phrases/get_up.mp3"
+      }
+    },
+    {
+      "id": "p_sit_down",
+      "files": {
+        "ig": "ig/phrases/sit_down.mp3",
+        "yo": "yo/phrases/sit_down.mp3",
+        "en": "en/phrases/sit_down.mp3"
+      }
+    },
+    {
+      "id": "p_lie_down",
+      "files": {
+        "ig": "ig/phrases/lie_down.mp3",
+        "yo": "yo/phrases/lie_down.mp3",
+        "en": "en/phrases/lie_down.mp3"
+      }
+    },
+    {
+      "id": "p_walk_over_here",
+      "files": {
+        "ig": "ig/phrases/walk_over_here.mp3",
+        "yo": "yo/phrases/walk_over_here.mp3",
+        "en": "en/phrases/walk_over_here.mp3"
+      }
+    },
+    {
+      "id": "p_run_over_here",
+      "files": {
+        "ig": "ig/phrases/run_over_here.mp3",
+        "yo": "yo/phrases/run_over_here.mp3",
+        "en": "en/phrases/run_over_here.mp3"
+      }
+    },
+    {
+      "id": "p_go_away",
+      "files": {
+        "ig": "ig/phrases/go_away.mp3",
+        "yo": "yo/phrases/go_away.mp3",
+        "en": "en/phrases/go_away.mp3"
+      }
+    },
+    {
+      "id": "p_come_back",
+      "files": {
+        "ig": "ig/phrases/come_back.mp3",
+        "yo": "yo/phrases/come_back.mp3",
+        "en": "en/phrases/come_back.mp3"
+      }
+    },
+    {
+      "id": "p_pick_it_up",
+      "files": {
+        "ig": "ig/phrases/pick_it_up.mp3",
+        "yo": "yo/phrases/pick_it_up.mp3",
+        "en": "en/phrases/pick_it_up.mp3"
+      }
+    },
+    {
+      "id": "p_set_it_down",
+      "files": {
+        "ig": "ig/phrases/set_it_down.mp3",
+        "yo": "yo/phrases/set_it_down.mp3",
+        "en": "en/phrases/set_it_down.mp3"
+      }
+    },
+    {
+      "id": "p_put_that_thing_down",
+      "files": {
+        "ig": "ig/phrases/put_that_thing_down.mp3",
+        "yo": "yo/phrases/put_that_thing_down.mp3",
+        "en": "en/phrases/put_that_thing_down.mp3"
+      }
+    },
+    {
+      "id": "p_lift_that_thing_up",
+      "files": {
+        "ig": "ig/phrases/lift_that_thing_up.mp3",
+        "yo": "yo/phrases/lift_that_thing_up.mp3",
+        "en": "en/phrases/lift_that_thing_up.mp3"
+      }
+    },
+    {
+      "id": "p_take_it",
+      "files": {
+        "ig": "ig/phrases/take_it.mp3",
+        "yo": "yo/phrases/take_it.mp3",
+        "en": "en/phrases/take_it.mp3"
+      }
+    },
+    {
+      "id": "p_take_it_from_me",
+      "files": {
+        "ig": "ig/phrases/take_it_from_me.mp3",
+        "yo": "yo/phrases/take_it_from_me.mp3",
+        "en": "en/phrases/take_it_from_me.mp3"
+      }
+    },
+    {
+      "id": "p_take_it_from_them",
+      "files": {
+        "ig": "ig/phrases/take_it_from_them.mp3",
+        "yo": "yo/phrases/take_it_from_them.mp3",
+        "en": "en/phrases/take_it_from_them.mp3"
+      }
+    },
+    {
+      "id": "p_share_it_with_me",
+      "files": {
+        "ig": "ig/phrases/share_it_with_me.mp3",
+        "yo": "yo/phrases/share_it_with_me.mp3",
+        "en": "en/phrases/share_it_with_me.mp3"
+      }
+    },
+    {
+      "id": "p_share_it_with_someone_else",
+      "files": {
+        "ig": "ig/phrases/share_it_with_someone_else.mp3",
+        "yo": "yo/phrases/share_it_with_someone_else.mp3",
+        "en": "en/phrases/share_it_with_someone_else.mp3"
+      }
+    },
+    {
+      "id": "p_share_it_with_everyone",
+      "files": {
+        "ig": "ig/phrases/share_it_with_everyone.mp3",
+        "yo": "yo/phrases/share_it_with_everyone.mp3",
+        "en": "en/phrases/share_it_with_everyone.mp3"
+      }
+    },
+    {
+      "id": "p_share_it_with_us",
+      "files": {
+        "ig": "ig/phrases/share_it_with_us.mp3",
+        "yo": "yo/phrases/share_it_with_us.mp3",
+        "en": "en/phrases/share_it_with_us.mp3"
+      }
+    },
+    {
+      "id": "p_share_it_with_them",
+      "files": {
+        "ig": "ig/phrases/share_it_with_them.mp3",
+        "yo": "yo/phrases/share_it_with_them.mp3",
+        "en": "en/phrases/share_it_with_them.mp3"
+      }
+    },
+    {
+      "id": "p_let_us_have_it",
+      "files": {
+        "ig": "ig/phrases/let_us_have_it.mp3",
+        "yo": "yo/phrases/let_us_have_it.mp3",
+        "en": "en/phrases/let_us_have_it.mp3"
+      }
+    },
+    {
+      "id": "p_let_us_have_some",
+      "files": {
+        "ig": "ig/phrases/let_us_have_some.mp3",
+        "yo": "yo/phrases/let_us_have_some.mp3",
+        "en": "en/phrases/let_us_have_some.mp3"
+      }
+    },
+    {
+      "id": "p_give_it_to_me",
+      "files": {
+        "ig": "ig/phrases/give_it_to_me.mp3",
+        "yo": "yo/phrases/give_it_to_me.mp3",
+        "en": "en/phrases/give_it_to_me.mp3"
+      }
+    },
+    {
+      "id": "p_give_it_to_someone_else",
+      "files": {
+        "ig": "ig/phrases/give_it_to_someone_else.mp3",
+        "yo": "yo/phrases/give_it_to_someone_else.mp3",
+        "en": "en/phrases/give_it_to_someone_else.mp3"
+      }
+    },
+    {
+      "id": "p_give_it_to_everyone",
+      "files": {
+        "ig": "ig/phrases/give_it_to_everyone.mp3",
+        "yo": "yo/phrases/give_it_to_everyone.mp3",
+        "en": "en/phrases/give_it_to_everyone.mp3"
+      }
+    },
+    {
+      "id": "p_give_it_to_us",
+      "files": {
+        "ig": "ig/phrases/give_it_to_us.mp3",
+        "yo": "yo/phrases/give_it_to_us.mp3",
+        "en": "en/phrases/give_it_to_us.mp3"
+      }
+    },
+    {
+      "id": "p_give_it_to_them",
+      "files": {
+        "ig": "ig/phrases/give_it_to_them.mp3",
+        "yo": "yo/phrases/give_it_to_them.mp3",
+        "en": "en/phrases/give_it_to_them.mp3"
+      }
+    },
+    {
+      "id": "p_let_me_see_it",
+      "files": {
+        "ig": "ig/phrases/let_me_see_it.mp3",
+        "yo": "yo/phrases/let_me_see_it.mp3",
+        "en": "en/phrases/let_me_see_it.mp3"
+      }
+    },
+    {
+      "id": "p_show_it_to_me",
+      "files": {
+        "ig": "ig/phrases/show_it_to_me.mp3",
+        "yo": "yo/phrases/show_it_to_me.mp3",
+        "en": "en/phrases/show_it_to_me.mp3"
+      }
+    },
+    {
+      "id": "p_let_me_have_a_look_at_it",
+      "files": {
+        "ig": "ig/phrases/let_me_have_a_look_at_it.mp3",
+        "yo": "yo/phrases/let_me_have_a_look_at_it.mp3",
+        "en": "en/phrases/let_me_have_a_look_at_it.mp3"
+      }
+    },
+    {
+      "id": "p_show_it_to_someone_else",
+      "files": {
+        "ig": "ig/phrases/show_it_to_someone_else.mp3",
+        "yo": "yo/phrases/show_it_to_someone_else.mp3",
+        "en": "en/phrases/show_it_to_someone_else.mp3"
+      }
+    },
+    {
+      "id": "p_let_someone_else_have_a_look_at_it",
+      "files": {
+        "ig": "ig/phrases/let_someone_else_have_a_look_at_it.mp3",
+        "yo": "yo/phrases/let_someone_else_have_a_look_at_it.mp3",
+        "en": "en/phrases/let_someone_else_have_a_look_at_it.mp3"
+      }
+    },
+    {
+      "id": "p_let_everyone_have_a_look_at_it",
+      "files": {
+        "ig": "ig/phrases/let_everyone_have_a_look_at_it.mp3",
+        "yo": "yo/phrases/let_everyone_have_a_look_at_it.mp3",
+        "en": "en/phrases/let_everyone_have_a_look_at_it.mp3"
+      }
+    },
+    {
+      "id": "p_let_us_have_a_look_at_it",
+      "files": {
+        "ig": "ig/phrases/let_us_have_a_look_at_it.mp3",
+        "yo": "yo/phrases/let_us_have_a_look_at_it.mp3",
+        "en": "en/phrases/let_us_have_a_look_at_it.mp3"
+      }
+    },
+    {
+      "id": "p_let_them_have_a_look_at_it",
+      "files": {
+        "ig": "ig/phrases/let_them_have_a_look_at_it.mp3",
+        "yo": "yo/phrases/let_them_have_a_look_at_it.mp3",
+        "en": "en/phrases/let_them_have_a_look_at_it.mp3"
+      }
+    },
+    {
+      "id": "p_be_quick",
+      "files": {
+        "ig": "ig/phrases/be_quick.mp3",
+        "yo": "yo/phrases/be_quick.mp3",
+        "en": "en/phrases/be_quick.mp3"
+      }
+    },
+    {
+      "id": "p_be_slow",
+      "files": {
+        "ig": "ig/phrases/be_slow.mp3",
+        "yo": "yo/phrases/be_slow.mp3",
+        "en": "en/phrases/be_slow.mp3"
+      }
+    },
+    {
+      "id": "p_do_it_faster",
+      "files": {
+        "ig": "ig/phrases/do_it_faster.mp3",
+        "yo": "yo/phrases/do_it_faster.mp3",
+        "en": "en/phrases/do_it_faster.mp3"
+      }
+    },
+    {
+      "id": "p_do_it_slower",
+      "files": {
+        "ig": "ig/phrases/do_it_slower.mp3",
+        "yo": "yo/phrases/do_it_slower.mp3",
+        "en": "en/phrases/do_it_slower.mp3"
+      }
+    },
+    {
+      "id": "p_hurry_up_there_is_not_much_time",
+      "files": {
+        "ig": "ig/phrases/hurry_up_there_is_not_much_time.mp3",
+        "yo": "yo/phrases/hurry_up_there_is_not_much_time.mp3",
+        "en": "en/phrases/hurry_up_there_is_not_much_time.mp3"
+      }
+    },
+    {
+      "id": "p_slow_down",
+      "files": {
+        "ig": "ig/phrases/slow_down.mp3",
+        "yo": "yo/phrases/slow_down.mp3",
+        "en": "en/phrases/slow_down.mp3"
+      }
+    },
+    {
+      "id": "p_be_careful",
+      "files": {
+        "ig": "ig/phrases/be_careful.mp3",
+        "yo": "yo/phrases/be_careful.mp3",
+        "en": "en/phrases/be_careful.mp3"
+      }
+    },
+    {
+      "id": "p_look_up",
+      "files": {
+        "ig": "ig/phrases/look_up.mp3",
+        "yo": "yo/phrases/look_up.mp3",
+        "en": "en/phrases/look_up.mp3"
+      }
+    },
+    {
+      "id": "p_look_down",
+      "files": {
+        "ig": "ig/phrases/look_down.mp3",
+        "yo": "yo/phrases/look_down.mp3",
+        "en": "en/phrases/look_down.mp3"
+      }
+    },
+    {
+      "id": "p_look_around",
+      "files": {
+        "ig": "ig/phrases/look_around.mp3",
+        "yo": "yo/phrases/look_around.mp3",
+        "en": "en/phrases/look_around.mp3"
+      }
+    },
+    {
+      "id": "p_look_behind_you",
+      "files": {
+        "ig": "ig/phrases/look_behind_you.mp3",
+        "yo": "yo/phrases/look_behind_you.mp3",
+        "en": "en/phrases/look_behind_you.mp3"
+      }
+    },
+    {
+      "id": "p_look_at_that",
+      "files": {
+        "ig": "ig/phrases/look_at_that.mp3",
+        "yo": "yo/phrases/look_at_that.mp3",
+        "en": "en/phrases/look_at_that.mp3"
+      }
+    },
+    {
+      "id": "p_look_at_me",
+      "files": {
+        "ig": "ig/phrases/look_at_me.mp3",
+        "yo": "yo/phrases/look_at_me.mp3",
+        "en": "en/phrases/look_at_me.mp3"
+      }
+    },
+    {
+      "id": "p_look_at_this",
+      "files": {
+        "ig": "ig/phrases/look_at_this.mp3",
+        "yo": "yo/phrases/look_at_this.mp3",
+        "en": "en/phrases/look_at_this.mp3"
+      }
+    },
+    {
+      "id": "p_watch_out",
+      "files": {
+        "ig": "ig/phrases/watch_out.mp3",
+        "yo": "yo/phrases/watch_out.mp3",
+        "en": "en/phrases/watch_out.mp3"
+      }
+    },
+    {
+      "id": "p_bring_me_the",
+      "files": {
+        "ig": "ig/phrases/bring_me_the.mp3",
+        "yo": "yo/phrases/bring_me_the.mp3",
+        "en": "en/phrases/bring_me_the.mp3"
+      }
+    },
+    {
+      "id": "p_can_you_go_get_it",
+      "files": {
+        "ig": "ig/phrases/can_you_go_get_it.mp3",
+        "yo": "yo/phrases/can_you_go_get_it.mp3",
+        "en": "en/phrases/can_you_go_get_it.mp3"
+      }
+    },
+    {
+      "id": "p_take_it_away",
+      "files": {
+        "ig": "ig/phrases/take_it_away.mp3",
+        "yo": "yo/phrases/take_it_away.mp3",
+        "en": "en/phrases/take_it_away.mp3"
+      }
+    },
+    {
+      "id": "p_look_for_it",
+      "files": {
+        "ig": "ig/phrases/look_for_it.mp3",
+        "yo": "yo/phrases/look_for_it.mp3",
+        "en": "en/phrases/look_for_it.mp3"
+      }
+    },
+    {
+      "id": "p_pick_it_up_again",
+      "files": {
+        "ig": "ig/phrases/pick_it_up_again.mp3",
+        "yo": "yo/phrases/pick_it_up_again.mp3",
+        "en": "en/phrases/pick_it_up_again.mp3"
+      }
+    },
+    {
+      "id": "p_put_it_down_again",
+      "files": {
+        "ig": "ig/phrases/put_it_down_again.mp3",
+        "yo": "yo/phrases/put_it_down_again.mp3",
+        "en": "en/phrases/put_it_down_again.mp3"
+      }
+    },
+    {
+      "id": "p_move_it_over_here",
+      "files": {
+        "ig": "ig/phrases/move_it_over_here.mp3",
+        "yo": "yo/phrases/move_it_over_here.mp3",
+        "en": "en/phrases/move_it_over_here.mp3"
+      }
+    },
+    {
+      "id": "p_put_it_over_there",
+      "files": {
+        "ig": "ig/phrases/put_it_over_there.mp3",
+        "yo": "yo/phrases/put_it_over_there.mp3",
+        "en": "en/phrases/put_it_over_there.mp3"
+      }
+    },
+    {
+      "id": "p_move_it_over_there",
+      "files": {
+        "ig": "ig/phrases/move_it_over_there.mp3",
+        "yo": "yo/phrases/move_it_over_there.mp3",
+        "en": "en/phrases/move_it_over_there.mp3"
+      }
+    },
+    {
+      "id": "p_why",
+      "files": {
+        "ig": "ig/phrases/why.mp3",
+        "en": "en/phrases/why.mp3"
+      }
+    },
+    {
+      "id": "p_when",
+      "files": {
+        "ig": "ig/phrases/when.mp3",
+        "en": "en/phrases/when.mp3"
+      }
+    },
+    {
+      "id": "p_where",
+      "files": {
+        "ig": "ig/phrases/where.mp3",
+        "en": "en/phrases/where.mp3"
+      }
+    },
+    {
+      "id": "p_how",
+      "files": {
+        "ig": "ig/phrases/how.mp3",
+        "en": "en/phrases/how.mp3"
+      }
+    },
+    {
+      "id": "p_which",
+      "files": {
+        "ig": "ig/phrases/which.mp3",
+        "en": "en/phrases/which.mp3"
+      }
+    },
+    {
+      "id": "p_who",
+      "files": {
+        "ig": "ig/phrases/who.mp3",
+        "en": "en/phrases/who.mp3"
+      }
+    },
+    {
+      "id": "p_what",
+      "files": {
+        "ig": "ig/phrases/what.mp3",
+        "en": "en/phrases/what.mp3"
+      }
+    },
+    {
+      "id": "p_where_is_it",
+      "files": {
+        "ig": "ig/phrases/where_is_it.mp3",
+        "en": "en/phrases/where_is_it.mp3"
+      }
+    },
+    {
+      "id": "p_who_is_it",
+      "files": {
+        "ig": "ig/phrases/who_is_it.mp3",
+        "en": "en/phrases/who_is_it.mp3"
+      }
+    },
+    {
+      "id": "p_how_many",
+      "files": {
+        "ig": "ig/phrases/how_many.mp3",
+        "en": "en/phrases/how_many.mp3"
+      }
+    },
+    {
+      "id": "w_village",
+      "files": {
+        "ig": "ig/words/village.mp3",
+        "yo": "yo/words/village.mp3",
+        "en": "en/words/village.mp3"
+      }
+    },
+    {
+      "id": "w_farm",
+      "files": {
+        "ig": "ig/words/farm.mp3",
+        "yo": "yo/words/farm.mp3",
+        "en": "en/words/farm.mp3"
+      }
+    },
+    {
+      "id": "w_land",
+      "files": {
+        "ig": "ig/words/land.mp3",
+        "yo": "yo/words/land.mp3",
+        "en": "en/words/land.mp3"
+      }
+    },
+    {
+      "id": "w_soil",
+      "files": {
+        "ig": "ig/words/soil.mp3",
+        "yo": "yo/words/soil.mp3",
+        "en": "en/words/soil.mp3"
+      }
+    },
+    {
+      "id": "w_river",
+      "files": {
+        "ig": "ig/words/river.mp3",
+        "yo": "yo/words/river.mp3",
+        "en": "en/words/river.mp3"
+      }
+    },
+    {
+      "id": "w_sea",
+      "files": {
+        "ig": "ig/words/sea.mp3",
+        "yo": "yo/words/sea.mp3",
+        "en": "en/words/sea.mp3"
+      }
+    },
+    {
+      "id": "w_well",
+      "files": {
+        "ig": "ig/words/well.mp3",
+        "yo": "yo/words/well.mp3",
+        "en": "en/words/well.mp3"
+      }
+    },
+    {
+      "id": "w_road",
+      "files": {
+        "ig": "ig/words/road.mp3",
+        "yo": "yo/words/road.mp3",
+        "en": "en/words/road.mp3"
+      }
+    },
+    {
+      "id": "w_forest",
+      "files": {
+        "ig": "ig/words/forest.mp3",
+        "yo": "yo/words/forest.mp3",
+        "en": "en/words/forest.mp3"
+      }
+    },
+    {
+      "id": "w_hill",
+      "files": {
+        "ig": "ig/words/hill.mp3",
+        "yo": "yo/words/hill.mp3",
+        "en": "en/words/hill.mp3"
+      }
+    },
+    {
+      "id": "w_stone",
+      "files": {
+        "ig": "ig/words/stone.mp3",
+        "yo": "yo/words/stone.mp3",
+        "en": "en/words/stone.mp3"
+      }
+    },
+    {
+      "id": "w_bridge",
+      "files": {
+        "ig": "ig/words/bridge.mp3",
+        "yo": "yo/words/bridge.mp3",
+        "en": "en/words/bridge.mp3"
+      }
+    },
+    {
+      "id": "w_hole",
+      "files": {
+        "ig": "ig/words/hole.mp3",
+        "yo": "yo/words/hole.mp3",
+        "en": "en/words/hole.mp3"
+      }
+    },
+    {
+      "id": "w_roof",
+      "files": {
+        "ig": "ig/words/roof.mp3",
+        "yo": "yo/words/roof.mp3",
+        "en": "en/words/roof.mp3"
+      }
+    },
+    {
+      "id": "w_wall",
+      "files": {
+        "ig": "ig/words/wall.mp3",
+        "yo": "yo/words/wall.mp3",
+        "en": "en/words/wall.mp3"
+      }
+    },
+    {
+      "id": "w_door",
+      "files": {
+        "ig": "ig/words/door.mp3",
+        "yo": "yo/words/door.mp3",
+        "en": "en/words/door.mp3"
+      }
+    },
+    {
+      "id": "w_window",
+      "files": {
+        "ig": "ig/words/window.mp3",
+        "yo": "yo/words/window.mp3",
+        "en": "en/words/window.mp3"
+      }
+    },
+    {
+      "id": "w_kitchen",
+      "files": {
+        "ig": "ig/words/kitchen.mp3",
+        "yo": "yo/words/kitchen.mp3",
+        "en": "en/words/kitchen.mp3"
+      }
+    },
+    {
+      "id": "w_firewood",
+      "files": {
+        "ig": "ig/words/firewood.mp3",
+        "yo": "yo/words/firewood.mp3",
+        "en": "en/words/firewood.mp3"
+      }
+    },
+    {
+      "id": "w_smoke",
+      "files": {
+        "ig": "ig/words/smoke.mp3",
+        "yo": "yo/words/smoke.mp3",
+        "en": "en/words/smoke.mp3"
+      }
+    },
+    {
+      "id": "w_bed",
+      "files": {
+        "ig": "ig/words/bed.mp3",
+        "yo": "yo/words/bed.mp3",
+        "en": "en/words/bed.mp3"
+      }
+    },
+    {
+      "id": "w_chair",
+      "files": {
+        "ig": "ig/words/chair.mp3",
+        "yo": "yo/words/chair.mp3",
+        "en": "en/words/chair.mp3"
+      }
+    },
+    {
+      "id": "w_table",
+      "files": {
+        "ig": "ig/words/table.mp3",
+        "yo": "yo/words/table.mp3",
+        "en": "en/words/table.mp3"
+      }
+    },
+    {
+      "id": "w_cup",
+      "files": {
+        "ig": "ig/words/cup.mp3",
+        "yo": "yo/words/cup.mp3",
+        "en": "en/words/cup.mp3"
+      }
+    },
+    {
+      "id": "w_plate",
+      "files": {
+        "ig": "ig/words/plate.mp3",
+        "yo": "yo/words/plate.mp3",
+        "en": "en/words/plate.mp3"
+      }
+    },
+    {
+      "id": "w_pot",
+      "files": {
+        "ig": "ig/words/pot.mp3",
+        "yo": "yo/words/pot.mp3",
+        "en": "en/words/pot.mp3"
+      }
+    },
+    {
+      "id": "w_basket",
+      "files": {
+        "ig": "ig/words/basket.mp3",
+        "yo": "yo/words/basket.mp3",
+        "en": "en/words/basket.mp3"
+      }
+    },
+    {
+      "id": "w_mat",
+      "files": {
+        "ig": "ig/words/mat.mp3",
+        "yo": "yo/words/mat.mp3",
+        "en": "en/words/mat.mp3"
+      }
+    },
+    {
+      "id": "w_broom",
+      "files": {
+        "ig": "ig/words/broom.mp3",
+        "yo": "yo/words/broom.mp3",
+        "en": "en/words/broom.mp3"
+      }
+    },
+    {
+      "id": "w_mortar",
+      "files": {
+        "ig": "ig/words/mortar.mp3",
+        "yo": "yo/words/mortar.mp3",
+        "en": "en/words/mortar.mp3"
+      }
+    },
+    {
+      "id": "w_bag",
+      "files": {
+        "ig": "ig/words/bag.mp3",
+        "yo": "yo/words/bag.mp3",
+        "en": "en/words/bag.mp3"
+      }
+    },
+    {
+      "id": "w_box",
+      "files": {
+        "ig": "ig/words/box.mp3",
+        "yo": "yo/words/box.mp3",
+        "en": "en/words/box.mp3"
+      }
+    },
+    {
+      "id": "w_cloth",
+      "files": {
+        "ig": "ig/words/cloth.mp3",
+        "yo": "yo/words/cloth.mp3",
+        "en": "en/words/cloth.mp3"
+      }
+    },
+    {
+      "id": "w_hoe",
+      "files": {
+        "ig": "ig/words/hoe.mp3",
+        "yo": "yo/words/hoe.mp3",
+        "en": "en/words/hoe.mp3"
+      }
+    },
+    {
+      "id": "w_machete",
+      "files": {
+        "ig": "ig/words/machete.mp3",
+        "yo": "yo/words/machete.mp3",
+        "en": "en/words/machete.mp3"
+      }
+    },
+    {
+      "id": "w_gun",
+      "files": {
+        "ig": "ig/words/gun.mp3",
+        "yo": "yo/words/gun.mp3",
+        "en": "en/words/gun.mp3"
+      }
+    },
+    {
+      "id": "w_gold",
+      "files": {
+        "ig": "ig/words/gold.mp3",
+        "yo": "yo/words/gold.mp3",
+        "en": "en/words/gold.mp3"
+      }
+    },
+    {
+      "id": "w_iron",
+      "files": {
+        "ig": "ig/words/iron.mp3",
+        "yo": "yo/words/iron.mp3",
+        "en": "en/words/iron.mp3"
+      }
+    },
+    {
+      "id": "w_boat",
+      "files": {
+        "ig": "ig/words/boat.mp3",
+        "yo": "yo/words/boat.mp3",
+        "en": "en/words/boat.mp3"
+      }
+    },
+    {
+      "id": "w_family",
+      "files": {
+        "ig": "ig/words/family.mp3",
+        "yo": "yo/words/family.mp3",
+        "en": "en/words/family.mp3"
+      }
+    },
+    {
+      "id": "w_baby",
+      "files": {
+        "ig": "ig/words/baby.mp3",
+        "yo": "yo/words/baby.mp3",
+        "en": "en/words/baby.mp3"
+      }
+    },
+    {
+      "id": "w_boy",
+      "files": {
+        "ig": "ig/words/boy.mp3",
+        "yo": "yo/words/boy.mp3",
+        "en": "en/words/boy.mp3"
+      }
+    },
+    {
+      "id": "w_girl",
+      "files": {
+        "ig": "ig/words/girl.mp3",
+        "yo": "yo/words/girl.mp3",
+        "en": "en/words/girl.mp3"
+      }
+    },
+    {
+      "id": "w_brother",
+      "files": {
+        "ig": "ig/words/brother.mp3",
+        "yo": "yo/words/brother.mp3",
+        "en": "en/words/brother.mp3"
+      }
+    },
+    {
+      "id": "w_sister",
+      "files": {
+        "ig": "ig/words/sister.mp3",
+        "yo": "yo/words/sister.mp3",
+        "en": "en/words/sister.mp3"
+      }
+    },
+    {
+      "id": "w_husband",
+      "files": {
+        "ig": "ig/words/husband.mp3",
+        "yo": "yo/words/husband.mp3",
+        "en": "en/words/husband.mp3"
+      }
+    },
+    {
+      "id": "w_wife",
+      "files": {
+        "ig": "ig/words/wife.mp3",
+        "yo": "yo/words/wife.mp3",
+        "en": "en/words/wife.mp3"
+      }
+    },
+    {
+      "id": "w_elder",
+      "files": {
+        "ig": "ig/words/elder.mp3",
+        "yo": "yo/words/elder.mp3",
+        "en": "en/words/elder.mp3"
+      }
+    },
+    {
+      "id": "w_chief",
+      "files": {
+        "ig": "ig/words/chief.mp3",
+        "yo": "yo/words/chief.mp3",
+        "en": "en/words/chief.mp3"
+      }
+    },
+    {
+      "id": "w_king",
+      "files": {
+        "ig": "ig/words/king.mp3",
+        "yo": "yo/words/king.mp3",
+        "en": "en/words/king.mp3"
+      }
+    },
+    {
+      "id": "w_queen",
+      "files": {
+        "ig": "ig/words/queen.mp3",
+        "yo": "yo/words/queen.mp3",
+        "en": "en/words/queen.mp3"
+      }
+    },
+    {
+      "id": "w_farmer",
+      "files": {
+        "ig": "ig/words/farmer.mp3",
+        "yo": "yo/words/farmer.mp3",
+        "en": "en/words/farmer.mp3"
+      }
+    },
+    {
+      "id": "w_hunter",
+      "files": {
+        "ig": "ig/words/hunter.mp3",
+        "yo": "yo/words/hunter.mp3",
+        "en": "en/words/hunter.mp3"
+      }
+    },
+    {
+      "id": "w_teacher",
+      "files": {
+        "ig": "ig/words/teacher.mp3",
+        "yo": "yo/words/teacher.mp3",
+        "en": "en/words/teacher.mp3"
+      }
+    },
+    {
+      "id": "w_church",
+      "files": {
+        "ig": "ig/words/church.mp3",
+        "yo": "yo/words/church.mp3",
+        "en": "en/words/church.mp3"
+      }
+    },
+    {
+      "id": "w_god",
+      "files": {
+        "ig": "ig/words/god.mp3",
+        "yo": "yo/words/god.mp3",
+        "en": "en/words/god.mp3"
+      }
+    },
+    {
+      "id": "w_song",
+      "files": {
+        "ig": "ig/words/song.mp3",
+        "yo": "yo/words/song.mp3",
+        "en": "en/words/song.mp3"
+      }
+    },
+    {
+      "id": "w_drum",
+      "files": {
+        "ig": "ig/words/drum.mp3",
+        "yo": "yo/words/drum.mp3",
+        "en": "en/words/drum.mp3"
+      }
+    },
+    {
+      "id": "w_masquerade",
+      "files": {
+        "ig": "ig/words/masquerade.mp3",
+        "yo": "yo/words/masquerade.mp3",
+        "en": "en/words/masquerade.mp3"
+      }
+    },
+    {
+      "id": "w_festival",
+      "files": {
+        "ig": "ig/words/festival.mp3",
+        "yo": "yo/words/festival.mp3",
+        "en": "en/words/festival.mp3"
+      }
+    },
+    {
+      "id": "w_kola_nut",
+      "files": {
+        "ig": "ig/words/kola_nut.mp3",
+        "yo": "yo/words/kola_nut.mp3",
+        "en": "en/words/kola_nut.mp3"
+      }
+    },
+    {
+      "id": "w_peace",
+      "files": {
+        "ig": "ig/words/peace.mp3",
+        "yo": "yo/words/peace.mp3",
+        "en": "en/words/peace.mp3"
+      }
+    },
+    {
+      "id": "w_war",
+      "files": {
+        "ig": "ig/words/war.mp3",
+        "yo": "yo/words/war.mp3",
+        "en": "en/words/war.mp3"
+      }
+    },
+    {
+      "id": "w_animal",
+      "files": {
+        "ig": "ig/words/animal.mp3",
+        "yo": "yo/words/animal.mp3",
+        "en": "en/words/animal.mp3"
+      }
+    },
+    {
+      "id": "w_horse",
+      "files": {
+        "ig": "ig/words/horse.mp3",
+        "yo": "yo/words/horse.mp3",
+        "en": "en/words/horse.mp3"
+      }
+    },
+    {
+      "id": "w_sheep",
+      "files": {
+        "ig": "ig/words/sheep.mp3",
+        "yo": "yo/words/sheep.mp3",
+        "en": "en/words/sheep.mp3"
+      }
+    },
+    {
+      "id": "w_pig",
+      "files": {
+        "ig": "ig/words/pig.mp3",
+        "yo": "yo/words/pig.mp3",
+        "en": "en/words/pig.mp3"
+      }
+    },
+    {
+      "id": "w_snake",
+      "files": {
+        "ig": "ig/words/snake.mp3",
+        "yo": "yo/words/snake.mp3",
+        "en": "en/words/snake.mp3"
+      }
+    },
+    {
+      "id": "w_rat",
+      "files": {
+        "ig": "ig/words/rat.mp3",
+        "yo": "yo/words/rat.mp3",
+        "en": "en/words/rat.mp3"
+      }
+    },
+    {
+      "id": "w_meat",
+      "files": {
+        "ig": "ig/words/meat.mp3",
+        "yo": "yo/words/meat.mp3",
+        "en": "en/words/meat.mp3"
+      }
+    },
+    {
+      "id": "w_milk",
+      "files": {
+        "ig": "ig/words/milk.mp3",
+        "yo": "yo/words/milk.mp3",
+        "en": "en/words/milk.mp3"
+      }
+    },
+    {
+      "id": "w_palm_oil",
+      "files": {
+        "ig": "ig/words/palm_oil.mp3",
+        "yo": "yo/words/palm_oil.mp3",
+        "en": "en/words/palm_oil.mp3"
+      }
+    },
+    {
+      "id": "w_bread",
+      "files": {
+        "ig": "ig/words/bread.mp3",
+        "yo": "yo/words/bread.mp3",
+        "en": "en/words/bread.mp3"
+      }
+    },
+    {
+      "id": "w_fruit",
+      "files": {
+        "ig": "ig/words/fruit.mp3",
+        "yo": "yo/words/fruit.mp3",
+        "en": "en/words/fruit.mp3"
+      }
+    },
+    {
+      "id": "w_cassava",
+      "files": {
+        "ig": "ig/words/cassava.mp3",
+        "yo": "yo/words/cassava.mp3",
+        "en": "en/words/cassava.mp3"
+      }
+    },
+    {
+      "id": "w_maize",
+      "files": {
+        "ig": "ig/words/maize.mp3",
+        "yo": "yo/words/maize.mp3",
+        "en": "en/words/maize.mp3"
+      }
+    },
+    {
+      "id": "w_pepper",
+      "files": {
+        "ig": "ig/words/pepper.mp3",
+        "yo": "yo/words/pepper.mp3",
+        "en": "en/words/pepper.mp3"
+      }
+    },
+    {
+      "id": "w_beans",
+      "files": {
+        "ig": "ig/words/beans.mp3",
+        "yo": "yo/words/beans.mp3",
+        "en": "en/words/beans.mp3"
+      }
+    },
+    {
+      "id": "w_palm_wine",
+      "files": {
+        "ig": "ig/words/palm_wine.mp3",
+        "yo": "yo/words/palm_wine.mp3",
+        "en": "en/words/palm_wine.mp3"
+      }
+    },
+    {
+      "id": "w_palm_tree",
+      "files": {
+        "ig": "ig/words/palm_tree.mp3",
+        "yo": "yo/words/palm_tree.mp3",
+        "en": "en/words/palm_tree.mp3"
+      }
+    },
+    {
+      "id": "w_star",
+      "files": {
+        "ig": "ig/words/star.mp3",
+        "yo": "yo/words/star.mp3",
+        "en": "en/words/star.mp3"
+      }
+    },
+    {
+      "id": "w_sky",
+      "files": {
+        "ig": "ig/words/sky.mp3",
+        "yo": "yo/words/sky.mp3",
+        "en": "en/words/sky.mp3"
+      }
+    },
+    {
+      "id": "w_wind",
+      "files": {
+        "ig": "ig/words/wind.mp3",
+        "yo": "yo/words/wind.mp3",
+        "en": "en/words/wind.mp3"
+      }
+    },
+    {
+      "id": "w_morning",
+      "files": {
+        "ig": "ig/words/morning.mp3",
+        "yo": "yo/words/morning.mp3",
+        "en": "en/words/morning.mp3"
+      }
+    },
+    {
+      "id": "w_say",
+      "files": {
+        "ig": "ig/words/say.mp3",
+        "yo": "yo/words/say.mp3",
+        "en": "en/words/say.mp3"
+      }
+    },
+    {
+      "id": "w_tell",
+      "files": {
+        "ig": "ig/words/tell.mp3",
+        "yo": "yo/words/tell.mp3",
+        "en": "en/words/tell.mp3"
+      }
+    },
+    {
+      "id": "w_ask",
+      "files": {
+        "ig": "ig/words/ask.mp3",
+        "yo": "yo/words/ask.mp3",
+        "en": "en/words/ask.mp3"
+      }
+    },
+    {
+      "id": "w_speak",
+      "files": {
+        "ig": "ig/words/speak.mp3",
+        "yo": "yo/words/speak.mp3",
+        "en": "en/words/speak.mp3"
+      }
+    },
+    {
+      "id": "w_talk",
+      "files": {
+        "ig": "ig/words/talk.mp3",
+        "yo": "yo/words/talk.mp3",
+        "en": "en/words/talk.mp3"
+      }
+    },
+    {
+      "id": "w_shout",
+      "files": {
+        "ig": "ig/words/shout.mp3",
+        "yo": "yo/words/shout.mp3",
+        "en": "en/words/shout.mp3"
+      }
+    },
+    {
+      "id": "w_whisper",
+      "files": {
+        "ig": "ig/words/whisper.mp3",
+        "yo": "yo/words/whisper.mp3",
+        "en": "en/words/whisper.mp3"
+      }
+    },
+    {
+      "id": "w_cry",
+      "files": {
+        "ig": "ig/words/cry.mp3",
+        "yo": "yo/words/cry.mp3",
+        "en": "en/words/cry.mp3"
+      }
+    },
+    {
+      "id": "w_laugh",
+      "files": {
+        "ig": "ig/words/laugh.mp3",
+        "yo": "yo/words/laugh.mp3",
+        "en": "en/words/laugh.mp3"
+      }
+    },
+    {
+      "id": "w_smile",
+      "files": {
+        "ig": "ig/words/smile.mp3",
+        "yo": "yo/words/smile.mp3",
+        "en": "en/words/smile.mp3"
+      }
+    },
+    {
+      "id": "w_think",
+      "files": {
+        "ig": "ig/words/think.mp3",
+        "yo": "yo/words/think.mp3",
+        "en": "en/words/think.mp3"
+      }
+    },
+    {
+      "id": "w_know",
+      "files": {
+        "ig": "ig/words/know.mp3",
+        "yo": "yo/words/know.mp3",
+        "en": "en/words/know.mp3"
+      }
+    },
+    {
+      "id": "w_believe",
+      "files": {
+        "ig": "ig/words/believe.mp3",
+        "yo": "yo/words/believe.mp3",
+        "en": "en/words/believe.mp3"
+      }
+    },
+    {
+      "id": "w_understand",
+      "files": {
+        "ig": "ig/words/understand.mp3",
+        "yo": "yo/words/understand.mp3",
+        "en": "en/words/understand.mp3"
+      }
+    },
+    {
+      "id": "w_remember",
+      "files": {
+        "ig": "ig/words/remember.mp3",
+        "yo": "yo/words/remember.mp3",
+        "en": "en/words/remember.mp3"
+      }
+    },
+    {
+      "id": "w_forget",
+      "files": {
+        "ig": "ig/words/forget.mp3",
+        "yo": "yo/words/forget.mp3",
+        "en": "en/words/forget.mp3"
+      }
+    },
+    {
+      "id": "w_mean",
+      "files": {
+        "ig": "ig/words/mean.mp3",
+        "yo": "yo/words/mean.mp3",
+        "en": "en/words/mean.mp3"
+      }
+    },
+    {
+      "id": "w_suppose",
+      "files": {
+        "ig": "ig/words/suppose.mp3",
+        "yo": "yo/words/suppose.mp3",
+        "en": "en/words/suppose.mp3"
+      }
+    },
+    {
+      "id": "w_guess",
+      "files": {
+        "ig": "ig/words/guess.mp3",
+        "yo": "yo/words/guess.mp3",
+        "en": "en/words/guess.mp3"
+      }
+    },
+    {
+      "id": "w_wonder",
+      "files": {
+        "ig": "ig/words/wonder.mp3",
+        "yo": "yo/words/wonder.mp3",
+        "en": "en/words/wonder.mp3"
+      }
+    },
+    {
+      "id": "w_agree",
+      "files": {
+        "ig": "ig/words/agree.mp3",
+        "yo": "yo/words/agree.mp3",
+        "en": "en/words/agree.mp3"
+      }
+    },
+    {
+      "id": "w_disagree",
+      "files": {
+        "ig": "ig/words/disagree.mp3",
+        "yo": "yo/words/disagree.mp3",
+        "en": "en/words/disagree.mp3"
+      }
+    },
+    {
+      "id": "w_promise",
+      "files": {
+        "ig": "ig/words/promise.mp3",
+        "yo": "yo/words/promise.mp3",
+        "en": "en/words/promise.mp3"
+      }
+    },
+    {
+      "id": "w_admit",
+      "files": {
+        "ig": "ig/words/admit.mp3",
+        "yo": "yo/words/admit.mp3",
+        "en": "en/words/admit.mp3"
+      }
+    },
+    {
+      "id": "w_deny",
+      "files": {
+        "ig": "ig/words/deny.mp3",
+        "yo": "yo/words/deny.mp3",
+        "en": "en/words/deny.mp3"
+      }
+    },
+    {
+      "id": "w_refuse",
+      "files": {
+        "ig": "ig/words/refuse.mp3",
+        "yo": "yo/words/refuse.mp3",
+        "en": "en/words/refuse.mp3"
+      }
+    },
+    {
+      "id": "w_explain",
+      "files": {
+        "ig": "ig/words/explain.mp3",
+        "yo": "yo/words/explain.mp3",
+        "en": "en/words/explain.mp3"
+      }
+    },
+    {
+      "id": "w_describe",
+      "files": {
+        "ig": "ig/words/describe.mp3",
+        "yo": "yo/words/describe.mp3",
+        "en": "en/words/describe.mp3"
+      }
+    },
+    {
+      "id": "w_suggest",
+      "files": {
+        "ig": "ig/words/suggest.mp3",
+        "yo": "yo/words/suggest.mp3",
+        "en": "en/words/suggest.mp3"
+      }
+    },
+    {
+      "id": "w_warn",
+      "files": {
+        "ig": "ig/words/warn.mp3",
+        "yo": "yo/words/warn.mp3",
+        "en": "en/words/warn.mp3"
+      }
+    },
+    {
+      "id": "w_write",
+      "files": {
+        "ig": "ig/words/write.mp3",
+        "yo": "yo/words/write.mp3",
+        "en": "en/words/write.mp3"
+      }
+    },
+    {
+      "id": "w_spell",
+      "files": {
+        "ig": "ig/words/spell.mp3",
+        "yo": "yo/words/spell.mp3",
+        "en": "en/words/spell.mp3"
+      }
+    },
+    {
+      "id": "w_translate",
+      "files": {
+        "ig": "ig/words/translate.mp3",
+        "yo": "yo/words/translate.mp3",
+        "en": "en/words/translate.mp3"
+      }
+    },
+    {
+      "id": "w_print",
+      "files": {
+        "ig": "ig/words/print.mp3",
+        "yo": "yo/words/print.mp3",
+        "en": "en/words/print.mp3"
+      }
+    },
+    {
+      "id": "w_publish",
+      "files": {
+        "ig": "ig/words/publish.mp3",
+        "yo": "yo/words/publish.mp3",
+        "en": "en/words/publish.mp3"
+      }
+    },
+    {
+      "id": "w_sign",
+      "files": {
+        "ig": "ig/words/sign.mp3",
+        "yo": "yo/words/sign.mp3",
+        "en": "en/words/sign.mp3"
+      }
+    },
+    {
+      "id": "w_note",
+      "files": {
+        "ig": "ig/words/note.mp3",
+        "yo": "yo/words/note.mp3",
+        "en": "en/words/note.mp3"
+      }
+    },
+    {
+      "id": "w_discuss",
+      "files": {
+        "ig": "ig/words/discuss.mp3",
+        "yo": "yo/words/discuss.mp3",
+        "en": "en/words/discuss.mp3"
+      }
+    },
+    {
+      "id": "w_debate",
+      "files": {
+        "ig": "ig/words/debate.mp3",
+        "yo": "yo/words/debate.mp3",
+        "en": "en/words/debate.mp3"
+      }
+    },
+    {
+      "id": "w_learn",
+      "files": {
+        "ig": "ig/words/learn.mp3",
+        "yo": "yo/words/learn.mp3",
+        "en": "en/words/learn.mp3"
+      }
+    },
+    {
+      "id": "w_teach",
+      "files": {
+        "ig": "ig/words/teach.mp3",
+        "yo": "yo/words/teach.mp3",
+        "en": "en/words/teach.mp3"
+      }
+    },
+    {
+      "id": "w_study",
+      "files": {
+        "ig": "ig/words/study.mp3",
+        "yo": "yo/words/study.mp3",
+        "en": "en/words/study.mp3"
+      }
+    },
+    {
+      "id": "w_examine",
+      "files": {
+        "ig": "ig/words/examine.mp3",
+        "yo": "yo/words/examine.mp3",
+        "en": "en/words/examine.mp3"
+      }
+    },
+    {
+      "id": "w_test",
+      "files": {
+        "ig": "ig/words/test.mp3",
+        "yo": "yo/words/test.mp3",
+        "en": "en/words/test.mp3"
+      }
+    },
+    {
+      "id": "w_check",
+      "files": {
+        "ig": "ig/words/check.mp3",
+        "yo": "yo/words/check.mp3",
+        "en": "en/words/check.mp3"
+      }
+    },
+    {
+      "id": "w_verify",
+      "files": {
+        "ig": "ig/words/verify.mp3",
+        "yo": "yo/words/verify.mp3",
+        "en": "en/words/verify.mp3"
+      }
+    },
+    {
+      "id": "w_prove",
+      "files": {
+        "ig": "ig/words/prove.mp3",
+        "yo": "yo/words/prove.mp3",
+        "en": "en/words/prove.mp3"
+      }
+    },
+    {
+      "id": "w_disprove",
+      "files": {
+        "ig": "ig/words/disprove.mp3",
+        "yo": "yo/words/disprove.mp3",
+        "en": "en/words/disprove.mp3"
+      }
+    },
+    {
+      "id": "w_confirm",
+      "files": {
+        "ig": "ig/words/confirm.mp3",
+        "yo": "yo/words/confirm.mp3",
+        "en": "en/words/confirm.mp3"
+      }
+    },
+    {
+      "id": "w_run",
+      "files": {
+        "ig": "ig/words/run.mp3",
+        "yo": "yo/words/run.mp3",
+        "en": "en/words/run.mp3"
+      }
+    },
+    {
+      "id": "w_walk",
+      "files": {
+        "ig": "ig/words/walk.mp3",
+        "yo": "yo/words/walk.mp3",
+        "en": "en/words/walk.mp3"
+      }
+    },
+    {
+      "id": "w_jump",
+      "files": {
+        "ig": "ig/words/jump.mp3",
+        "yo": "yo/words/jump.mp3",
+        "en": "en/words/jump.mp3"
+      }
+    },
+    {
+      "id": "w_fly",
+      "files": {
+        "ig": "ig/words/fly.mp3",
+        "yo": "yo/words/fly.mp3",
+        "en": "en/words/fly.mp3"
+      }
+    },
+    {
+      "id": "w_swim",
+      "files": {
+        "ig": "ig/words/swim.mp3",
+        "yo": "yo/words/swim.mp3",
+        "en": "en/words/swim.mp3"
+      }
+    },
+    {
+      "id": "w_drive",
+      "files": {
+        "ig": "ig/words/drive.mp3",
+        "yo": "yo/words/drive.mp3",
+        "en": "en/words/drive.mp3"
+      }
+    },
+    {
+      "id": "w_ride",
+      "files": {
+        "ig": "ig/words/ride.mp3",
+        "yo": "yo/words/ride.mp3",
+        "en": "en/words/ride.mp3"
+      }
+    },
+    {
+      "id": "w_move",
+      "files": {
+        "ig": "ig/words/move.mp3",
+        "yo": "yo/words/move.mp3",
+        "en": "en/words/move.mp3"
+      }
+    },
+    {
+      "id": "w_turn",
+      "files": {
+        "ig": "ig/words/turn.mp3",
+        "yo": "yo/words/turn.mp3",
+        "en": "en/words/turn.mp3"
+      }
+    },
+    {
+      "id": "w_return",
+      "files": {
+        "ig": "ig/words/return.mp3",
+        "yo": "yo/words/return.mp3",
+        "en": "en/words/return.mp3"
+      }
+    },
+    {
+      "id": "w_arrive",
+      "files": {
+        "ig": "ig/words/arrive.mp3",
+        "yo": "yo/words/arrive.mp3",
+        "en": "en/words/arrive.mp3"
+      }
+    },
+    {
+      "id": "w_leave",
+      "files": {
+        "ig": "ig/words/leave.mp3",
+        "yo": "yo/words/leave.mp3",
+        "en": "en/words/leave.mp3"
+      }
+    },
+    {
+      "id": "w_stay",
+      "files": {
+        "ig": "ig/words/stay.mp3",
+        "yo": "yo/words/stay.mp3",
+        "en": "en/words/stay.mp3"
+      }
+    },
+    {
+      "id": "w_wait",
+      "files": {
+        "ig": "ig/words/wait.mp3",
+        "yo": "yo/words/wait.mp3",
+        "en": "en/words/wait.mp3"
+      }
+    },
+    {
+      "id": "w_follow",
+      "files": {
+        "ig": "ig/words/follow.mp3",
+        "yo": "yo/words/follow.mp3",
+        "en": "en/words/follow.mp3"
+      }
+    },
+    {
+      "id": "w_lead",
+      "files": {
+        "ig": "ig/words/lead.mp3",
+        "yo": "yo/words/lead.mp3",
+        "en": "en/words/lead.mp3"
+      }
+    },
+    {
+      "id": "w_chase",
+      "files": {
+        "ig": "ig/words/chase.mp3",
+        "yo": "yo/words/chase.mp3",
+        "en": "en/words/chase.mp3"
+      }
+    },
+    {
+      "id": "w_fall",
+      "files": {
+        "ig": "ig/words/fall.mp3",
+        "yo": "yo/words/fall.mp3",
+        "en": "en/words/fall.mp3"
+      }
+    },
+    {
+      "id": "w_rise",
+      "files": {
+        "ig": "ig/words/rise.mp3",
+        "yo": "yo/words/rise.mp3",
+        "en": "en/words/rise.mp3"
+      }
+    },
+    {
+      "id": "w_climb",
+      "files": {
+        "ig": "ig/words/climb.mp3",
+        "yo": "yo/words/climb.mp3",
+        "en": "en/words/climb.mp3"
+      }
+    },
+    {
+      "id": "w_shake",
+      "files": {
+        "ig": "ig/words/shake.mp3",
+        "yo": "yo/words/shake.mp3",
+        "en": "en/words/shake.mp3"
+      }
+    },
+    {
+      "id": "w_roll",
+      "files": {
+        "ig": "ig/words/roll.mp3",
+        "yo": "yo/words/roll.mp3",
+        "en": "en/words/roll.mp3"
+      }
+    },
+    {
+      "id": "w_slide",
+      "files": {
+        "ig": "ig/words/slide.mp3",
+        "yo": "yo/words/slide.mp3",
+        "en": "en/words/slide.mp3"
+      }
+    },
+    {
+      "id": "w_bend",
+      "files": {
+        "ig": "ig/words/bend.mp3",
+        "yo": "yo/words/bend.mp3",
+        "en": "en/words/bend.mp3"
+      }
+    },
+    {
+      "id": "w_stretch",
+      "files": {
+        "ig": "ig/words/stretch.mp3",
+        "yo": "yo/words/stretch.mp3",
+        "en": "en/words/stretch.mp3"
+      }
+    },
+    {
+      "id": "w_lift",
+      "files": {
+        "ig": "ig/words/lift.mp3",
+        "yo": "yo/words/lift.mp3",
+        "en": "en/words/lift.mp3"
+      }
+    },
+    {
+      "id": "w_drop",
+      "files": {
+        "ig": "ig/words/drop.mp3",
+        "yo": "yo/words/drop.mp3",
+        "en": "en/words/drop.mp3"
+      }
+    },
+    {
+      "id": "w_push",
+      "files": {
+        "ig": "ig/words/push.mp3",
+        "yo": "yo/words/push.mp3",
+        "en": "en/words/push.mp3"
+      }
+    },
+    {
+      "id": "w_pull",
+      "files": {
+        "ig": "ig/words/pull.mp3",
+        "yo": "yo/words/pull.mp3",
+        "en": "en/words/pull.mp3"
+      }
+    },
+    {
+      "id": "w_throw",
+      "files": {
+        "ig": "ig/words/throw.mp3",
+        "yo": "yo/words/throw.mp3",
+        "en": "en/words/throw.mp3"
+      }
+    },
+    {
+      "id": "w_catch",
+      "files": {
+        "ig": "ig/words/catch.mp3",
+        "yo": "yo/words/catch.mp3",
+        "en": "en/words/catch.mp3"
+      }
+    },
+    {
+      "id": "w_hit",
+      "files": {
+        "ig": "ig/words/hit.mp3",
+        "yo": "yo/words/hit.mp3",
+        "en": "en/words/hit.mp3"
+      }
+    },
+    {
+      "id": "w_kick",
+      "files": {
+        "ig": "ig/words/kick.mp3",
+        "yo": "yo/words/kick.mp3",
+        "en": "en/words/kick.mp3"
+      }
+    },
+    {
+      "id": "w_pass",
+      "files": {
+        "ig": "ig/words/pass.mp3",
+        "yo": "yo/words/pass.mp3",
+        "en": "en/words/pass.mp3"
+      }
+    },
+    {
+      "id": "w_send",
+      "files": {
+        "ig": "ig/words/send.mp3",
+        "yo": "yo/words/send.mp3",
+        "en": "en/words/send.mp3"
+      }
+    },
+    {
+      "id": "w_bring",
+      "files": {
+        "ig": "ig/words/bring.mp3",
+        "yo": "yo/words/bring.mp3",
+        "en": "en/words/bring.mp3"
+      }
+    },
+    {
+      "id": "w_take",
+      "files": {
+        "ig": "ig/words/take.mp3",
+        "yo": "yo/words/take.mp3",
+        "en": "en/words/take.mp3"
+      }
+    },
+    {
+      "id": "w_hang",
+      "files": {
+        "ig": "ig/words/hang.mp3",
+        "yo": "yo/words/hang.mp3",
+        "en": "en/words/hang.mp3"
+      }
+    },
+    {
+      "id": "w_sit",
+      "files": {
+        "ig": "ig/words/sit.mp3",
+        "yo": "yo/words/sit.mp3",
+        "en": "en/words/sit.mp3"
+      }
+    },
+    {
+      "id": "w_stand",
+      "files": {
+        "ig": "ig/words/stand.mp3",
+        "yo": "yo/words/stand.mp3",
+        "en": "en/words/stand.mp3"
+      }
+    },
+    {
+      "id": "w_lie",
+      "files": {
+        "ig": "ig/words/lie.mp3",
+        "yo": "yo/words/lie.mp3",
+        "en": "en/words/lie.mp3"
+      }
+    },
+    {
+      "id": "w_lay",
+      "files": {
+        "ig": "ig/words/lay.mp3",
+        "yo": "yo/words/lay.mp3",
+        "en": "en/words/lay.mp3"
+      }
+    },
+    {
+      "id": "w_kneel",
+      "files": {
+        "ig": "ig/words/kneel.mp3",
+        "yo": "yo/words/kneel.mp3",
+        "en": "en/words/kneel.mp3"
+      }
+    },
+    {
+      "id": "w_bow",
+      "files": {
+        "ig": "ig/words/bow.mp3",
+        "yo": "yo/words/bow.mp3",
+        "en": "en/words/bow.mp3"
+      }
+    },
+    {
+      "id": "w_dance",
+      "files": {
+        "ig": "ig/words/dance.mp3",
+        "yo": "yo/words/dance.mp3",
+        "en": "en/words/dance.mp3"
+      }
+    },
+    {
+      "id": "w_sing",
+      "files": {
+        "ig": "ig/words/sing.mp3",
+        "yo": "yo/words/sing.mp3",
+        "en": "en/words/sing.mp3"
+      }
+    },
+    {
+      "id": "w_wear",
+      "files": {
+        "ig": "ig/words/wear.mp3",
+        "yo": "yo/words/wear.mp3",
+        "en": "en/words/wear.mp3"
+      }
+    },
+    {
+      "id": "w_do",
+      "files": {
+        "ig": "ig/words/do.mp3",
+        "yo": "yo/words/do.mp3",
+        "en": "en/words/do.mp3"
+      }
+    },
+    {
+      "id": "w_make",
+      "files": {
+        "ig": "ig/words/make.mp3",
+        "yo": "yo/words/make.mp3",
+        "en": "en/words/make.mp3"
+      }
+    },
+    {
+      "id": "w_work_verb",
+      "files": {
+        "ig": "ig/words/work_verb.mp3",
+        "yo": "yo/words/work_verb.mp3",
+        "en": "en/words/work_verb.mp3"
+      }
+    },
+    {
+      "id": "w_play",
+      "files": {
+        "ig": "ig/words/play.mp3",
+        "yo": "yo/words/play.mp3",
+        "en": "en/words/play.mp3"
+      }
+    },
+    {
+      "id": "w_live",
+      "files": {
+        "ig": "ig/words/live.mp3",
+        "yo": "yo/words/live.mp3",
+        "en": "en/words/live.mp3"
+      }
+    },
+    {
+      "id": "w_die",
+      "files": {
+        "ig": "ig/words/die.mp3",
+        "yo": "yo/words/die.mp3",
+        "en": "en/words/die.mp3"
+      }
+    },
+    {
+      "id": "w_born",
+      "files": {
+        "ig": "ig/words/born.mp3",
+        "yo": "yo/words/born.mp3",
+        "en": "en/words/born.mp3"
+      }
+    },
+    {
+      "id": "w_wake",
+      "files": {
+        "ig": "ig/words/wake.mp3",
+        "yo": "yo/words/wake.mp3",
+        "en": "en/words/wake.mp3"
+      }
+    },
+    {
+      "id": "w_wash",
+      "files": {
+        "ig": "ig/words/wash.mp3",
+        "yo": "yo/words/wash.mp3",
+        "en": "en/words/wash.mp3"
+      }
+    },
+    {
+      "id": "w_clean",
+      "files": {
+        "ig": "ig/words/clean.mp3",
+        "yo": "yo/words/clean.mp3",
+        "en": "en/words/clean.mp3"
+      }
+    },
+    {
+      "id": "w_cook",
+      "files": {
+        "ig": "ig/words/cook.mp3",
+        "yo": "yo/words/cook.mp3",
+        "en": "en/words/cook.mp3"
+      }
+    },
+    {
+      "id": "w_bake",
+      "files": {
+        "ig": "ig/words/bake.mp3",
+        "yo": "yo/words/bake.mp3",
+        "en": "en/words/bake.mp3"
+      }
+    },
+    {
+      "id": "w_cut",
+      "files": {
+        "ig": "ig/words/cut.mp3",
+        "yo": "yo/words/cut.mp3",
+        "en": "en/words/cut.mp3"
+      }
+    },
+    {
+      "id": "w_chop",
+      "files": {
+        "ig": "ig/words/chop.mp3",
+        "yo": "yo/words/chop.mp3",
+        "en": "en/words/chop.mp3"
+      }
+    },
+    {
+      "id": "w_mix",
+      "files": {
+        "ig": "ig/words/mix.mp3",
+        "yo": "yo/words/mix.mp3",
+        "en": "en/words/mix.mp3"
+      }
+    },
+    {
+      "id": "w_pour",
+      "files": {
+        "ig": "ig/words/pour.mp3",
+        "yo": "yo/words/pour.mp3",
+        "en": "en/words/pour.mp3"
+      }
+    },
+    {
+      "id": "w_serve",
+      "files": {
+        "ig": "ig/words/serve.mp3",
+        "yo": "yo/words/serve.mp3",
+        "en": "en/words/serve.mp3"
+      }
+    },
+    {
+      "id": "w_buy",
+      "files": {
+        "ig": "ig/words/buy.mp3",
+        "yo": "yo/words/buy.mp3",
+        "en": "en/words/buy.mp3"
+      }
+    },
+    {
+      "id": "w_sell",
+      "files": {
+        "ig": "ig/words/sell.mp3",
+        "yo": "yo/words/sell.mp3",
+        "en": "en/words/sell.mp3"
+      }
+    },
+    {
+      "id": "w_spend",
+      "files": {
+        "ig": "ig/words/spend.mp3",
+        "yo": "yo/words/spend.mp3",
+        "en": "en/words/spend.mp3"
+      }
+    },
+    {
+      "id": "w_cost",
+      "files": {
+        "ig": "ig/words/cost.mp3",
+        "yo": "yo/words/cost.mp3",
+        "en": "en/words/cost.mp3"
+      }
+    },
+    {
+      "id": "w_pay",
+      "files": {
+        "ig": "ig/words/pay.mp3",
+        "yo": "yo/words/pay.mp3",
+        "en": "en/words/pay.mp3"
+      }
+    },
+    {
+      "id": "w_earn",
+      "files": {
+        "ig": "ig/words/earn.mp3",
+        "yo": "yo/words/earn.mp3",
+        "en": "en/words/earn.mp3"
+      }
+    },
+    {
+      "id": "w_save",
+      "files": {
+        "ig": "ig/words/save.mp3",
+        "yo": "yo/words/save.mp3",
+        "en": "en/words/save.mp3"
+      }
+    },
+    {
+      "id": "w_borrow",
+      "files": {
+        "ig": "ig/words/borrow.mp3",
+        "yo": "yo/words/borrow.mp3",
+        "en": "en/words/borrow.mp3"
+      }
+    },
+    {
+      "id": "w_lend",
+      "files": {
+        "ig": "ig/words/lend.mp3",
+        "yo": "yo/words/lend.mp3",
+        "en": "en/words/lend.mp3"
+      }
+    },
+    {
+      "id": "w_charge",
+      "files": {
+        "ig": "ig/words/charge.mp3",
+        "yo": "yo/words/charge.mp3",
+        "en": "en/words/charge.mp3"
+      }
+    },
+    {
+      "id": "w_open",
+      "files": {
+        "ig": "ig/words/open.mp3",
+        "yo": "yo/words/open.mp3",
+        "en": "en/words/open.mp3"
+      }
+    },
+    {
+      "id": "w_close",
+      "files": {
+        "ig": "ig/words/close.mp3",
+        "yo": "yo/words/close.mp3",
+        "en": "en/words/close.mp3"
+      }
+    },
+    {
+      "id": "w_lock",
+      "files": {
+        "ig": "ig/words/lock.mp3",
+        "yo": "yo/words/lock.mp3",
+        "en": "en/words/lock.mp3"
+      }
+    },
+    {
+      "id": "w_unlock",
+      "files": {
+        "ig": "ig/words/unlock.mp3",
+        "yo": "yo/words/unlock.mp3",
+        "en": "en/words/unlock.mp3"
+      }
+    },
+    {
+      "id": "w_shut",
+      "files": {
+        "ig": "ig/words/shut.mp3",
+        "yo": "yo/words/shut.mp3",
+        "en": "en/words/shut.mp3"
+      }
+    },
+    {
+      "id": "w_start",
+      "files": {
+        "ig": "ig/words/start.mp3",
+        "yo": "yo/words/start.mp3",
+        "en": "en/words/start.mp3"
+      }
+    },
+    {
+      "id": "w_stop",
+      "files": {
+        "ig": "ig/words/stop.mp3",
+        "yo": "yo/words/stop.mp3",
+        "en": "en/words/stop.mp3"
+      }
+    },
+    {
+      "id": "w_begin",
+      "files": {
+        "ig": "ig/words/begin.mp3",
+        "yo": "yo/words/begin.mp3",
+        "en": "en/words/begin.mp3"
+      }
+    },
+    {
+      "id": "w_end",
+      "files": {
+        "ig": "ig/words/end.mp3",
+        "yo": "yo/words/end.mp3",
+        "en": "en/words/end.mp3"
+      }
+    },
+    {
+      "id": "w_finish",
+      "files": {
+        "ig": "ig/words/finish.mp3",
+        "yo": "yo/words/finish.mp3",
+        "en": "en/words/finish.mp3"
+      }
+    },
+    {
+      "id": "w_dress",
+      "files": {
+        "ig": "ig/words/dress.mp3",
+        "yo": "yo/words/dress.mp3",
+        "en": "en/words/dress.mp3"
+      }
+    },
+    {
+      "id": "w_tear",
+      "files": {
+        "ig": "ig/words/tear.mp3",
+        "yo": "yo/words/tear.mp3",
+        "en": "en/words/tear.mp3"
+      }
+    },
+    {
+      "id": "w_break",
+      "files": {
+        "ig": "ig/words/break.mp3",
+        "yo": "yo/words/break.mp3",
+        "en": "en/words/break.mp3"
+      }
+    },
+    {
+      "id": "w_fix",
+      "files": {
+        "ig": "ig/words/fix.mp3",
+        "yo": "yo/words/fix.mp3",
+        "en": "en/words/fix.mp3"
+      }
+    },
+    {
+      "id": "w_repair",
+      "files": {
+        "ig": "ig/words/repair.mp3",
+        "yo": "yo/words/repair.mp3",
+        "en": "en/words/repair.mp3"
+      }
+    },
+    {
+      "id": "w_mend",
+      "files": {
+        "ig": "ig/words/mend.mp3",
+        "yo": "yo/words/mend.mp3",
+        "en": "en/words/mend.mp3"
+      }
+    },
+    {
+      "id": "w_sew",
+      "files": {
+        "ig": "ig/words/sew.mp3",
+        "yo": "yo/words/sew.mp3",
+        "en": "en/words/sew.mp3"
+      }
+    },
+    {
+      "id": "w_knit",
+      "files": {
+        "ig": "ig/words/knit.mp3",
+        "yo": "yo/words/knit.mp3",
+        "en": "en/words/knit.mp3"
+      }
+    },
+    {
+      "id": "w_fold",
+      "files": {
+        "ig": "ig/words/fold.mp3",
+        "yo": "yo/words/fold.mp3",
+        "en": "en/words/fold.mp3"
+      }
+    },
+    {
+      "id": "w_paint",
+      "files": {
+        "ig": "ig/words/paint.mp3",
+        "yo": "yo/words/paint.mp3",
+        "en": "en/words/paint.mp3"
+      }
+    },
+    {
+      "id": "w_draw",
+      "files": {
+        "ig": "ig/words/draw.mp3",
+        "yo": "yo/words/draw.mp3",
+        "en": "en/words/draw.mp3"
+      }
+    },
+    {
+      "id": "w_be",
+      "files": {
+        "ig": "ig/words/be.mp3",
+        "yo": "yo/words/be.mp3",
+        "en": "en/words/be.mp3"
+      }
+    },
+    {
+      "id": "w_have",
+      "files": {
+        "ig": "ig/words/have.mp3",
+        "yo": "yo/words/have.mp3",
+        "en": "en/words/have.mp3"
+      }
+    },
+    {
+      "id": "w_own",
+      "files": {
+        "ig": "ig/words/own.mp3",
+        "yo": "yo/words/own.mp3",
+        "en": "en/words/own.mp3"
+      }
+    },
+    {
+      "id": "w_possess",
+      "files": {
+        "ig": "ig/words/possess.mp3",
+        "yo": "yo/words/possess.mp3",
+        "en": "en/words/possess.mp3"
+      }
+    },
+    {
+      "id": "w_belong",
+      "files": {
+        "ig": "ig/words/belong.mp3",
+        "yo": "yo/words/belong.mp3",
+        "en": "en/words/belong.mp3"
+      }
+    },
+    {
+      "id": "w_keep",
+      "files": {
+        "ig": "ig/words/keep.mp3",
+        "yo": "yo/words/keep.mp3",
+        "en": "en/words/keep.mp3"
+      }
+    },
+    {
+      "id": "w_hold",
+      "files": {
+        "ig": "ig/words/hold.mp3",
+        "yo": "yo/words/hold.mp3",
+        "en": "en/words/hold.mp3"
+      }
+    },
+    {
+      "id": "w_contain",
+      "files": {
+        "ig": "ig/words/contain.mp3",
+        "yo": "yo/words/contain.mp3",
+        "en": "en/words/contain.mp3"
+      }
+    },
+    {
+      "id": "w_include",
+      "files": {
+        "ig": "ig/words/include.mp3",
+        "yo": "yo/words/include.mp3",
+        "en": "en/words/include.mp3"
+      }
+    },
+    {
+      "id": "w_exclude",
+      "files": {
+        "ig": "ig/words/exclude.mp3",
+        "yo": "yo/words/exclude.mp3",
+        "en": "en/words/exclude.mp3"
+      }
+    },
+    {
+      "id": "w_create",
+      "files": {
+        "ig": "ig/words/create.mp3",
+        "yo": "yo/words/create.mp3",
+        "en": "en/words/create.mp3"
+      }
+    },
+    {
+      "id": "w_build",
+      "files": {
+        "ig": "ig/words/build.mp3",
+        "yo": "yo/words/build.mp3",
+        "en": "en/words/build.mp3"
+      }
+    },
+    {
+      "id": "w_design",
+      "files": {
+        "ig": "ig/words/design.mp3",
+        "yo": "yo/words/design.mp3",
+        "en": "en/words/design.mp3"
+      }
+    },
+    {
+      "id": "w_invent",
+      "files": {
+        "ig": "ig/words/invent.mp3",
+        "yo": "yo/words/invent.mp3",
+        "en": "en/words/invent.mp3"
+      }
+    },
+    {
+      "id": "w_develop",
+      "files": {
+        "ig": "ig/words/develop.mp3",
+        "yo": "yo/words/develop.mp3",
+        "en": "en/words/develop.mp3"
+      }
+    },
+    {
+      "id": "w_grow",
+      "files": {
+        "ig": "ig/words/grow.mp3",
+        "yo": "yo/words/grow.mp3",
+        "en": "en/words/grow.mp3"
+      }
+    },
+    {
+      "id": "w_change",
+      "files": {
+        "ig": "ig/words/change.mp3",
+        "yo": "yo/words/change.mp3",
+        "en": "en/words/change.mp3"
+      }
+    },
+    {
+      "id": "w_become",
+      "files": {
+        "ig": "ig/words/become.mp3",
+        "yo": "yo/words/become.mp3",
+        "en": "en/words/become.mp3"
+      }
+    },
+    {
+      "id": "w_seem",
+      "files": {
+        "ig": "ig/words/seem.mp3",
+        "yo": "yo/words/seem.mp3",
+        "en": "en/words/seem.mp3"
+      }
+    },
+    {
+      "id": "w_appear",
+      "files": {
+        "ig": "ig/words/appear.mp3",
+        "yo": "yo/words/appear.mp3",
+        "en": "en/words/appear.mp3"
+      }
+    },
+    {
+      "id": "w_exist",
+      "files": {
+        "ig": "ig/words/exist.mp3",
+        "yo": "yo/words/exist.mp3",
+        "en": "en/words/exist.mp3"
+      }
+    },
+    {
+      "id": "w_happen",
+      "files": {
+        "ig": "ig/words/happen.mp3",
+        "yo": "yo/words/happen.mp3",
+        "en": "en/words/happen.mp3"
+      }
+    },
+    {
+      "id": "w_occur",
+      "files": {
+        "ig": "ig/words/occur.mp3",
+        "yo": "yo/words/occur.mp3",
+        "en": "en/words/occur.mp3"
+      }
+    },
+    {
+      "id": "w_cause",
+      "files": {
+        "ig": "ig/words/cause.mp3",
+        "yo": "yo/words/cause.mp3",
+        "en": "en/words/cause.mp3"
+      }
+    },
+    {
+      "id": "w_effect",
+      "files": {
+        "ig": "ig/words/effect.mp3",
+        "yo": "yo/words/effect.mp3",
+        "en": "en/words/effect.mp3"
+      }
+    },
+    {
+      "id": "w_allow",
+      "files": {
+        "ig": "ig/words/allow.mp3",
+        "yo": "yo/words/allow.mp3",
+        "en": "en/words/allow.mp3"
+      }
+    },
+    {
+      "id": "w_permit",
+      "files": {
+        "ig": "ig/words/permit.mp3",
+        "yo": "yo/words/permit.mp3",
+        "en": "en/words/permit.mp3"
+      }
+    },
+    {
+      "id": "w_let",
+      "files": {
+        "ig": "ig/words/let.mp3",
+        "yo": "yo/words/let.mp3",
+        "en": "en/words/let.mp3"
+      }
+    },
+    {
+      "id": "w_prevent",
+      "files": {
+        "ig": "ig/words/prevent.mp3",
+        "yo": "yo/words/prevent.mp3",
+        "en": "en/words/prevent.mp3"
+      }
+    },
+    {
+      "id": "w_forbid",
+      "files": {
+        "ig": "ig/words/forbid.mp3",
+        "yo": "yo/words/forbid.mp3",
+        "en": "en/words/forbid.mp3"
+      }
+    },
+    {
+      "id": "w_find",
+      "files": {
+        "ig": "ig/words/find.mp3",
+        "yo": "yo/words/find.mp3",
+        "en": "en/words/find.mp3"
+      }
+    },
+    {
+      "id": "w_lose",
+      "files": {
+        "ig": "ig/words/lose.mp3",
+        "yo": "yo/words/lose.mp3",
+        "en": "en/words/lose.mp3"
+      }
+    },
+    {
+      "id": "w_seek",
+      "files": {
+        "ig": "ig/words/seek.mp3",
+        "yo": "yo/words/seek.mp3",
+        "en": "en/words/seek.mp3"
+      }
+    },
+    {
+      "id": "w_search",
+      "files": {
+        "ig": "ig/words/search.mp3",
+        "yo": "yo/words/search.mp3",
+        "en": "en/words/search.mp3"
+      }
+    },
+    {
+      "id": "w_hide",
+      "files": {
+        "ig": "ig/words/hide.mp3",
+        "yo": "yo/words/hide.mp3",
+        "en": "en/words/hide.mp3"
+      }
+    },
+    {
+      "id": "w_show",
+      "files": {
+        "ig": "ig/words/show.mp3",
+        "yo": "yo/words/show.mp3",
+        "en": "en/words/show.mp3"
+      }
+    },
+    {
+      "id": "w_cover",
+      "files": {
+        "ig": "ig/words/cover.mp3",
+        "yo": "yo/words/cover.mp3",
+        "en": "en/words/cover.mp3"
+      }
+    },
+    {
+      "id": "w_discover",
+      "files": {
+        "ig": "ig/words/discover.mp3",
+        "yo": "yo/words/discover.mp3",
+        "en": "en/words/discover.mp3"
+      }
+    },
+    {
+      "id": "w_reveal",
+      "files": {
+        "ig": "ig/words/reveal.mp3",
+        "yo": "yo/words/reveal.mp3",
+        "en": "en/words/reveal.mp3"
+      }
+    },
+    {
+      "id": "w_sketch",
+      "files": {
+        "ig": "ig/words/sketch.mp3",
+        "yo": "yo/words/sketch.mp3",
+        "en": "en/words/sketch.mp3"
+      }
+    },
+    {
+      "id": "w_photograph",
+      "files": {
+        "ig": "ig/words/photograph.mp3",
+        "yo": "yo/words/photograph.mp3",
+        "en": "en/words/photograph.mp3"
+      }
+    },
+    {
+      "id": "w_film",
+      "files": {
+        "ig": "ig/words/film.mp3",
+        "yo": "yo/words/film.mp3",
+        "en": "en/words/film.mp3"
+      }
+    },
+    {
+      "id": "w_record",
+      "files": {
+        "ig": "ig/words/record.mp3",
+        "yo": "yo/words/record.mp3",
+        "en": "en/words/record.mp3"
+      }
+    },
+    {
+      "id": "w_act",
+      "files": {
+        "ig": "ig/words/act.mp3",
+        "yo": "yo/words/act.mp3",
+        "en": "en/words/act.mp3"
+      }
+    },
+    {
+      "id": "w_perform",
+      "files": {
+        "ig": "ig/words/perform.mp3",
+        "yo": "yo/words/perform.mp3",
+        "en": "en/words/perform.mp3"
+      }
+    },
+    {
+      "id": "w_direct",
+      "files": {
+        "ig": "ig/words/direct.mp3",
+        "yo": "yo/words/direct.mp3",
+        "en": "en/words/direct.mp3"
+      }
+    },
+    {
+      "id": "w_produce",
+      "files": {
+        "ig": "ig/words/produce.mp3",
+        "yo": "yo/words/produce.mp3",
+        "en": "en/words/produce.mp3"
+      }
+    },
+    {
+      "id": "w_count",
+      "files": {
+        "ig": "ig/words/count.mp3",
+        "yo": "yo/words/count.mp3",
+        "en": "en/words/count.mp3"
+      }
+    },
+    {
+      "id": "w_calculate",
+      "files": {
+        "ig": "ig/words/calculate.mp3",
+        "yo": "yo/words/calculate.mp3",
+        "en": "en/words/calculate.mp3"
+      }
+    },
+    {
+      "id": "w_measure",
+      "files": {
+        "ig": "ig/words/measure.mp3",
+        "yo": "yo/words/measure.mp3",
+        "en": "en/words/measure.mp3"
+      }
+    },
+    {
+      "id": "w_weigh",
+      "files": {
+        "ig": "ig/words/weigh.mp3",
+        "yo": "yo/words/weigh.mp3",
+        "en": "en/words/weigh.mp3"
+      }
+    },
+    {
+      "id": "w_see",
+      "files": {
+        "ig": "ig/words/see.mp3",
+        "yo": "yo/words/see.mp3",
+        "en": "en/words/see.mp3"
+      }
+    },
+    {
+      "id": "w_look",
+      "files": {
+        "ig": "ig/words/look.mp3",
+        "yo": "yo/words/look.mp3",
+        "en": "en/words/look.mp3"
+      }
+    },
+    {
+      "id": "w_watch",
+      "files": {
+        "ig": "ig/words/watch.mp3",
+        "yo": "yo/words/watch.mp3",
+        "en": "en/words/watch.mp3"
+      }
+    },
+    {
+      "id": "w_hear",
+      "files": {
+        "ig": "ig/words/hear.mp3",
+        "yo": "yo/words/hear.mp3",
+        "en": "en/words/hear.mp3"
+      }
+    },
+    {
+      "id": "w_listen",
+      "files": {
+        "ig": "ig/words/listen.mp3",
+        "yo": "yo/words/listen.mp3",
+        "en": "en/words/listen.mp3"
+      }
+    },
+    {
+      "id": "w_feel",
+      "files": {
+        "ig": "ig/words/feel.mp3",
+        "yo": "yo/words/feel.mp3",
+        "en": "en/words/feel.mp3"
+      }
+    },
+    {
+      "id": "w_touch",
+      "files": {
+        "ig": "ig/words/touch.mp3",
+        "yo": "yo/words/touch.mp3",
+        "en": "en/words/touch.mp3"
+      }
+    },
+    {
+      "id": "w_taste",
+      "files": {
+        "ig": "ig/words/taste.mp3",
+        "yo": "yo/words/taste.mp3",
+        "en": "en/words/taste.mp3"
+      }
+    },
+    {
+      "id": "w_smell",
+      "files": {
+        "ig": "ig/words/smell.mp3",
+        "yo": "yo/words/smell.mp3",
+        "en": "en/words/smell.mp3"
+      }
+    },
+    {
+      "id": "w_notice",
+      "files": {
+        "ig": "ig/words/notice.mp3",
+        "yo": "yo/words/notice.mp3",
+        "en": "en/words/notice.mp3"
+      }
+    },
+    {
+      "id": "w_meet",
+      "files": {
+        "ig": "ig/words/meet.mp3",
+        "yo": "yo/words/meet.mp3",
+        "en": "en/words/meet.mp3"
+      }
+    },
+    {
+      "id": "w_greet",
+      "files": {
+        "ig": "ig/words/greet.mp3",
+        "yo": "yo/words/greet.mp3",
+        "en": "en/words/greet.mp3"
+      }
+    },
+    {
+      "id": "w_visit",
+      "files": {
+        "ig": "ig/words/visit.mp3",
+        "yo": "yo/words/visit.mp3",
+        "en": "en/words/visit.mp3"
+      }
+    },
+    {
+      "id": "w_invite",
+      "files": {
+        "ig": "ig/words/invite.mp3",
+        "yo": "yo/words/invite.mp3",
+        "en": "en/words/invite.mp3"
+      }
+    },
+    {
+      "id": "w_join",
+      "files": {
+        "ig": "ig/words/join.mp3",
+        "yo": "yo/words/join.mp3",
+        "en": "en/words/join.mp3"
+      }
+    },
+    {
+      "id": "w_marry",
+      "files": {
+        "ig": "ig/words/marry.mp3",
+        "yo": "yo/words/marry.mp3",
+        "en": "en/words/marry.mp3"
+      }
+    },
+    {
+      "id": "w_divorce",
+      "files": {
+        "ig": "ig/words/divorce.mp3",
+        "yo": "yo/words/divorce.mp3",
+        "en": "en/words/divorce.mp3"
+      }
+    },
+    {
+      "id": "w_help",
+      "files": {
+        "ig": "ig/words/help.mp3",
+        "yo": "yo/words/help.mp3",
+        "en": "en/words/help.mp3"
+      }
+    },
+    {
+      "id": "w_support",
+      "files": {
+        "ig": "ig/words/support.mp3",
+        "yo": "yo/words/support.mp3",
+        "en": "en/words/support.mp3"
+      }
+    },
+    {
+      "id": "w_protect",
+      "files": {
+        "ig": "ig/words/protect.mp3",
+        "yo": "yo/words/protect.mp3",
+        "en": "en/words/protect.mp3"
+      }
+    },
+    {
+      "id": "w_love",
+      "files": {
+        "ig": "ig/words/love.mp3",
+        "yo": "yo/words/love.mp3",
+        "en": "en/words/love.mp3"
+      }
+    },
+    {
+      "id": "w_like",
+      "files": {
+        "ig": "ig/words/like.mp3",
+        "yo": "yo/words/like.mp3",
+        "en": "en/words/like.mp3"
+      }
+    },
+    {
+      "id": "w_hate",
+      "files": {
+        "ig": "ig/words/hate.mp3",
+        "yo": "yo/words/hate.mp3",
+        "en": "en/words/hate.mp3"
+      }
+    },
+    {
+      "id": "w_dislike",
+      "files": {
+        "ig": "ig/words/dislike.mp3",
+        "yo": "yo/words/dislike.mp3",
+        "en": "en/words/dislike.mp3"
+      }
+    },
+    {
+      "id": "w_prefer",
+      "files": {
+        "ig": "ig/words/prefer.mp3",
+        "yo": "yo/words/prefer.mp3",
+        "en": "en/words/prefer.mp3"
+      }
+    },
+    {
+      "id": "w_enjoy",
+      "files": {
+        "ig": "ig/words/enjoy.mp3",
+        "yo": "yo/words/enjoy.mp3",
+        "en": "en/words/enjoy.mp3"
+      }
+    },
+    {
+      "id": "w_want",
+      "files": {
+        "ig": "ig/words/want.mp3",
+        "yo": "yo/words/want.mp3",
+        "en": "en/words/want.mp3"
+      }
+    },
+    {
+      "id": "w_need",
+      "files": {
+        "ig": "ig/words/need.mp3",
+        "yo": "yo/words/need.mp3",
+        "en": "en/words/need.mp3"
+      }
+    },
+    {
+      "id": "w_wish",
+      "files": {
+        "ig": "ig/words/wish.mp3",
+        "yo": "yo/words/wish.mp3",
+        "en": "en/words/wish.mp3"
+      }
+    },
+    {
+      "id": "w_hope",
+      "files": {
+        "ig": "ig/words/hope.mp3",
+        "yo": "yo/words/hope.mp3",
+        "en": "en/words/hope.mp3"
+      }
+    },
+    {
+      "id": "w_choose",
+      "files": {
+        "ig": "ig/words/choose.mp3",
+        "yo": "yo/words/choose.mp3",
+        "en": "en/words/choose.mp3"
+      }
+    },
+    {
+      "id": "w_select",
+      "files": {
+        "ig": "ig/words/select.mp3",
+        "yo": "yo/words/select.mp3",
+        "en": "en/words/select.mp3"
+      }
+    },
+    {
+      "id": "w_pick",
+      "files": {
+        "ig": "ig/words/pick.mp3",
+        "yo": "yo/words/pick.mp3",
+        "en": "en/words/pick.mp3"
+      }
+    },
+    {
+      "id": "w_decide",
+      "files": {
+        "ig": "ig/words/decide.mp3",
+        "yo": "yo/words/decide.mp3",
+        "en": "en/words/decide.mp3"
+      }
+    },
+    {
+      "id": "w_plan",
+      "files": {
+        "ig": "ig/words/plan.mp3",
+        "yo": "yo/words/plan.mp3",
+        "en": "en/words/plan.mp3"
+      }
+    },
+    {
+      "id": "w_prepare",
+      "files": {
+        "ig": "ig/words/prepare.mp3",
+        "yo": "yo/words/prepare.mp3",
+        "en": "en/words/prepare.mp3"
+      }
+    },
+    {
+      "id": "w_try",
+      "files": {
+        "ig": "ig/words/try.mp3",
+        "yo": "yo/words/try.mp3",
+        "en": "en/words/try.mp3"
+      }
+    },
+    {
+      "id": "w_attempt",
+      "files": {
+        "ig": "ig/words/attempt.mp3",
+        "yo": "yo/words/attempt.mp3",
+        "en": "en/words/attempt.mp3"
+      }
+    },
+    {
+      "id": "w_manage",
+      "files": {
+        "ig": "ig/words/manage.mp3",
+        "yo": "yo/words/manage.mp3",
+        "en": "en/words/manage.mp3"
+      }
+    },
+    {
+      "id": "w_succeed",
+      "files": {
+        "ig": "ig/words/succeed.mp3",
+        "yo": "yo/words/succeed.mp3",
+        "en": "en/words/succeed.mp3"
+      }
+    },
+    {
+      "id": "w_fail",
+      "files": {
+        "ig": "ig/words/fail.mp3",
+        "yo": "yo/words/fail.mp3",
+        "en": "en/words/fail.mp3"
+      }
+    },
+    {
+      "id": "w_win",
+      "files": {
+        "ig": "ig/words/win.mp3",
+        "yo": "yo/words/win.mp3",
+        "en": "en/words/win.mp3"
+      }
+    },
+    {
+      "id": "w_beat",
+      "files": {
+        "ig": "ig/words/beat.mp3",
+        "yo": "yo/words/beat.mp3",
+        "en": "en/words/beat.mp3"
+      }
+    },
+    {
+      "id": "w_accept",
+      "files": {
+        "ig": "ig/words/accept.mp3",
+        "yo": "yo/words/accept.mp3",
+        "en": "en/words/accept.mp3"
+      }
+    },
+    {
+      "id": "w_receive",
+      "files": {
+        "ig": "ig/words/receive.mp3",
+        "yo": "yo/words/receive.mp3",
+        "en": "en/words/receive.mp3"
+      }
+    },
+    {
+      "id": "w_offer",
+      "files": {
+        "ig": "ig/words/offer.mp3",
+        "yo": "yo/words/offer.mp3",
+        "en": "en/words/offer.mp3"
+      }
+    },
+    {
+      "id": "w_give",
+      "files": {
+        "ig": "ig/words/give.mp3",
+        "yo": "yo/words/give.mp3",
+        "en": "en/words/give.mp3"
+      }
+    },
+    {
+      "id": "w_share",
+      "files": {
+        "ig": "ig/words/share.mp3",
+        "yo": "yo/words/share.mp3",
+        "en": "en/words/share.mp3"
+      }
+    },
+    {
+      "id": "w_add",
+      "files": {
+        "ig": "ig/words/add.mp3",
+        "yo": "yo/words/add.mp3",
+        "en": "en/words/add.mp3"
+      }
+    },
+    {
+      "id": "w_subtract",
+      "files": {
+        "ig": "ig/words/subtract.mp3",
+        "yo": "yo/words/subtract.mp3",
+        "en": "en/words/subtract.mp3"
+      }
+    }
+  ]
+}

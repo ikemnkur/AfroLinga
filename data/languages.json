@@ -1,0 +1,28 @@
+{
+  "_about": "Languages the app can teach. 'code' is the key used for translations in every other data file. 'tts' is the BCP-47 tag used for browser speech fallback when no recording exists. 'specialChars' builds the on-screen helper keyboard for typing exercises. 'letters' is the alphabet (single characters, without tone marks) used by letter games such as Hangman; digraphs like 'gb' or 'ch' are played as their separate letters.",
+  "base": {
+    "code": "en",
+    "name": "English",
+    "tts": "en-US"
+  },
+  "languages": [
+    {
+      "code": "ig",
+      "name": "Igbo",
+      "native": "Asụsụ Igbo",
+      "flag": "🟢",
+      "tts": "ig-NG",
+      "specialChars": ["ị", "ọ", "ụ", "ṅ", "Ị", "Ọ", "Ụ", "Ṅ", "'"],
+      "letters": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "ị", "j", "k", "l", "m", "n", "ṅ", "o", "ọ", "p", "r", "s", "t", "u", "ụ", "v", "w", "y", "z"]
+    },
+    {
+      "code": "yo",
+      "name": "Yoruba",
+      "native": "Èdè Yorùbá",
+      "flag": "🟡",
+      "tts": "yo-NG",
+      "specialChars": ["ẹ", "ọ", "ṣ", "à", "á", "è", "é", "ì", "í", "ò", "ó", "ù", "ú", "ń", "ẹ̀", "ẹ́", "ọ̀", "ọ́", "Ẹ", "Ọ", "Ṣ"],
+      "letters": ["a", "b", "d", "e", "ẹ", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "ọ", "p", "r", "s", "ṣ", "t", "u", "w", "y"]
+    }
+  ]
+}

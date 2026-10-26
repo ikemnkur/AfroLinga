@@ -1,0 +1,2909 @@
+{
+  "_about": "Links images to sounds for 'listen and pick the picture' exercises. audioIds reference entry ids in audio-map.json (the first one is the main sound; the language is chosen at play time).",
+  "entries": [
+    {
+      "imageId": "img_dog",
+      "audioIds": [
+        "w_dog"
+      ]
+    },
+    {
+      "imageId": "img_cat",
+      "audioIds": [
+        "w_cat"
+      ]
+    },
+    {
+      "imageId": "img_goat",
+      "audioIds": [
+        "w_goat"
+      ]
+    },
+    {
+      "imageId": "img_chicken",
+      "audioIds": [
+        "w_chicken"
+      ]
+    },
+    {
+      "imageId": "img_fish",
+      "audioIds": [
+        "w_fish"
+      ]
+    },
+    {
+      "imageId": "img_cow",
+      "audioIds": [
+        "w_cow"
+      ]
+    },
+    {
+      "imageId": "img_bird",
+      "audioIds": [
+        "w_bird"
+      ]
+    },
+    {
+      "imageId": "img_water",
+      "audioIds": [
+        "w_water"
+      ]
+    },
+    {
+      "imageId": "img_tree",
+      "audioIds": [
+        "w_tree"
+      ]
+    },
+    {
+      "imageId": "img_sun",
+      "audioIds": [
+        "w_sun"
+      ]
+    },
+    {
+      "imageId": "img_moon",
+      "audioIds": [
+        "w_moon"
+      ]
+    },
+    {
+      "imageId": "img_rain",
+      "audioIds": [
+        "w_rain"
+      ]
+    },
+    {
+      "imageId": "img_fire",
+      "audioIds": [
+        "w_fire"
+      ]
+    },
+    {
+      "imageId": "img_food",
+      "audioIds": [
+        "w_food"
+      ]
+    },
+    {
+      "imageId": "img_yam",
+      "audioIds": [
+        "w_yam"
+      ]
+    },
+    {
+      "imageId": "img_rice",
+      "audioIds": [
+        "w_rice"
+      ]
+    },
+    {
+      "imageId": "img_banana",
+      "audioIds": [
+        "w_banana"
+      ]
+    },
+    {
+      "imageId": "img_egg",
+      "audioIds": [
+        "w_egg"
+      ]
+    },
+    {
+      "imageId": "img_salt",
+      "audioIds": [
+        "w_salt"
+      ]
+    },
+    {
+      "imageId": "img_mother",
+      "audioIds": [
+        "w_mother"
+      ]
+    },
+    {
+      "imageId": "img_father",
+      "audioIds": [
+        "w_father"
+      ]
+    },
+    {
+      "imageId": "img_child",
+      "audioIds": [
+        "w_child"
+      ]
+    },
+    {
+      "imageId": "img_man",
+      "audioIds": [
+        "w_man"
+      ]
+    },
+    {
+      "imageId": "img_woman",
+      "audioIds": [
+        "w_woman"
+      ]
+    },
+    {
+      "imageId": "img_friend",
+      "audioIds": [
+        "w_friend"
+      ]
+    },
+    {
+      "imageId": "img_head",
+      "audioIds": [
+        "w_head"
+      ]
+    },
+    {
+      "imageId": "img_eye",
+      "audioIds": [
+        "w_eye"
+      ]
+    },
+    {
+      "imageId": "img_hand",
+      "audioIds": [
+        "w_hand"
+      ]
+    },
+    {
+      "imageId": "img_leg",
+      "audioIds": [
+        "w_leg"
+      ]
+    },
+    {
+      "imageId": "img_mouth",
+      "audioIds": [
+        "w_mouth"
+      ]
+    },
+    {
+      "imageId": "img_ear",
+      "audioIds": [
+        "w_ear"
+      ]
+    },
+    {
+      "imageId": "img_nose",
+      "audioIds": [
+        "w_nose"
+      ]
+    },
+    {
+      "imageId": "img_house",
+      "audioIds": [
+        "w_house"
+      ]
+    },
+    {
+      "imageId": "img_market",
+      "audioIds": [
+        "w_market"
+      ]
+    },
+    {
+      "imageId": "img_school",
+      "audioIds": [
+        "w_school"
+      ]
+    },
+    {
+      "imageId": "img_book",
+      "audioIds": [
+        "w_book"
+      ]
+    },
+    {
+      "imageId": "img_car",
+      "audioIds": [
+        "w_car"
+      ]
+    },
+    {
+      "imageId": "img_money",
+      "audioIds": [
+        "w_money"
+      ]
+    },
+    {
+      "imageId": "img_red",
+      "audioIds": [
+        "w_red"
+      ]
+    },
+    {
+      "imageId": "img_white",
+      "audioIds": [
+        "w_white"
+      ]
+    },
+    {
+      "imageId": "img_black",
+      "audioIds": [
+        "w_black"
+      ]
+    },
+    {
+      "imageId": "img_eat",
+      "audioIds": [
+        "w_eat"
+      ]
+    },
+    {
+      "imageId": "img_drink",
+      "audioIds": [
+        "w_drink"
+      ]
+    },
+    {
+      "imageId": "img_go",
+      "audioIds": [
+        "w_go"
+      ]
+    },
+    {
+      "imageId": "img_come",
+      "audioIds": [
+        "w_come"
+      ]
+    },
+    {
+      "imageId": "img_sleep",
+      "audioIds": [
+        "w_sleep"
+      ]
+    },
+    {
+      "imageId": "img_read",
+      "audioIds": [
+        "w_read"
+      ]
+    },
+    {
+      "imageId": "img_big",
+      "audioIds": [
+        "w_big"
+      ]
+    },
+    {
+      "imageId": "img_small",
+      "audioIds": [
+        "w_small"
+      ]
+    },
+    {
+      "imageId": "img_good_morning_phrase",
+      "audioIds": [
+        "p_good_morning"
+      ]
+    },
+    {
+      "imageId": "img_good_night_phrase",
+      "audioIds": [
+        "p_good_night"
+      ]
+    },
+    {
+      "imageId": "img_welcome_phrase",
+      "audioIds": [
+        "p_welcome"
+      ]
+    },
+    {
+      "imageId": "img_how_are_you_phrase",
+      "audioIds": [
+        "p_how_are_you"
+      ]
+    },
+    {
+      "imageId": "img_i_am_fine_phrase",
+      "audioIds": [
+        "p_i_am_fine"
+      ]
+    },
+    {
+      "imageId": "img_goodbye_phrase",
+      "audioIds": [
+        "p_goodbye"
+      ]
+    },
+    {
+      "imageId": "img_thank_you_phrase",
+      "audioIds": [
+        "p_thank_you"
+      ]
+    },
+    {
+      "imageId": "img_please_phrase",
+      "audioIds": [
+        "p_please"
+      ]
+    },
+    {
+      "imageId": "img_what_is_your_name_phrase",
+      "audioIds": [
+        "p_what_is_your_name"
+      ]
+    },
+    {
+      "imageId": "img_i_love_you_phrase",
+      "audioIds": [
+        "p_i_love_you"
+      ]
+    },
+    {
+      "imageId": "img_i_want_water_phrase",
+      "audioIds": [
+        "p_i_want_water"
+      ]
+    },
+    {
+      "imageId": "img_i_am_hungry_phrase",
+      "audioIds": [
+        "p_i_am_hungry"
+      ]
+    },
+    {
+      "imageId": "img_where_is_the_market_phrase",
+      "audioIds": [
+        "p_where_is_the_market"
+      ]
+    },
+    {
+      "imageId": "img_dog_is_eating_phrase",
+      "audioIds": [
+        "p_dog_is_eating"
+      ]
+    },
+    {
+      "imageId": "img_child_is_drinking_water_phrase",
+      "audioIds": [
+        "p_child_is_drinking_water"
+      ]
+    },
+    {
+      "imageId": "img_going_to_the_market_phrase",
+      "audioIds": [
+        "p_going_to_the_market"
+      ]
+    },
+    {
+      "imageId": "img_mother_is_cooking_phrase",
+      "audioIds": [
+        "p_mother_is_cooking"
+      ]
+    },
+    {
+      "imageId": "img_reading_a_book_phrase",
+      "audioIds": [
+        "p_reading_a_book"
+      ]
+    },
+    {
+      "imageId": "img_the_house_is_big_phrase",
+      "audioIds": [
+        "p_the_house_is_big"
+      ]
+    },
+    {
+      "imageId": "img_blue",
+      "audioIds": [
+        "w_blue"
+      ]
+    },
+    {
+      "imageId": "img_yellow",
+      "audioIds": [
+        "w_yellow"
+      ]
+    },
+    {
+      "imageId": "img_green",
+      "audioIds": [
+        "w_green"
+      ]
+    },
+    {
+      "imageId": "img_colour",
+      "audioIds": [
+        "w_colour"
+      ]
+    },
+    {
+      "imageId": "img_night",
+      "audioIds": [
+        "w_night"
+      ]
+    },
+    {
+      "imageId": "img_daytime",
+      "audioIds": [
+        "w_daytime"
+      ]
+    },
+    {
+      "imageId": "img_time",
+      "audioIds": [
+        "w_time"
+      ]
+    },
+    {
+      "imageId": "img_blood",
+      "audioIds": [
+        "w_blood"
+      ]
+    },
+    {
+      "imageId": "img_hair",
+      "audioIds": [
+        "w_hair"
+      ]
+    },
+    {
+      "imageId": "img_grass",
+      "audioIds": [
+        "w_grass"
+      ]
+    },
+    {
+      "imageId": "img_cold",
+      "audioIds": [
+        "w_cold"
+      ]
+    },
+    {
+      "imageId": "img_coal",
+      "audioIds": [
+        "w_coal"
+      ]
+    },
+    {
+      "imageId": "img_thing",
+      "audioIds": [
+        "w_thing"
+      ]
+    },
+    {
+      "imageId": "img_work",
+      "audioIds": [
+        "w_work"
+      ]
+    },
+    {
+      "imageId": "img_everyone",
+      "audioIds": [
+        "w_everyone"
+      ]
+    },
+    {
+      "imageId": "img_quickly",
+      "audioIds": [
+        "w_quickly"
+      ]
+    },
+    {
+      "imageId": "img_slowly",
+      "audioIds": [
+        "w_slowly"
+      ]
+    },
+    {
+      "imageId": "img_give_to_him_phrase",
+      "audioIds": [
+        "p_give_to_him"
+      ]
+    },
+    {
+      "imageId": "img_it_is_done_phrase",
+      "audioIds": [
+        "p_it_is_done"
+      ]
+    },
+    {
+      "imageId": "img_it_is_not_done_phrase",
+      "audioIds": [
+        "p_it_is_not_done"
+      ]
+    },
+    {
+      "imageId": "img_it_is_mild_not_hot_or_cold_phrase",
+      "audioIds": [
+        "p_it_is_mild_not_hot_or_cold"
+      ]
+    },
+    {
+      "imageId": "img_it_is_hot_phrase",
+      "audioIds": [
+        "p_it_is_hot"
+      ]
+    },
+    {
+      "imageId": "img_it_is_cold_phrase",
+      "audioIds": [
+        "p_it_is_cold"
+      ]
+    },
+    {
+      "imageId": "img_red_blue_yellow_green_phrase",
+      "audioIds": [
+        "p_red_blue_yellow_green"
+      ]
+    },
+    {
+      "imageId": "img_it_is_the_color_of_water_phrase",
+      "audioIds": [
+        "p_it_is_the_color_of_water"
+      ]
+    },
+    {
+      "imageId": "img_it_is_the_color_of_blood_phrase",
+      "audioIds": [
+        "p_it_is_the_color_of_blood"
+      ]
+    },
+    {
+      "imageId": "img_it_has_the_color_of_grass_phrase",
+      "audioIds": [
+        "p_it_has_the_color_of_grass"
+      ]
+    },
+    {
+      "imageId": "img_it_has_the_color_of_coal_phrase",
+      "audioIds": [
+        "p_it_has_the_color_of_coal"
+      ]
+    },
+    {
+      "imageId": "img_black_and_white_night_and_day_phrase",
+      "audioIds": [
+        "p_black_and_white_night_and_day"
+      ]
+    },
+    {
+      "imageId": "img_it_is_time_to_go_home_phrase",
+      "audioIds": [
+        "p_it_is_time_to_go_home"
+      ]
+    },
+    {
+      "imageId": "img_free_food_phrase",
+      "audioIds": [
+        "p_free_food"
+      ]
+    },
+    {
+      "imageId": "img_cut_hair_phrase",
+      "audioIds": [
+        "p_cut_hair"
+      ]
+    },
+    {
+      "imageId": "img_cut_my_fathers_hair_phrase",
+      "audioIds": [
+        "p_cut_my_fathers_hair"
+      ]
+    },
+    {
+      "imageId": "img_i_am_busy_phrase",
+      "audioIds": [
+        "p_i_am_busy"
+      ]
+    },
+    {
+      "imageId": "img_wake_up_phrase",
+      "audioIds": [
+        "p_wake_up"
+      ]
+    },
+    {
+      "imageId": "img_go_to_sleep_phrase",
+      "audioIds": [
+        "p_go_to_sleep"
+      ]
+    },
+    {
+      "imageId": "img_get_up_phrase",
+      "audioIds": [
+        "p_get_up"
+      ]
+    },
+    {
+      "imageId": "img_sit_down_phrase",
+      "audioIds": [
+        "p_sit_down"
+      ]
+    },
+    {
+      "imageId": "img_lie_down_phrase",
+      "audioIds": [
+        "p_lie_down"
+      ]
+    },
+    {
+      "imageId": "img_walk_over_here_phrase",
+      "audioIds": [
+        "p_walk_over_here"
+      ]
+    },
+    {
+      "imageId": "img_run_over_here_phrase",
+      "audioIds": [
+        "p_run_over_here"
+      ]
+    },
+    {
+      "imageId": "img_be_quick_phrase",
+      "audioIds": [
+        "p_be_quick"
+      ]
+    },
+    {
+      "imageId": "img_be_slow_phrase",
+      "audioIds": [
+        "p_be_slow"
+      ]
+    },
+    {
+      "imageId": "img_hurry_up_there_is_not_much_time_phrase",
+      "audioIds": [
+        "p_hurry_up_there_is_not_much_time"
+      ]
+    },
+    {
+      "imageId": "img_slow_down_phrase",
+      "audioIds": [
+        "p_slow_down"
+      ]
+    },
+    {
+      "imageId": "img_be_careful_phrase",
+      "audioIds": [
+        "p_be_careful"
+      ]
+    },
+    {
+      "imageId": "img_look_up_phrase",
+      "audioIds": [
+        "p_look_up"
+      ]
+    },
+    {
+      "imageId": "img_look_down_phrase",
+      "audioIds": [
+        "p_look_down"
+      ]
+    },
+    {
+      "imageId": "img_look_around_phrase",
+      "audioIds": [
+        "p_look_around"
+      ]
+    },
+    {
+      "imageId": "img_look_behind_you_phrase",
+      "audioIds": [
+        "p_look_behind_you"
+      ]
+    },
+    {
+      "imageId": "img_watch_out_phrase",
+      "audioIds": [
+        "p_watch_out"
+      ]
+    },
+    {
+      "imageId": "img_look_for_it_phrase",
+      "audioIds": [
+        "p_look_for_it"
+      ]
+    },
+    {
+      "imageId": "img_village",
+      "audioIds": [
+        "w_village"
+      ]
+    },
+    {
+      "imageId": "img_farm",
+      "audioIds": [
+        "w_farm"
+      ]
+    },
+    {
+      "imageId": "img_land",
+      "audioIds": [
+        "w_land"
+      ]
+    },
+    {
+      "imageId": "img_soil",
+      "audioIds": [
+        "w_soil"
+      ]
+    },
+    {
+      "imageId": "img_river",
+      "audioIds": [
+        "w_river"
+      ]
+    },
+    {
+      "imageId": "img_sea",
+      "audioIds": [
+        "w_sea"
+      ]
+    },
+    {
+      "imageId": "img_well",
+      "audioIds": [
+        "w_well"
+      ]
+    },
+    {
+      "imageId": "img_road",
+      "audioIds": [
+        "w_road"
+      ]
+    },
+    {
+      "imageId": "img_forest",
+      "audioIds": [
+        "w_forest"
+      ]
+    },
+    {
+      "imageId": "img_hill",
+      "audioIds": [
+        "w_hill"
+      ]
+    },
+    {
+      "imageId": "img_stone",
+      "audioIds": [
+        "w_stone"
+      ]
+    },
+    {
+      "imageId": "img_bridge",
+      "audioIds": [
+        "w_bridge"
+      ]
+    },
+    {
+      "imageId": "img_hole",
+      "audioIds": [
+        "w_hole"
+      ]
+    },
+    {
+      "imageId": "img_roof",
+      "audioIds": [
+        "w_roof"
+      ]
+    },
+    {
+      "imageId": "img_wall",
+      "audioIds": [
+        "w_wall"
+      ]
+    },
+    {
+      "imageId": "img_door",
+      "audioIds": [
+        "w_door"
+      ]
+    },
+    {
+      "imageId": "img_window",
+      "audioIds": [
+        "w_window"
+      ]
+    },
+    {
+      "imageId": "img_kitchen",
+      "audioIds": [
+        "w_kitchen"
+      ]
+    },
+    {
+      "imageId": "img_firewood",
+      "audioIds": [
+        "w_firewood"
+      ]
+    },
+    {
+      "imageId": "img_smoke",
+      "audioIds": [
+        "w_smoke"
+      ]
+    },
+    {
+      "imageId": "img_bed",
+      "audioIds": [
+        "w_bed"
+      ]
+    },
+    {
+      "imageId": "img_chair",
+      "audioIds": [
+        "w_chair"
+      ]
+    },
+    {
+      "imageId": "img_cup",
+      "audioIds": [
+        "w_cup"
+      ]
+    },
+    {
+      "imageId": "img_pot",
+      "audioIds": [
+        "w_pot"
+      ]
+    },
+    {
+      "imageId": "img_basket",
+      "audioIds": [
+        "w_basket"
+      ]
+    },
+    {
+      "imageId": "img_broom",
+      "audioIds": [
+        "w_broom"
+      ]
+    },
+    {
+      "imageId": "img_mortar",
+      "audioIds": [
+        "w_mortar"
+      ]
+    },
+    {
+      "imageId": "img_bag",
+      "audioIds": [
+        "w_bag"
+      ]
+    },
+    {
+      "imageId": "img_box",
+      "audioIds": [
+        "w_box"
+      ]
+    },
+    {
+      "imageId": "img_cloth",
+      "audioIds": [
+        "w_cloth"
+      ]
+    },
+    {
+      "imageId": "img_hoe",
+      "audioIds": [
+        "w_hoe"
+      ]
+    },
+    {
+      "imageId": "img_machete",
+      "audioIds": [
+        "w_machete"
+      ]
+    },
+    {
+      "imageId": "img_gun",
+      "audioIds": [
+        "w_gun"
+      ]
+    },
+    {
+      "imageId": "img_gold",
+      "audioIds": [
+        "w_gold"
+      ]
+    },
+    {
+      "imageId": "img_iron",
+      "audioIds": [
+        "w_iron"
+      ]
+    },
+    {
+      "imageId": "img_boat",
+      "audioIds": [
+        "w_boat"
+      ]
+    },
+    {
+      "imageId": "img_family",
+      "audioIds": [
+        "w_family"
+      ]
+    },
+    {
+      "imageId": "img_baby",
+      "audioIds": [
+        "w_baby"
+      ]
+    },
+    {
+      "imageId": "img_boy",
+      "audioIds": [
+        "w_boy"
+      ]
+    },
+    {
+      "imageId": "img_girl",
+      "audioIds": [
+        "w_girl"
+      ]
+    },
+    {
+      "imageId": "img_brother",
+      "audioIds": [
+        "w_brother"
+      ]
+    },
+    {
+      "imageId": "img_sister",
+      "audioIds": [
+        "w_sister"
+      ]
+    },
+    {
+      "imageId": "img_husband",
+      "audioIds": [
+        "w_husband"
+      ]
+    },
+    {
+      "imageId": "img_wife",
+      "audioIds": [
+        "w_wife"
+      ]
+    },
+    {
+      "imageId": "img_elder",
+      "audioIds": [
+        "w_elder"
+      ]
+    },
+    {
+      "imageId": "img_chief",
+      "audioIds": [
+        "w_chief"
+      ]
+    },
+    {
+      "imageId": "img_king",
+      "audioIds": [
+        "w_king"
+      ]
+    },
+    {
+      "imageId": "img_queen",
+      "audioIds": [
+        "w_queen"
+      ]
+    },
+    {
+      "imageId": "img_farmer",
+      "audioIds": [
+        "w_farmer"
+      ]
+    },
+    {
+      "imageId": "img_hunter",
+      "audioIds": [
+        "w_hunter"
+      ]
+    },
+    {
+      "imageId": "img_teacher",
+      "audioIds": [
+        "w_teacher"
+      ]
+    },
+    {
+      "imageId": "img_church",
+      "audioIds": [
+        "w_church"
+      ]
+    },
+    {
+      "imageId": "img_song",
+      "audioIds": [
+        "w_song"
+      ]
+    },
+    {
+      "imageId": "img_drum",
+      "audioIds": [
+        "w_drum"
+      ]
+    },
+    {
+      "imageId": "img_masquerade",
+      "audioIds": [
+        "w_masquerade"
+      ]
+    },
+    {
+      "imageId": "img_festival",
+      "audioIds": [
+        "w_festival"
+      ]
+    },
+    {
+      "imageId": "img_kola_nut",
+      "audioIds": [
+        "w_kola_nut"
+      ]
+    },
+    {
+      "imageId": "img_peace",
+      "audioIds": [
+        "w_peace"
+      ]
+    },
+    {
+      "imageId": "img_war",
+      "audioIds": [
+        "w_war"
+      ]
+    },
+    {
+      "imageId": "img_animal",
+      "audioIds": [
+        "w_animal"
+      ]
+    },
+    {
+      "imageId": "img_horse",
+      "audioIds": [
+        "w_horse"
+      ]
+    },
+    {
+      "imageId": "img_sheep",
+      "audioIds": [
+        "w_sheep"
+      ]
+    },
+    {
+      "imageId": "img_pig",
+      "audioIds": [
+        "w_pig"
+      ]
+    },
+    {
+      "imageId": "img_snake",
+      "audioIds": [
+        "w_snake"
+      ]
+    },
+    {
+      "imageId": "img_rat",
+      "audioIds": [
+        "w_rat"
+      ]
+    },
+    {
+      "imageId": "img_meat",
+      "audioIds": [
+        "w_meat"
+      ]
+    },
+    {
+      "imageId": "img_milk",
+      "audioIds": [
+        "w_milk"
+      ]
+    },
+    {
+      "imageId": "img_palm_oil",
+      "audioIds": [
+        "w_palm_oil"
+      ]
+    },
+    {
+      "imageId": "img_bread",
+      "audioIds": [
+        "w_bread"
+      ]
+    },
+    {
+      "imageId": "img_fruit",
+      "audioIds": [
+        "w_fruit"
+      ]
+    },
+    {
+      "imageId": "img_cassava",
+      "audioIds": [
+        "w_cassava"
+      ]
+    },
+    {
+      "imageId": "img_maize",
+      "audioIds": [
+        "w_maize"
+      ]
+    },
+    {
+      "imageId": "img_pepper",
+      "audioIds": [
+        "w_pepper"
+      ]
+    },
+    {
+      "imageId": "img_beans",
+      "audioIds": [
+        "w_beans"
+      ]
+    },
+    {
+      "imageId": "img_palm_wine",
+      "audioIds": [
+        "w_palm_wine"
+      ]
+    },
+    {
+      "imageId": "img_palm_tree",
+      "audioIds": [
+        "w_palm_tree"
+      ]
+    },
+    {
+      "imageId": "img_star",
+      "audioIds": [
+        "w_star"
+      ]
+    },
+    {
+      "imageId": "img_sky",
+      "audioIds": [
+        "w_sky"
+      ]
+    },
+    {
+      "imageId": "img_wind",
+      "audioIds": [
+        "w_wind"
+      ]
+    },
+    {
+      "imageId": "img_morning",
+      "audioIds": [
+        "w_morning"
+      ]
+    },
+    {
+      "imageId": "img_shout",
+      "audioIds": [
+        "w_shout"
+      ]
+    },
+    {
+      "imageId": "img_whisper",
+      "audioIds": [
+        "w_whisper"
+      ]
+    },
+    {
+      "imageId": "img_cry",
+      "audioIds": [
+        "w_cry"
+      ]
+    },
+    {
+      "imageId": "img_laugh",
+      "audioIds": [
+        "w_laugh"
+      ]
+    },
+    {
+      "imageId": "img_smile",
+      "audioIds": [
+        "w_smile"
+      ]
+    },
+    {
+      "imageId": "img_think",
+      "audioIds": [
+        "w_think"
+      ]
+    },
+    {
+      "imageId": "img_write",
+      "audioIds": [
+        "w_write"
+      ]
+    },
+    {
+      "imageId": "img_swim",
+      "audioIds": [
+        "w_swim"
+      ]
+    },
+    {
+      "imageId": "img_ride",
+      "audioIds": [
+        "w_ride"
+      ]
+    },
+    {
+      "imageId": "img_climb",
+      "audioIds": [
+        "w_climb"
+      ]
+    },
+    {
+      "imageId": "img_dance",
+      "audioIds": [
+        "w_dance"
+      ]
+    },
+    {
+      "imageId": "img_sing",
+      "audioIds": [
+        "w_sing"
+      ]
+    },
+    {
+      "imageId": "img_wash",
+      "audioIds": [
+        "w_wash"
+      ]
+    },
+    {
+      "imageId": "img_cook",
+      "audioIds": [
+        "w_cook"
+      ]
+    },
+    {
+      "imageId": "img_buy",
+      "audioIds": [
+        "w_buy"
+      ]
+    },
+    {
+      "imageId": "img_lock",
+      "audioIds": [
+        "w_lock"
+      ]
+    },
+    {
+      "imageId": "img_unlock",
+      "audioIds": [
+        "w_unlock"
+      ]
+    },
+    {
+      "imageId": "img_sew",
+      "audioIds": [
+        "w_sew"
+      ]
+    },
+    {
+      "imageId": "img_paint",
+      "audioIds": [
+        "w_paint"
+      ]
+    },
+    {
+      "imageId": "img_photograph",
+      "audioIds": [
+        "w_photograph"
+      ]
+    },
+    {
+      "imageId": "img_film",
+      "audioIds": [
+        "w_film"
+      ]
+    },
+    {
+      "imageId": "img_here",
+      "audioIds": [
+        "w_here"
+      ]
+    },
+    {
+      "imageId": "img_there",
+      "audioIds": [
+        "w_there"
+      ]
+    },
+    {
+      "imageId": "img_where",
+      "audioIds": [
+        "w_where"
+      ]
+    },
+    {
+      "imageId": "img_on_top",
+      "audioIds": [
+        "w_on_top"
+      ]
+    },
+    {
+      "imageId": "img_below",
+      "audioIds": [
+        "w_below"
+      ]
+    },
+    {
+      "imageId": "img_above",
+      "audioIds": [
+        "w_above"
+      ]
+    },
+    {
+      "imageId": "img_behind",
+      "audioIds": [
+        "w_behind"
+      ]
+    },
+    {
+      "imageId": "img_in_front",
+      "audioIds": [
+        "w_in_front"
+      ]
+    },
+    {
+      "imageId": "img_beside",
+      "audioIds": [
+        "w_beside"
+      ]
+    },
+    {
+      "imageId": "img_close_to",
+      "audioIds": [
+        "w_close_to"
+      ]
+    },
+    {
+      "imageId": "img_away",
+      "audioIds": [
+        "w_away"
+      ]
+    },
+    {
+      "imageId": "img_far",
+      "audioIds": [
+        "w_far"
+      ]
+    },
+    {
+      "imageId": "img_near",
+      "audioIds": [
+        "w_near"
+      ]
+    },
+    {
+      "imageId": "img_at_that_place_somewhere",
+      "audioIds": [
+        "w_at_that_place_somewhere"
+      ]
+    },
+    {
+      "imageId": "img_anywhere",
+      "audioIds": [
+        "w_anywhere"
+      ]
+    },
+    {
+      "imageId": "img_nowhere",
+      "audioIds": [
+        "w_nowhere"
+      ]
+    },
+    {
+      "imageId": "img_inside",
+      "audioIds": [
+        "w_inside"
+      ]
+    },
+    {
+      "imageId": "img_outside",
+      "audioIds": [
+        "w_outside"
+      ]
+    },
+    {
+      "imageId": "img_all_of_us",
+      "audioIds": [
+        "w_all_of_us"
+      ]
+    },
+    {
+      "imageId": "img_all_of_you",
+      "audioIds": [
+        "w_all_of_you"
+      ]
+    },
+    {
+      "imageId": "img_all_of_them",
+      "audioIds": [
+        "w_all_of_them"
+      ]
+    },
+    {
+      "imageId": "img_i_subject",
+      "audioIds": [
+        "w_i_subject"
+      ]
+    },
+    {
+      "imageId": "img_you_subject",
+      "audioIds": [
+        "w_you_subject"
+      ]
+    },
+    {
+      "imageId": "img_he_she_it_subject",
+      "audioIds": [
+        "w_he_she_it_subject"
+      ]
+    },
+    {
+      "imageId": "img_i_me_my",
+      "audioIds": [
+        "w_i_me_my"
+      ]
+    },
+    {
+      "imageId": "img_you_your",
+      "audioIds": [
+        "w_you_your"
+      ]
+    },
+    {
+      "imageId": "img_him_her_it",
+      "audioIds": [
+        "w_him_her_it"
+      ]
+    },
+    {
+      "imageId": "img_we",
+      "audioIds": [
+        "w_we"
+      ]
+    },
+    {
+      "imageId": "img_you_plural",
+      "audioIds": [
+        "w_you_plural"
+      ]
+    },
+    {
+      "imageId": "img_they",
+      "audioIds": [
+        "w_they"
+      ]
+    },
+    {
+      "imageId": "img_this",
+      "audioIds": [
+        "w_this"
+      ]
+    },
+    {
+      "imageId": "img_these",
+      "audioIds": [
+        "w_these"
+      ]
+    },
+    {
+      "imageId": "img_that",
+      "audioIds": [
+        "w_that"
+      ]
+    },
+    {
+      "imageId": "img_those",
+      "audioIds": [
+        "w_those"
+      ]
+    },
+    {
+      "imageId": "img_someone_else",
+      "audioIds": [
+        "w_someone_else"
+      ]
+    },
+    {
+      "imageId": "img_table",
+      "audioIds": [
+        "w_table"
+      ]
+    },
+    {
+      "imageId": "img_plate",
+      "audioIds": [
+        "w_plate"
+      ]
+    },
+    {
+      "imageId": "img_mat",
+      "audioIds": [
+        "w_mat"
+      ]
+    },
+    {
+      "imageId": "img_god",
+      "audioIds": [
+        "w_god"
+      ]
+    },
+    {
+      "imageId": "img_say",
+      "audioIds": [
+        "w_say"
+      ]
+    },
+    {
+      "imageId": "img_tell",
+      "audioIds": [
+        "w_tell"
+      ]
+    },
+    {
+      "imageId": "img_ask",
+      "audioIds": [
+        "w_ask"
+      ]
+    },
+    {
+      "imageId": "img_speak",
+      "audioIds": [
+        "w_speak"
+      ]
+    },
+    {
+      "imageId": "img_talk",
+      "audioIds": [
+        "w_talk"
+      ]
+    },
+    {
+      "imageId": "img_know",
+      "audioIds": [
+        "w_know"
+      ]
+    },
+    {
+      "imageId": "img_believe",
+      "audioIds": [
+        "w_believe"
+      ]
+    },
+    {
+      "imageId": "img_understand",
+      "audioIds": [
+        "w_understand"
+      ]
+    },
+    {
+      "imageId": "img_remember",
+      "audioIds": [
+        "w_remember"
+      ]
+    },
+    {
+      "imageId": "img_forget",
+      "audioIds": [
+        "w_forget"
+      ]
+    },
+    {
+      "imageId": "img_mean",
+      "audioIds": [
+        "w_mean"
+      ]
+    },
+    {
+      "imageId": "img_suppose",
+      "audioIds": [
+        "w_suppose"
+      ]
+    },
+    {
+      "imageId": "img_guess",
+      "audioIds": [
+        "w_guess"
+      ]
+    },
+    {
+      "imageId": "img_wonder",
+      "audioIds": [
+        "w_wonder"
+      ]
+    },
+    {
+      "imageId": "img_agree",
+      "audioIds": [
+        "w_agree"
+      ]
+    },
+    {
+      "imageId": "img_disagree",
+      "audioIds": [
+        "w_disagree"
+      ]
+    },
+    {
+      "imageId": "img_promise",
+      "audioIds": [
+        "w_promise"
+      ]
+    },
+    {
+      "imageId": "img_admit",
+      "audioIds": [
+        "w_admit"
+      ]
+    },
+    {
+      "imageId": "img_deny",
+      "audioIds": [
+        "w_deny"
+      ]
+    },
+    {
+      "imageId": "img_refuse",
+      "audioIds": [
+        "w_refuse"
+      ]
+    },
+    {
+      "imageId": "img_explain",
+      "audioIds": [
+        "w_explain"
+      ]
+    },
+    {
+      "imageId": "img_describe",
+      "audioIds": [
+        "w_describe"
+      ]
+    },
+    {
+      "imageId": "img_suggest",
+      "audioIds": [
+        "w_suggest"
+      ]
+    },
+    {
+      "imageId": "img_warn",
+      "audioIds": [
+        "w_warn"
+      ]
+    },
+    {
+      "imageId": "img_spell",
+      "audioIds": [
+        "w_spell"
+      ]
+    },
+    {
+      "imageId": "img_translate",
+      "audioIds": [
+        "w_translate"
+      ]
+    },
+    {
+      "imageId": "img_print",
+      "audioIds": [
+        "w_print"
+      ]
+    },
+    {
+      "imageId": "img_publish",
+      "audioIds": [
+        "w_publish"
+      ]
+    },
+    {
+      "imageId": "img_sign",
+      "audioIds": [
+        "w_sign"
+      ]
+    },
+    {
+      "imageId": "img_note",
+      "audioIds": [
+        "w_note"
+      ]
+    },
+    {
+      "imageId": "img_discuss",
+      "audioIds": [
+        "w_discuss"
+      ]
+    },
+    {
+      "imageId": "img_debate",
+      "audioIds": [
+        "w_debate"
+      ]
+    },
+    {
+      "imageId": "img_learn",
+      "audioIds": [
+        "w_learn"
+      ]
+    },
+    {
+      "imageId": "img_teach",
+      "audioIds": [
+        "w_teach"
+      ]
+    },
+    {
+      "imageId": "img_study",
+      "audioIds": [
+        "w_study"
+      ]
+    },
+    {
+      "imageId": "img_examine",
+      "audioIds": [
+        "w_examine"
+      ]
+    },
+    {
+      "imageId": "img_test",
+      "audioIds": [
+        "w_test"
+      ]
+    },
+    {
+      "imageId": "img_check",
+      "audioIds": [
+        "w_check"
+      ]
+    },
+    {
+      "imageId": "img_verify",
+      "audioIds": [
+        "w_verify"
+      ]
+    },
+    {
+      "imageId": "img_prove",
+      "audioIds": [
+        "w_prove"
+      ]
+    },
+    {
+      "imageId": "img_disprove",
+      "audioIds": [
+        "w_disprove"
+      ]
+    },
+    {
+      "imageId": "img_confirm",
+      "audioIds": [
+        "w_confirm"
+      ]
+    },
+    {
+      "imageId": "img_run",
+      "audioIds": [
+        "w_run"
+      ]
+    },
+    {
+      "imageId": "img_walk",
+      "audioIds": [
+        "w_walk"
+      ]
+    },
+    {
+      "imageId": "img_jump",
+      "audioIds": [
+        "w_jump"
+      ]
+    },
+    {
+      "imageId": "img_fly",
+      "audioIds": [
+        "w_fly"
+      ]
+    },
+    {
+      "imageId": "img_drive",
+      "audioIds": [
+        "w_drive"
+      ]
+    },
+    {
+      "imageId": "img_move",
+      "audioIds": [
+        "w_move"
+      ]
+    },
+    {
+      "imageId": "img_turn",
+      "audioIds": [
+        "w_turn"
+      ]
+    },
+    {
+      "imageId": "img_return",
+      "audioIds": [
+        "w_return"
+      ]
+    },
+    {
+      "imageId": "img_arrive",
+      "audioIds": [
+        "w_arrive"
+      ]
+    },
+    {
+      "imageId": "img_leave",
+      "audioIds": [
+        "w_leave"
+      ]
+    },
+    {
+      "imageId": "img_stay",
+      "audioIds": [
+        "w_stay"
+      ]
+    },
+    {
+      "imageId": "img_wait",
+      "audioIds": [
+        "w_wait"
+      ]
+    },
+    {
+      "imageId": "img_follow",
+      "audioIds": [
+        "w_follow"
+      ]
+    },
+    {
+      "imageId": "img_lead",
+      "audioIds": [
+        "w_lead"
+      ]
+    },
+    {
+      "imageId": "img_chase",
+      "audioIds": [
+        "w_chase"
+      ]
+    },
+    {
+      "imageId": "img_fall",
+      "audioIds": [
+        "w_fall"
+      ]
+    },
+    {
+      "imageId": "img_rise",
+      "audioIds": [
+        "w_rise"
+      ]
+    },
+    {
+      "imageId": "img_shake",
+      "audioIds": [
+        "w_shake"
+      ]
+    },
+    {
+      "imageId": "img_roll",
+      "audioIds": [
+        "w_roll"
+      ]
+    },
+    {
+      "imageId": "img_slide",
+      "audioIds": [
+        "w_slide"
+      ]
+    },
+    {
+      "imageId": "img_bend",
+      "audioIds": [
+        "w_bend"
+      ]
+    },
+    {
+      "imageId": "img_stretch",
+      "audioIds": [
+        "w_stretch"
+      ]
+    },
+    {
+      "imageId": "img_lift",
+      "audioIds": [
+        "w_lift"
+      ]
+    },
+    {
+      "imageId": "img_drop",
+      "audioIds": [
+        "w_drop"
+      ]
+    },
+    {
+      "imageId": "img_push",
+      "audioIds": [
+        "w_push"
+      ]
+    },
+    {
+      "imageId": "img_pull",
+      "audioIds": [
+        "w_pull"
+      ]
+    },
+    {
+      "imageId": "img_throw",
+      "audioIds": [
+        "w_throw"
+      ]
+    },
+    {
+      "imageId": "img_catch",
+      "audioIds": [
+        "w_catch"
+      ]
+    },
+    {
+      "imageId": "img_hit",
+      "audioIds": [
+        "w_hit"
+      ]
+    },
+    {
+      "imageId": "img_kick",
+      "audioIds": [
+        "w_kick"
+      ]
+    },
+    {
+      "imageId": "img_pass",
+      "audioIds": [
+        "w_pass"
+      ]
+    },
+    {
+      "imageId": "img_send",
+      "audioIds": [
+        "w_send"
+      ]
+    },
+    {
+      "imageId": "img_bring",
+      "audioIds": [
+        "w_bring"
+      ]
+    },
+    {
+      "imageId": "img_take",
+      "audioIds": [
+        "w_take"
+      ]
+    },
+    {
+      "imageId": "img_hang",
+      "audioIds": [
+        "w_hang"
+      ]
+    },
+    {
+      "imageId": "img_sit",
+      "audioIds": [
+        "w_sit"
+      ]
+    },
+    {
+      "imageId": "img_stand",
+      "audioIds": [
+        "w_stand"
+      ]
+    },
+    {
+      "imageId": "img_lie",
+      "audioIds": [
+        "w_lie"
+      ]
+    },
+    {
+      "imageId": "img_lay",
+      "audioIds": [
+        "w_lay"
+      ]
+    },
+    {
+      "imageId": "img_kneel",
+      "audioIds": [
+        "w_kneel"
+      ]
+    },
+    {
+      "imageId": "img_bow",
+      "audioIds": [
+        "w_bow"
+      ]
+    },
+    {
+      "imageId": "img_wear",
+      "audioIds": [
+        "w_wear"
+      ]
+    },
+    {
+      "imageId": "img_do",
+      "audioIds": [
+        "w_do"
+      ]
+    },
+    {
+      "imageId": "img_make",
+      "audioIds": [
+        "w_make"
+      ]
+    },
+    {
+      "imageId": "img_work_verb",
+      "audioIds": [
+        "w_work_verb"
+      ]
+    },
+    {
+      "imageId": "img_play",
+      "audioIds": [
+        "w_play"
+      ]
+    },
+    {
+      "imageId": "img_live",
+      "audioIds": [
+        "w_live"
+      ]
+    },
+    {
+      "imageId": "img_die",
+      "audioIds": [
+        "w_die"
+      ]
+    },
+    {
+      "imageId": "img_born",
+      "audioIds": [
+        "w_born"
+      ]
+    },
+    {
+      "imageId": "img_wake",
+      "audioIds": [
+        "w_wake"
+      ]
+    },
+    {
+      "imageId": "img_clean",
+      "audioIds": [
+        "w_clean"
+      ]
+    },
+    {
+      "imageId": "img_bake",
+      "audioIds": [
+        "w_bake"
+      ]
+    },
+    {
+      "imageId": "img_cut",
+      "audioIds": [
+        "w_cut"
+      ]
+    },
+    {
+      "imageId": "img_chop",
+      "audioIds": [
+        "w_chop"
+      ]
+    },
+    {
+      "imageId": "img_mix",
+      "audioIds": [
+        "w_mix"
+      ]
+    },
+    {
+      "imageId": "img_pour",
+      "audioIds": [
+        "w_pour"
+      ]
+    },
+    {
+      "imageId": "img_serve",
+      "audioIds": [
+        "w_serve"
+      ]
+    },
+    {
+      "imageId": "img_sell",
+      "audioIds": [
+        "w_sell"
+      ]
+    },
+    {
+      "imageId": "img_spend",
+      "audioIds": [
+        "w_spend"
+      ]
+    },
+    {
+      "imageId": "img_cost",
+      "audioIds": [
+        "w_cost"
+      ]
+    },
+    {
+      "imageId": "img_pay",
+      "audioIds": [
+        "w_pay"
+      ]
+    },
+    {
+      "imageId": "img_earn",
+      "audioIds": [
+        "w_earn"
+      ]
+    },
+    {
+      "imageId": "img_save",
+      "audioIds": [
+        "w_save"
+      ]
+    },
+    {
+      "imageId": "img_borrow",
+      "audioIds": [
+        "w_borrow"
+      ]
+    },
+    {
+      "imageId": "img_lend",
+      "audioIds": [
+        "w_lend"
+      ]
+    },
+    {
+      "imageId": "img_charge",
+      "audioIds": [
+        "w_charge"
+      ]
+    },
+    {
+      "imageId": "img_open",
+      "audioIds": [
+        "w_open"
+      ]
+    },
+    {
+      "imageId": "img_close",
+      "audioIds": [
+        "w_close"
+      ]
+    },
+    {
+      "imageId": "img_shut",
+      "audioIds": [
+        "w_shut"
+      ]
+    },
+    {
+      "imageId": "img_start",
+      "audioIds": [
+        "w_start"
+      ]
+    },
+    {
+      "imageId": "img_stop",
+      "audioIds": [
+        "w_stop"
+      ]
+    },
+    {
+      "imageId": "img_begin",
+      "audioIds": [
+        "w_begin"
+      ]
+    },
+    {
+      "imageId": "img_end",
+      "audioIds": [
+        "w_end"
+      ]
+    },
+    {
+      "imageId": "img_finish",
+      "audioIds": [
+        "w_finish"
+      ]
+    },
+    {
+      "imageId": "img_dress",
+      "audioIds": [
+        "w_dress"
+      ]
+    },
+    {
+      "imageId": "img_tear",
+      "audioIds": [
+        "w_tear"
+      ]
+    },
+    {
+      "imageId": "img_break",
+      "audioIds": [
+        "w_break"
+      ]
+    },
+    {
+      "imageId": "img_fix",
+      "audioIds": [
+        "w_fix"
+      ]
+    },
+    {
+      "imageId": "img_repair",
+      "audioIds": [
+        "w_repair"
+      ]
+    },
+    {
+      "imageId": "img_mend",
+      "audioIds": [
+        "w_mend"
+      ]
+    },
+    {
+      "imageId": "img_knit",
+      "audioIds": [
+        "w_knit"
+      ]
+    },
+    {
+      "imageId": "img_fold",
+      "audioIds": [
+        "w_fold"
+      ]
+    },
+    {
+      "imageId": "img_draw",
+      "audioIds": [
+        "w_draw"
+      ]
+    },
+    {
+      "imageId": "img_be",
+      "audioIds": [
+        "w_be"
+      ]
+    },
+    {
+      "imageId": "img_have",
+      "audioIds": [
+        "w_have"
+      ]
+    },
+    {
+      "imageId": "img_own",
+      "audioIds": [
+        "w_own"
+      ]
+    },
+    {
+      "imageId": "img_possess",
+      "audioIds": [
+        "w_possess"
+      ]
+    },
+    {
+      "imageId": "img_belong",
+      "audioIds": [
+        "w_belong"
+      ]
+    },
+    {
+      "imageId": "img_keep",
+      "audioIds": [
+        "w_keep"
+      ]
+    },
+    {
+      "imageId": "img_hold",
+      "audioIds": [
+        "w_hold"
+      ]
+    },
+    {
+      "imageId": "img_contain",
+      "audioIds": [
+        "w_contain"
+      ]
+    },
+    {
+      "imageId": "img_include",
+      "audioIds": [
+        "w_include"
+      ]
+    },
+    {
+      "imageId": "img_exclude",
+      "audioIds": [
+        "w_exclude"
+      ]
+    },
+    {
+      "imageId": "img_create",
+      "audioIds": [
+        "w_create"
+      ]
+    },
+    {
+      "imageId": "img_build",
+      "audioIds": [
+        "w_build"
+      ]
+    },
+    {
+      "imageId": "img_design",
+      "audioIds": [
+        "w_design"
+      ]
+    },
+    {
+      "imageId": "img_invent",
+      "audioIds": [
+        "w_invent"
+      ]
+    },
+    {
+      "imageId": "img_develop",
+      "audioIds": [
+        "w_develop"
+      ]
+    },
+    {
+      "imageId": "img_grow",
+      "audioIds": [
+        "w_grow"
+      ]
+    },
+    {
+      "imageId": "img_change",
+      "audioIds": [
+        "w_change"
+      ]
+    },
+    {
+      "imageId": "img_become",
+      "audioIds": [
+        "w_become"
+      ]
+    },
+    {
+      "imageId": "img_seem",
+      "audioIds": [
+        "w_seem"
+      ]
+    },
+    {
+      "imageId": "img_appear",
+      "audioIds": [
+        "w_appear"
+      ]
+    },
+    {
+      "imageId": "img_exist",
+      "audioIds": [
+        "w_exist"
+      ]
+    },
+    {
+      "imageId": "img_happen",
+      "audioIds": [
+        "w_happen"
+      ]
+    },
+    {
+      "imageId": "img_occur",
+      "audioIds": [
+        "w_occur"
+      ]
+    },
+    {
+      "imageId": "img_cause",
+      "audioIds": [
+        "w_cause"
+      ]
+    },
+    {
+      "imageId": "img_effect",
+      "audioIds": [
+        "w_effect"
+      ]
+    },
+    {
+      "imageId": "img_allow",
+      "audioIds": [
+        "w_allow"
+      ]
+    },
+    {
+      "imageId": "img_permit",
+      "audioIds": [
+        "w_permit"
+      ]
+    },
+    {
+      "imageId": "img_let",
+      "audioIds": [
+        "w_let"
+      ]
+    },
+    {
+      "imageId": "img_prevent",
+      "audioIds": [
+        "w_prevent"
+      ]
+    },
+    {
+      "imageId": "img_forbid",
+      "audioIds": [
+        "w_forbid"
+      ]
+    },
+    {
+      "imageId": "img_find",
+      "audioIds": [
+        "w_find"
+      ]
+    },
+    {
+      "imageId": "img_lose",
+      "audioIds": [
+        "w_lose"
+      ]
+    },
+    {
+      "imageId": "img_seek",
+      "audioIds": [
+        "w_seek"
+      ]
+    },
+    {
+      "imageId": "img_search",
+      "audioIds": [
+        "w_search"
+      ]
+    },
+    {
+      "imageId": "img_hide",
+      "audioIds": [
+        "w_hide"
+      ]
+    },
+    {
+      "imageId": "img_show",
+      "audioIds": [
+        "w_show"
+      ]
+    },
+    {
+      "imageId": "img_cover",
+      "audioIds": [
+        "w_cover"
+      ]
+    },
+    {
+      "imageId": "img_discover",
+      "audioIds": [
+        "w_discover"
+      ]
+    },
+    {
+      "imageId": "img_reveal",
+      "audioIds": [
+        "w_reveal"
+      ]
+    },
+    {
+      "imageId": "img_sketch",
+      "audioIds": [
+        "w_sketch"
+      ]
+    },
+    {
+      "imageId": "img_record",
+      "audioIds": [
+        "w_record"
+      ]
+    },
+    {
+      "imageId": "img_act",
+      "audioIds": [
+        "w_act"
+      ]
+    },
+    {
+      "imageId": "img_perform",
+      "audioIds": [
+        "w_perform"
+      ]
+    },
+    {
+      "imageId": "img_direct",
+      "audioIds": [
+        "w_direct"
+      ]
+    },
+    {
+      "imageId": "img_produce",
+      "audioIds": [
+        "w_produce"
+      ]
+    },
+    {
+      "imageId": "img_count",
+      "audioIds": [
+        "w_count"
+      ]
+    },
+    {
+      "imageId": "img_calculate",
+      "audioIds": [
+        "w_calculate"
+      ]
+    },
+    {
+      "imageId": "img_measure",
+      "audioIds": [
+        "w_measure"
+      ]
+    },
+    {
+      "imageId": "img_weigh",
+      "audioIds": [
+        "w_weigh"
+      ]
+    },
+    {
+      "imageId": "img_see",
+      "audioIds": [
+        "w_see"
+      ]
+    },
+    {
+      "imageId": "img_look",
+      "audioIds": [
+        "w_look"
+      ]
+    },
+    {
+      "imageId": "img_watch",
+      "audioIds": [
+        "w_watch"
+      ]
+    },
+    {
+      "imageId": "img_hear",
+      "audioIds": [
+        "w_hear"
+      ]
+    },
+    {
+      "imageId": "img_listen",
+      "audioIds": [
+        "w_listen"
+      ]
+    },
+    {
+      "imageId": "img_feel",
+      "audioIds": [
+        "w_feel"
+      ]
+    },
+    {
+      "imageId": "img_touch",
+      "audioIds": [
+        "w_touch"
+      ]
+    },
+    {
+      "imageId": "img_taste",
+      "audioIds": [
+        "w_taste"
+      ]
+    },
+    {
+      "imageId": "img_smell",
+      "audioIds": [
+        "w_smell"
+      ]
+    },
+    {
+      "imageId": "img_notice",
+      "audioIds": [
+        "w_notice"
+      ]
+    },
+    {
+      "imageId": "img_meet",
+      "audioIds": [
+        "w_meet"
+      ]
+    },
+    {
+      "imageId": "img_greet",
+      "audioIds": [
+        "w_greet"
+      ]
+    },
+    {
+      "imageId": "img_visit",
+      "audioIds": [
+        "w_visit"
+      ]
+    },
+    {
+      "imageId": "img_invite",
+      "audioIds": [
+        "w_invite"
+      ]
+    },
+    {
+      "imageId": "img_join",
+      "audioIds": [
+        "w_join"
+      ]
+    },
+    {
+      "imageId": "img_marry",
+      "audioIds": [
+        "w_marry"
+      ]
+    },
+    {
+      "imageId": "img_divorce",
+      "audioIds": [
+        "w_divorce"
+      ]
+    },
+    {
+      "imageId": "img_help",
+      "audioIds": [
+        "w_help"
+      ]
+    },
+    {
+      "imageId": "img_support",
+      "audioIds": [
+        "w_support"
+      ]
+    },
+    {
+      "imageId": "img_protect",
+      "audioIds": [
+        "w_protect"
+      ]
+    },
+    {
+      "imageId": "img_love",
+      "audioIds": [
+        "w_love"
+      ]
+    },
+    {
+      "imageId": "img_like",
+      "audioIds": [
+        "w_like"
+      ]
+    },
+    {
+      "imageId": "img_hate",
+      "audioIds": [
+        "w_hate"
+      ]
+    },
+    {
+      "imageId": "img_dislike",
+      "audioIds": [
+        "w_dislike"
+      ]
+    },
+    {
+      "imageId": "img_prefer",
+      "audioIds": [
+        "w_prefer"
+      ]
+    },
+    {
+      "imageId": "img_enjoy",
+      "audioIds": [
+        "w_enjoy"
+      ]
+    },
+    {
+      "imageId": "img_want",
+      "audioIds": [
+        "w_want"
+      ]
+    },
+    {
+      "imageId": "img_need",
+      "audioIds": [
+        "w_need"
+      ]
+    },
+    {
+      "imageId": "img_wish",
+      "audioIds": [
+        "w_wish"
+      ]
+    },
+    {
+      "imageId": "img_hope",
+      "audioIds": [
+        "w_hope"
+      ]
+    },
+    {
+      "imageId": "img_choose",
+      "audioIds": [
+        "w_choose"
+      ]
+    },
+    {
+      "imageId": "img_select",
+      "audioIds": [
+        "w_select"
+      ]
+    },
+    {
+      "imageId": "img_pick",
+      "audioIds": [
+        "w_pick"
+      ]
+    },
+    {
+      "imageId": "img_decide",
+      "audioIds": [
+        "w_decide"
+      ]
+    },
+    {
+      "imageId": "img_plan",
+      "audioIds": [
+        "w_plan"
+      ]
+    },
+    {
+      "imageId": "img_prepare",
+      "audioIds": [
+        "w_prepare"
+      ]
+    },
+    {
+      "imageId": "img_try",
+      "audioIds": [
+        "w_try"
+      ]
+    },
+    {
+      "imageId": "img_attempt",
+      "audioIds": [
+        "w_attempt"
+      ]
+    },
+    {
+      "imageId": "img_manage",
+      "audioIds": [
+        "w_manage"
+      ]
+    },
+    {
+      "imageId": "img_succeed",
+      "audioIds": [
+        "w_succeed"
+      ]
+    },
+    {
+      "imageId": "img_fail",
+      "audioIds": [
+        "w_fail"
+      ]
+    },
+    {
+      "imageId": "img_win",
+      "audioIds": [
+        "w_win"
+      ]
+    },
+    {
+      "imageId": "img_beat",
+      "audioIds": [
+        "w_beat"
+      ]
+    },
+    {
+      "imageId": "img_accept",
+      "audioIds": [
+        "w_accept"
+      ]
+    },
+    {
+      "imageId": "img_receive",
+      "audioIds": [
+        "w_receive"
+      ]
+    },
+    {
+      "imageId": "img_offer",
+      "audioIds": [
+        "w_offer"
+      ]
+    },
+    {
+      "imageId": "img_give",
+      "audioIds": [
+        "w_give"
+      ]
+    },
+    {
+      "imageId": "img_share",
+      "audioIds": [
+        "w_share"
+      ]
+    },
+    {
+      "imageId": "img_add",
+      "audioIds": [
+        "w_add"
+      ]
+    },
+    {
+      "imageId": "img_subtract",
+      "audioIds": [
+        "w_subtract"
+      ]
+    }
+  ]
+}
