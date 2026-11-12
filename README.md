@@ -69,6 +69,29 @@ records the time spent.
 
 ## Content files (`data/`)
 
+### Personal dictionary recordings
+
+Each Dictionary entry has one **Play** button and one **microphone** button
+(words, phrases and numbers). The microphone opens a menu to select a recording language,
+including English, with playback for the selected language. After microphone permission is granted,
+a visible 2-second countdown lets you get ready before audio capture begins. Cancel also stops the
+countdown without saving. Recording captures up to 60 seconds,
+and offers a preview before **Save recording**. Recording again replaces a saved clip only after
+saving; **Cancel** leaves the saved clip unchanged. **Remove saved recording** restores the
+bundled audio / device speech fallback. Changing the recording language discards any unsaved take.
+
+Personal clips are stored in IndexedDB on that browser/device, work offline, and take priority
+in dictionary and game playback. They are not uploaded or written to `data/audio-map.json`.
+Clearing site data deletes them; they do not sync across devices. Recording requires HTTPS or
+localhost, browser MediaRecorder support, and microphone permission.
+
+Use **Settings → Personal recordings → Export personal audio** to download every personal clip
+saved in the current browser/site as a ZIP archive. Extract it to access normal audio files:
+filenames include the language and item ID, and `manifest.json` identifies the text, English meaning,
+MIME type and filename for each clip. Audio keeps its original browser format (for example WebM,
+M4A or Ogg); it is not converted to MP3. Export works offline and does not delete or change saved
+recordings. Shared/bundled audio is not included, and importing an archive is not currently supported.
+
 All content is keyed by **id**; every link file refers to those ids.
 
 | File | Purpose |

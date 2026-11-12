@@ -1,7 +1,7 @@
 // AfroLinga service worker: precaches the app shell + data, caches assets on use.
 // VERSION is set automatically by tools/stamp-sw.mjs (npm run stamp / the dev server);
 // it changes whenever an app file changes, so installed apps pick up updates.
-const VERSION = 'v-39598b0f2a';
+const VERSION = 'v-4bcf0b4ae5';
 const SHELL_CACHE = `afrolinga-shell-${VERSION}`;
 const ASSET_CACHE = 'afrolinga-assets-v1'; // shared with js/app.js "Download for offline"
 
@@ -12,6 +12,9 @@ const SHELL = [
   'css/styles.css',
   'js/app.js',
   'js/audio.js',
+  'js/recordings.js',
+  'js/recording-export.js',
+  'js/recorder.js',
   'js/components.js',
   'js/data.js',
   'js/lesson.js',

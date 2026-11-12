@@ -4,6 +4,9 @@ import { db, loadData, langInfo, imageFor, categoryOf } from './data.js';
 import { settings, saveSettings, computeStats, clearHistory } from './store.js';
 import { unlockAudio, sfx } from './audio.js';
 import { playButton, imageView } from './components.js';
+import { recordButton, closeRecorder } from './recorder.js';
+import { listRecordings } from './recordings.js';
+import { createRecordingArchive } from './recording-export.js';
 import { runLesson, statCard } from './lesson.js';
 import { initPWA, showInstallSheet, cacheAssets, offlineStatus, onPwaChange, isStandalone } from './pwa.js';
 
@@ -146,6 +149,8 @@ function playScreen(gameId, modeId) {
 }
 
 function dictionaryScreen() {
+  closeRecorder();
+  disposeScreen = closeRecorder;
   const lang = settings.lang;
   let tab = sessionStorage.getItem('afrolinga.dictTab') || 'words';
   let query = '';
@@ -183,8 +188,11 @@ function dictionaryScreen() {
                 (item.examples || []).filter(x => x[lang]).map(x =>
                   el('div', { class: 'dict-example' }, playButton({ ...x, type: 'example' }, lang), el('span', { lang }, x[lang]), el('small', {}, x.en)),
                 ),
+                el('div', { class: 'dict-audio-controls' },
+                  playButton(item, lang, { label: `Play ${langInfo(lang)?.name || lang}: ${item[lang]}` }),
+                  recordButton(item, lang),
+                ),
               ),
-              playButton(item, lang),
             ),
       ),
     );
@@ -196,6 +204,7 @@ function dictionaryScreen() {
   shell('dictionary',
     el('header', { class: 'page-head' }, el('h1', {}, '📚 Dictionary')),
     langSwitch(dictionaryScreen),
+    el('p', { class: 'muted' }, 'Tap the microphone to choose a recording language, including English. Personal recordings stay on this device and are used in games too.'),
     search, tabs, chips, list);
   render();
 }
@@ -256,6 +265,36 @@ function settingsScreen() {
   };
   const toggle = key => el('input', { type: 'checkbox', class: 'switch', checked: settings[key], onchange: e => saveSettings({ [key]: e.target.checked }) });
   const volume = el('input', { type: 'range', min: 0, max: 1, step: 0.05, value: settings.volume, onchange: e => { saveSettings({ volume: Number(e.target.value) }); sfx('correct'); } });
+  const exportStatus = el('p', { class: 'muted small', role: 'status', 'aria-live': 'polite' });
+  const exportButton = el('button', { class: 'btn btn-primary btn-wide', type: 'button', onclick: exportRecordings }, '⬇️ Export personal audio');
+
+  async function exportRecordings() {
+    exportButton.disabled = true;
+    exportStatus.textContent = 'Preparing recordings…';
+    try {
+      const clips = await listRecordings();
+      if (!clips.length) {
+        exportStatus.textContent = 'No personal recordings to export. Record and save audio in the Dictionary first.';
+        return;
+      }
+      const archive = await createRecordingArchive(clips, id => db.items.get(id));
+      const url = URL.createObjectURL(archive);
+      const link = el('a', { href: url, download: `afrolinga-recordings-${new Date().toISOString().slice(0, 10)}.zip`, hidden: true });
+      document.body.append(link);
+      try {
+        link.click();
+      } finally {
+        link.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 60000);
+      }
+      exportStatus.textContent = `Download requested for ${clips.length} recording${clips.length === 1 ? '' : 's'}. Your saved recordings have not been changed.`;
+    } catch (error) {
+      console.error('[AfroLinga] Could not export recordings:', error);
+      exportStatus.textContent = `Could not export recordings: ${error.message}`;
+    } finally {
+      exportButton.disabled = false;
+    }
+  }
 
   const offlineBox = el('div', { class: 'settings-group pad' });
   const progress = el('p', { class: 'muted small' }, '');
@@ -315,6 +354,11 @@ function settingsScreen() {
     ),
     el('h2', { class: 'section-title' }, 'Offline & install'),
     offlineBox,
+    el('h2', { class: 'section-title' }, 'Personal recordings'),
+    el('div', { class: 'settings-group pad' },
+      el('p', { class: 'muted small' }, 'Download all recordings saved in this browser as a ZIP file. It includes the original audio files and a manifest identifying each word and language. Shared app audio is not included.'),
+      exportButton, exportStatus,
+    ),
     el('p', { class: 'muted center small' }, `AfroLinga · ${db.words.length} words · ${db.phrases.length} phrases · ${db.numbers.length} numbers`),
   );
 }

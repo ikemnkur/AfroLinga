@@ -340,6 +340,13 @@ a { color: inherit; text-decoration: none; }
 .chip.on { border-color: var(--green); color: var(--green); background: color-mix(in srgb, var(--green) 10%, var(--card)); }
 .dict-row { display: flex; align-items: flex-start; gap: 12px; background: var(--card); border: 2px solid var(--line); border-radius: var(--radius); padding: 10px; }
 .dict-main { flex: 1; min-width: 0; }
+.dict-audio-controls { display: flex; flex-wrap: wrap; flex: none; gap: 8px; max-width: 88px; }
+.record-dialog { width: min(440px, calc(100% - 32px)); max-height: 90vh; overflow-y: auto; border: 2px solid var(--line); border-radius: var(--radius); padding: 20px; background: var(--card); color: var(--ink); }
+.record-dialog::backdrop { background: rgb(0 0 0 / 55%); }
+.record-dialog audio { width: 100%; margin-bottom: 12px; }
+.record-dialog select { display: block; width: 100%; margin: 8px 0; padding: 8px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); }
+.record-word { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.record-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .dict-target { font-weight: 800; font-size: 1.15rem; }
 .dict-en { color: var(--muted); }
 .dict-alt { font-size: 0.8rem; color: var(--muted); }

@@ -12,5 +12,8 @@
     "scaffold": "node tools/scaffold-links.mjs",
     "check": "node tools/check-content.mjs",
     "stamp": "node tools/stamp-sw.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }

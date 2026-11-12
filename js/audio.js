@@ -2,10 +2,23 @@
 // (recorded files if present, otherwise synthesized with Web Audio).
 import { db, audioSrc, langInfo } from './data.js';
 import { settings } from './store.js';
+import { getRecording } from './recordings.js';
+import { toast } from './util.js';
 
 let ctx = null;
 const blobCache = new Map(); // url -> Promise<objectURL | null>
 let current = null;
+let personalUrl = null;
+
+async function personalRecording(id, lang) {
+  try {
+    return await getRecording(id, lang);
+  } catch (error) {
+    console.error('[AfroLinga] Could not load personal recording:', error);
+    toast('Could not read personal recordings. Using original audio.');
+    return null;
+  }
+}
 
 function audioCtx() {
   const AC = window.AudioContext || window.webkitAudioContext;
@@ -35,6 +48,7 @@ function loadUrl(url) {
 }
 
 export async function hasRecording(id, lang) {
+  if (await personalRecording(id, lang)) return true;
   const url = audioSrc(id, lang);
   return Boolean(url && (await loadUrl(url)));
 }
@@ -69,6 +83,8 @@ function speak(text, lang, slow) {
 export function stopAudio() {
   current?.pause();
   current = null;
+  if (personalUrl) URL.revokeObjectURL(personalUrl);
+  personalUrl = null;
   window.speechSynthesis?.cancel();
 }
 
@@ -94,6 +110,24 @@ async function playUrl(url, { slow = false, volume = settings.volume } = {}) {
  */
 export async function say(item, lang, { slow = false } = {}) {
   if (!item) return false;
+  const personal = await personalRecording(item.id, lang);
+  if (personal) {
+    stopAudio();
+    personalUrl = URL.createObjectURL(personal);
+    const audio = new Audio(personalUrl);
+    current = audio;
+    audio.volume = settings.volume;
+    audio.playbackRate = slow ? 0.7 : 1;
+    try {
+      await audio.play();
+      return 'recording';
+    } catch (error) {
+      console.error('[AfroLinga] Could not play personal recording:', error);
+      toast('Could not play your recording. Try recording it again.');
+      stopAudio();
+      return false;
+    }
+  }
   const url = audioSrc(item.id, lang);
   if (url && (await playUrl(url, { slow }))) return 'recording';
   return speak(item[lang], lang, slow) ? 'tts' : false;
