@@ -1,7 +1,7 @@
 // App shell: routing, home, mode picker, dictionary, stats and settings screens.
 import { el, formatDuration } from './util.js';
 import { db, loadData, langInfo, imageFor, categoryOf } from './data.js';
-import { settings, saveSettings, computeStats, clearHistory } from './store.js';
+import { settings, saveSettings, computeStats, clearHistory, TEXT_SIZES } from './store.js';
 import { unlockAudio, sfx } from './audio.js';
 import { playButton, imageView } from './components.js';
 import { recordButton, closeRecorder } from './recorder.js';
@@ -82,6 +82,32 @@ function langSwitch(onChange) {
 }
 
 // ---------- screens ----------
+
+function textSizeSwitch(onChange) {
+  return el(
+    'div',
+    { class: 'lang-switch size-switch', role: 'radiogroup', 'aria-label': 'Text size' },
+    TEXT_SIZES.map(s =>
+      el(
+        'button',
+        {
+          type: 'button',
+          role: 'radio',
+          'data-size': s.id,
+          'aria-checked': String(settings.textSize === s.id),
+          class: settings.textSize === s.id ? 'on' : '',
+          onclick: () => {
+            saveSettings({ textSize: s.id });
+            sfx('tap');
+            onChange();
+          },
+        },
+        el('span', { class: 'size-sample', 'aria-hidden': 'true' }, 'Aa'),
+        el('small', {}, s.id === 'medium' ? `${s.label} (default)` : s.label),
+      ),
+    ),
+  );
+}
 
 function homeScreen() {
   const stats = computeStats();
@@ -341,6 +367,8 @@ function settingsScreen() {
     el('header', { class: 'page-head' }, el('h1', {}, '⚙️ Settings')),
     el('h2', { class: 'section-title' }, 'Language'),
     langSwitch(settingsScreen),
+    el('h2', { class: 'section-title' }, 'Text size'),
+    textSizeSwitch(settingsScreen),
     el('h2', { class: 'section-title' }, 'Lessons'),
     el('div', { class: 'settings-group' },
       row('Questions per lesson', select('questionsPerLesson', [5, 10, 15, 20])),

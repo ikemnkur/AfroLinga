@@ -13,7 +13,14 @@ const DEFAULTS = {
   sfx: true,
   autoplayAudio: true,
   volume: 0.8,
+  textSize: 'medium',
 };
+
+export const TEXT_SIZES = [
+  { id: 'small', label: 'Small' },
+  { id: 'medium', label: 'Medium' },
+  { id: 'large', label: 'Large' },
+];
 
 function read(key, fallback) {
   try {
@@ -30,7 +37,15 @@ export const settings = { ...DEFAULTS, ...read(KEY_SETTINGS, {}) };
 export function saveSettings(patch) {
   Object.assign(settings, patch);
   write(KEY_SETTINGS, settings);
+  if ('textSize' in patch) applyTextSize();
 }
+
+export function applyTextSize() {
+  const size = TEXT_SIZES.some(s => s.id === settings.textSize) ? settings.textSize : DEFAULTS.textSize;
+  document.documentElement.dataset.textSize = size;
+}
+
+applyTextSize();
 
 export const getHistory = () => read(KEY_HISTORY, []);
 
